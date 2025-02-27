@@ -20,9 +20,10 @@ $presentation-font-size-root: 30px;
 // colores
 $azul: #224289;
 $blanco: #FFFFFF;
-$celeste: lighten($azul, 20);
+$celeste: lighten($azul, 60);
 $gris: silver ;
 $rosa: #EA99C0;
+$rosa-claro: #000000;
 $code-bg: $celeste;
 
 // colors
@@ -53,8 +54,16 @@ $callout-border-width: 1rem;
 
 /*-- scss:rules --*/
 
+.grande {
+    font-size: 3em;
+}
+
+.code-with-filename .code-with-filename-file strong {
+    color: $azul;
+}
+
 :root {
-    --quarto-hl-fu-color: lighthen(#{$rosa}, 20);
+    --quarto-hl-fu-color: #{$rosa-claro};
 }
 
 .reveal .footer > * {
