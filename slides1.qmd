@@ -1,0 +1,557 @@
+---
+title: |
+  Proyectos de investigación más interesantes con <span style='color:pink; text-shadow: 1px 1px white'>Quarto</span>
+subtitle: "Seminario #2"
+title-slide-attributes:
+  data-background-color: "#224289"
+author:
+  - name: "<vhg>Víctor Gauto</vhg>"
+    degrees:
+      - MS
+    affiliation:
+      - name: "<rosa><b>GISTAQ</b> (UTN-FRRe)</rosa>"
+        url: https://www.instagram.com/gistaq.utn/
+      - name: "<rosa><b>IIDTHH</b> (UNNE, CONICET)</rosa>"
+        url: https://iidthh.conicet.gov.ar/
+      - name: "<rosa><b>Instituto Gulich</b> (UNC, CONAE)<rosa>"
+        url: https://ig.conae.unc.edu.ar/
+    email: victor.gauto@ca.free.utn.edu.ar
+    corresponding: true
+  - name: "<caa>Matías Bonansea</caa>"
+    degrees:
+      - PhD
+    affiliation:
+      - name: "<gris><b>ICBIA</b> (UNRC, CONICET)</gris>"
+        url: https://icbia.conicet.gov.ar/
+  - name: "<caa>Anabella Ferral</caa>"
+    degrees:
+      - PhD
+    affiliation:
+      - name: "<gris><b>Instituto Gulich</b> (UNC, CONAE)</gris>"
+        url: https://ig.conae.unc.edu.ar/
+  - name: "<caa>Osvaldo Cardozo</caa>"
+    degrees:
+      - PhD
+    affiliation:
+      - name: "<gris><b>IIDTHH</b> (UNNE, CONICET)</gris>"
+        url: https://iidthh.conicet.gov.ar/
+  - name: "<caa>Claudia Giardino</caa>"
+    degrees:
+      - PhD
+    affiliation:
+      - name: "<gris><b>IREA</b> (CNR)</gris>"
+        url: http://www.irea.cnr.it/
+format:
+  revealjs:
+    embed-resources: false
+    incremental: false
+    logo: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png
+    footer: |
+      <b style='color:white'>Víctor Gauto</b> <rosa>{{< iconify svg-spinners:bouncing-ball >}}</rosa> <b style='color:white'>Seminario #2</b>
+    slide-number: c/t
+    progress: true
+    hash-type: number
+    date: today
+    center-title-slide: false
+    transition: none
+    navigation-mode: linear
+    link-external-icon: false
+    link-external-newwindow: true
+    code-copy: true
+    include-in-header:
+      - extras/favicon.html
+      - extras/mermaid.html
+    theme:
+      - mi_estilo.scss
+execute:
+  echo: false
+  eval: true
+engine: knitr
+knitr:
+  opts_chunk:
+    R.options:
+      height: 2000
+---
+
+# Contenido
+
+<!-- [video](https://youtu.be/BoiW9UWDLY0?si=H9EnYi-xunEG5wYo&t=521) -->
+
+- Introducción
+- Motivación
+- Herramientas
+- Mejoras a futuro
+- Recursos
+
+# Introducción
+
+::: {.callout title="Proyecto de investigación"}
+
+<p style='font-size:2rem'>
+Estimar indicadores de calidad de agua en la cuenca media del río Paraná para el desarrollo de un algoritmo mediante técnicas de teledetección satelital
+</p>
+
+:::
+
+::: {.columns}
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="35%"}
+![](img/logo_utn6.png)
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="35%"}
+![](img/Gistaq_sinfondo.png)
+:::
+
+::: {.column width="10%"}
+:::
+
+:::
+
+Desarrolló un sitio web, colaborativo, con ejecución automática, gratuito y de código abierto.
+
+# Introducción
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+- Portada
+  + Autores
+  + Afiliciaciones
+  + Fecha de la última modificación
+  + Palabras clave
+  + Links útiles
+
+:::
+
+::: {.column width="70%"}
+
+![](img/portada.png){width="60%"}
+
+:::
+
+::::
+
+# Introducción
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+- Portada
+- Tabla de contenido
+  + Secciones y subsecciones
+
+:::
+
+::: {.column width="70%"}
+
+![](img/toc.png){width="40%"}
+
+:::
+
+::::
+
+# Introducción
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+- Portada
+- Tabla de contenido
+- Notebooks
+  + Descripción de los códigos de programación
+  + Funciones específicas y paquetes de utilidad
+
+:::
+
+::: {.column width="70%"}
+
+![](img/notebooks.png)
+
+:::
+
+::::
+
+# Introducción
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+- Portada
+- Tabla de contenido
+- Notebooks
+- Referencias bibliográficas
+  + Vista previa de la referencia en el texto
+  + Formato de bibliografía según estilo deseado
+
+:::
+
+::: {.column width="60%"}
+
+![](img/referencias.png)
+
+:::
+
+::::
+
+# Introducción
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+- Portada
+- Tabla de contenido
+- Notebooks
+- Referencias bibliográficas
+- Mapas, tablas y figuras interactivas
+  + Visualización de resultados
+  + Descripción de las propiedades espectrales
+  + Ubicación de los sitios de muestreo
+
+:::
+
+::: {.column width="60%"}
+
+![](img/mapa.png)
+
+:::
+
+::::
+
+# Introducción
+
+- Portada
+- Tabla de contenido
+- Notebooks
+- Referencias bibliográficas
+- Mapas, tablas y figuras interactivas
+
+<center class="link">
+
+[Sitio web {{< iconify tabler:external-link >}}](https://vhgauto.quarto.pub/gistaq-parana/)
+
+</center>
+
+<center>
+{{< iconify mdi:web >}} https://vhgauto.quarto.pub/gistaq-parana/
+</center>
+
+
+# Motivación
+
+Vida de un proyecto de investigación.
+
+```{mermaid}
+
+%%{
+  init: {
+    'themeVariables': {
+      'edgeLabelBackground': '#224289'
+    }
+  }
+}%%
+
+flowchart LR
+    a1[Creación] ==> a2[Desarrollo]
+    a2 ====> |<span class='eos-icons--hourglass'></span>| a3[Objetivo final]
+
+    a3 ==> a4([Publicación])
+    a3 ==> a5([Congreso])
+    a3 ==> a6([Informe])
+```
+
+. . .
+
+- Muestreos.
+- Puesta a punto de técnicas.
+- Análisis de resultados parciales.
+- Lectura de bibliografía.
+- Otras tareas.
+
+# Motivación
+
+Vida de un proyecto de investigación.
+
+<br>
+
+::: {.incremental}
+
+- Desarrollar un <linea>documento dinámico</linea>, que se adapte a la etapa actual del proyecto.
+
+- Un lugar de <linea>fácil acceso</linea> donde se puedan ver los resultados parciales.
+
+- Que la búsqueda de bibliográfica esté <linea>unificada</linea> en un solo sitio.
+
+- Con ejecución de lenguaje de programación y <linea>reproducibilidad</linea> de los resultados.
+
+- Todos los integrantes del proyecto puedan <linea>aportar sin problemas</linea> y sin temor a descompaginar el documento.
+
+- Que sirva de material de consulta y para ver todo el <linea>esfuerzo realizado</linea>.
+:::
+
+# Herramientas
+
+- <rosa>R {{< iconify fa6-brands:r-project >}} y Python {{< iconify akar-icons:python-fill >}}</rosa>: lectura y obtención de datos, procesamiento y almacenamiento de resultados, generación de figuras, tablas y mapas.
+- <rosa>Git {{< iconify fe:git >}} y GitHub {{< iconify mdi:github >}}</rosa>: gestión del control de versiones y  para la colaboración entre integrantes del proyecto.
+- <rosa>Quarto {{< iconify simple-icons:quarto >}}</rosa>: compilar todo el contenido y publicación del sitio web.
+  + <b>Manuscripts</b> permite crear sitios web con énfasis en la reproducibilidad y enfocado a documentos científicos.
+
+## {{< iconify fa6-brands:r-project >}} R
+
+:::: {.columns}
+
+::: {.column width="10%"}
+
+![](https://raw.githubusercontent.com/ropensci/targets/refs/heads/main/man/figures/logo.png){width="90px" fig-align="center"}
+
+:::
+
+::: {.column width="90%"}
+
+`{targets}` permite la ejecución automática de funciones y gestiona las dependencias entre estas.
+
+:::
+
+::::
+
+::: {.column width="80%" fig-align="center"}
+
+```{mermaid}
+graph LR
+  x3d474db92cf09724>"mensaje"]:::outdated ==> xc5ec810879cc40ee>"recorte"]:::outdated
+    x3d474db92cf09724>"mensaje"]:::outdated ==> x32cb0d977e75588d>"elimino"]:::outdated
+    x3d474db92cf09724>"mensaje"]:::outdated ==> x0dc39fa9e42347ba>"reflectancia"]:::outdated
+    x3d474db92cf09724>"mensaje"]:::outdated ==> x0e71b645b3e50d0c>"script_descarga_py"]:::outdated
+    x3d474db92cf09724>"mensaje"]:::outdated ==> x70dd0adf732b9ac4>"estado_descarga"]:::outdated
+    xfabd587be49f2fed>"fecha"]:::outdated ==> x0dc39fa9e42347ba>"reflectancia"]:::outdated
+    xfabd587be49f2fed>"fecha"]:::outdated ==> x38637a02f9b83fc8>"lab"]:::outdated
+    x0e71b645b3e50d0c>"script_descarga_py"]:::outdated ==> x70dd0adf732b9ac4>"estado_descarga"]:::outdated
+    x2eb57580dd338e28(["excel"]):::outdated ==> x1a91c1978c7a143b(["datos_lab"]):::outdated
+    x38637a02f9b83fc8>"lab"]:::outdated ==> x1a91c1978c7a143b(["datos_lab"]):::outdated
+    x3975d57dc4a04f5c>"descarga"]:::outdated ==> x0a08cea06a6d211f(["producto_zip"]):::outdated
+    xe56f95f4237d1e66(["script_py"]):::outdated ==> x0a08cea06a6d211f(["producto_zip"]):::outdated
+    xd2e55a6b497fb062(["fecha_descarga"]):::outdated ==> x4b150ba8dbe4203d(["recorte_tif"]):::outdated
+    x0a08cea06a6d211f(["producto_zip"]):::outdated ==> x4b150ba8dbe4203d(["recorte_tif"]):::outdated
+    xc5ec810879cc40ee>"recorte"]:::outdated ==> x4b150ba8dbe4203d(["recorte_tif"]):::outdated
+    x29bd13377b9e6171>"archivo_excel"]:::outdated ==> x2eb57580dd338e28(["excel"]):::outdated
+    x2eb57580dd338e28(["excel"]):::outdated ==> xd2e55a6b497fb062(["fecha_descarga"]):::outdated
+    xfabd587be49f2fed>"fecha"]:::outdated ==> xd2e55a6b497fb062(["fecha_descarga"]):::outdated
+    xd2e55a6b497fb062(["fecha_descarga"]):::outdated ==> xe56f95f4237d1e66(["script_py"]):::outdated
+    x0e71b645b3e50d0c>"script_descarga_py"]:::outdated ==> xe56f95f4237d1e66(["script_py"]):::outdated
+    x2eb57580dd338e28(["excel"]):::outdated ==> x75ae8feee719d1e2(["datos_gis"]):::outdated
+    xd2e55a6b497fb062(["fecha_descarga"]):::outdated ==> x75ae8feee719d1e2(["datos_gis"]):::outdated
+    x4b150ba8dbe4203d(["recorte_tif"]):::outdated ==> x75ae8feee719d1e2(["datos_gis"]):::outdated
+    x0dc39fa9e42347ba>"reflectancia"]:::outdated ==> x75ae8feee719d1e2(["datos_gis"]):::outdated
+
+  classDef outdated stroke:#FFC0CB,color:#FFFFFF,fill:#224289;
+  classDef errored stroke:#FFC0CB,color:#FFFFFF,fill:#224289;
+  classDef none stroke:#FFC0CB,color:#FFFFFF,fill:#224289;
+```
+
+:::
+
+## {{< iconify fa6-brands:r-project >}} R
+
+:::: {.columns}
+
+::: {.column width="10%"}
+
+![](img/renv.png){width="100px" fig-align="center"}
+
+:::
+
+::: {.column width="90%"}
+
+`{renv}` gestiona los entornos de ejecución y versiones de los paquetes necesarios.
+
+:::
+
+::::
+
+![](https://rstudio.github.io/renv/articles/renv.png){width="60%" fig-align="center"}
+
+## {{< iconify fa6-brands:r-project >}} R
+
+:::: {.columns}
+
+::: {.column width="10%"}
+
+![](https://tidyverse.tidyverse.org/logo.png){width="100px" fig-align="center"}
+
+:::
+
+::: {.column width="90%"}
+
+`{tidyverse}` procesamiento general de los datos.
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="10%"}
+
+![](https://rspatial.github.io/terra/logo.png){width="100px" fig-align="center"}
+
+:::
+
+::: {.column width="90%"}
+
+`{terra}` lectura de ráster y vectores.
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="10%"}
+
+![](https://corrr.tidymodels.org/logo.png){width="100px" fig-align="center"}
+
+:::
+
+::: {.column width="90%"}
+
+`{corrr}` cálculo de coeficientes de correlación lineal.
+
+:::
+
+::::
+
+## {{< iconify fa6-brands:r-project >}} R
+
+:::: {.columns}
+
+::: {.column width="10%"}
+
+![](https://ggplot2.tidyverse.org/logo.png){width="100px" fig-align="center"}
+
+:::
+
+::: {.column width="90%"}
+
+`{ggplot2}` creación de figuras básicas.
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="10%"}
+
+![](img/ggiraph.png){width="100px" fig-align="center"}
+
+:::
+
+::: {.column width="90%"}
+
+`{ggiraph}` creación de figuras interactivas.
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="10%"}
+
+![](https://leafletjs.com/docs/images/logo.png){width="100px" fig-align="center"}
+
+:::
+
+::: {.column width="90%"}
+
+`{leaflet}` mapas interactivos.
+
+:::
+
+::::
+
+## {{< iconify akar-icons:python-fill >}} PYTHON
+
+Copernicus Data Space
+
+![](https://dataspace.copernicus.eu/themes/custom/copernicus/logo.svg){width="100%"}
+
+::: {.columns}
+
+::: {.column width="70%"}
+
+- Colección
+- Nivel de procesamiento
+- Región de interés
+- Rango de tiempo
+- Credenciales
+
+:::
+
+::: {.column width="30%"}
+
+![](https://www.esa.int/var/esa/storage/images/applications/observing_the_earth/copernicus/sentinel-2/19729272-16-eng-GB/Sentinel-2_pillars.png)
+
+:::
+
+:::
+
+## {{< iconify fe:git >}} GIT
+
+`git` para gestionar las versiones del proyecto ante cada avance.
+
+<rosa style='font-size:4rem'>{{< iconify mdi:github >}}</rosa> `github` servicio de almacenamiento en la nube.
+
+<rosa style='font-size:4rem'>{{< iconify hugeicons:git-branch >}}</rosa> `branch` para cada integrante, así cada uno colaboraba en una sección sin interferir en el resto del repositorio.
+
+<rosa style='font-size:4rem'>{{< iconify hugeicons:git-pull-request >}}</rosa> `pull request` para solicitar incorporar cambios.
+
+<rosa style='font-size:4rem'>{{< iconify hugeicons:git-merge >}}</rosa> `merge` se fusionan los cambios una vez revisados y aceptados.
+
+## {{< iconify simple-icons:quarto >}} QUARTO
+
+- Un proyecto en `quarto` permite combinar lenguaje de programación con texto para generar un producto en múltiples formatos.
+
+- Ofrece una plataforma para la publicación del producto generado y acceder al mismo como sitio web.
+
+```{mermaid}
+flowchart LR
+  s1[<span class="mingcute--file-code-line"></span><br>scripts]:::e1 ===> q1[<span class="simple-icons--quarto"></span><br>quarto]:::e1
+
+  s3[<span class="fe--document"></span><br>texto]:::e1 ===> q1
+
+  q1 ===> h1[<span class="ph--file-html-thin"></span>]:::e1
+
+  h1 ===> w1[<span class="mdi--web"></span><br>sitio web]:::e1
+
+  classDef e1 stroke:none,color:#FFFFFF,fill:none;
+```
+
+## {{< iconify simple-icons:quarto >}} QUARTO
+
+- `quarto manuscripts` está diseñado para escribir documentos científicos, con énfasis en la reproducibilidad, ya que se invita a los lectores a interesarse por los scripts (notebooks).
+
+- Ofrece la posibilidad de generar formatos de salida estáticos (`.pdf`, `.docx`) que cumplan con un estilo dado por una revista.
+
+- `quarto publish` permite publicar el sitio web en Quarto Pub {{< iconify simple-icons:quarto >}} o GitHub Pages.
+
+- Al combinarlo con `{targets}`, las figuras/tablas/mapas se regeneran cada vez que se incorporan nuevos datos, o se modifican los scripts, actualizando el sitio web.
+
+## {{< iconify simple-icons:quarto >}} QUARTO {.scrollable}
+
+Organización del proyecto
+
+```{r, max.height='100px'}
+fs::dir_tree("quarto_manuscrito")
+```
