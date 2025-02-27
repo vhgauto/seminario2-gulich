@@ -218,11 +218,13 @@ Desarrolló un sitio web, colaborativo, con ejecución automática, gratuito y d
 
 :::
 
-<center>
+::: {.r-fit-text}
+
 ```r
 https://vhgauto.quarto.pub/gistaq-parana/
 ```
-</center>
+
+:::
 
 # Motivación
 
@@ -488,6 +490,35 @@ flowchart LR
 
 ## {{< iconify simple-icons:quarto >}} QUARTO {.center}
 
+<center class='grande'>
+
+::: {.columns}
+::: {.column width="25%"}
+{{< iconify devicon:python >}}
+
+{{< iconify fa6-brands:r-project >}}
+:::
+::: {.column width="25%"}
+{{< iconify devicon:julia-wordmark >}}
+
+{{< iconify simple-icons:observable >}}
+:::
+::: {.column width="25%"}
+{{< iconify tabler:sql >}}
+
+{{< iconify devicon-plain:bash >}}
+:::
+::: {.column width="25%"}
+{{< iconify vscode-icons:file-type-mermaid >}}
+
+{{< iconify file-icons:graphviz >}}
+:::
+:::
+
+<center>
+
+## {{< iconify simple-icons:quarto >}} QUARTO {.center}
+
 - `quarto manuscripts` está diseñado para escribir documentos científicos, con énfasis en la reproducibilidad, ya que se invita a los lectores a interesarse por los scripts (notebooks).
 
 - Ofrece la posibilidad de generar formatos de salida estáticos (`.pdf`, `.docx`) que cumplan con un estilo dado por una revista.
@@ -668,23 +699,3 @@ El desarrollo de este Proyecto de Investigación permitió que los integrantes a
 [{{< iconify mdi:github >}} Repositorio del sitio web](https://github.com/vhgauto/gistaq_parana)
 
 [{{< iconify mdi:github >}} Quarto Extensions](https://github.com/quarto-ext)
-
-# Lenguajes
-
-{{< iconify devicon:python >}}
-
-{{< iconify fa6-brands:r-project >}}
-
-{{< iconify devicon:julia-wordmark >}}
-
-{{< iconify simple-icons:observable >}}
-
-{{< iconify tabler:sql >}}
-
-{{< iconify devicon-plain:bash >}}
-
-{{< iconify vscode-icons:file-type-mermaid >}}
-
-{{< iconify file-icons:graphviz >}}
-
-
