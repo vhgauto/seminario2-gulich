@@ -677,7 +677,7 @@ El desarrollo de este Proyecto de Investigación permitió que los integrantes a
 - Generar una versión `.pdf` del sitio web, a fin de crear un documento que no requiera conexión a internet.
 - Organizar las características visuales (colores, fuentes, estilos, márgenes) del sitio web mediante `.scss`.
 
-#
+# {background-color="#c0c0c0"}
 
 ::: {.r-fit-text}
 
@@ -685,62 +685,80 @@ Gracias por su tiempo
 
 :::
 
-::: {.columns}
+::::: {.columns}
 
-::: {.column}
-[MS Víctor Gauto {{< iconify flat-color-icons:home >}}](https://vhgauto.github.io/)
+:::: {.column}
+[MS Víctor Gauto {{< iconify ic:round-home >}}](https://vhgauto.github.io/)
 
 [{{< iconify ic:outline-email >}} victor.gauto@ca.frre.utn.edu.ar](mailto:victor.gauto@ca.frre.utn.edu.ar)
-:::
+::::
 
-::: {.column}
+:::: {.column}
+
+::: {.eqi-container}
+
 [{{< iconify logos:twitter >}}](https://twitter.com/vhgauto)
+
 [{{< iconify skill-icons:instagram >}}](https://www.instagram.com/vhgauto/)
-[{{< iconify logos:bluesky >}}](https://bsky.app/profile/vhgauto.bsky.social)
-[{{< iconify logos:mastodon-icon >}}](https://fosstodon.org/@vhgauto)
+
 [{{< iconify mdi:github >}}](https://github.com/vhgauto)
-:::
+
+[{{< iconify logos:bluesky >}}](https://bsky.app/profile/vhgauto.bsky.social)
+
+[{{< iconify logos:mastodon-icon >}}](https://fosstodon.org/@vhgauto)
 
 :::
 
-<center>
+::::
 
-::: {.columns}
+:::::
 
-::: {.column width="33%"}
-![](img/logo_utn6.png){width="30%"}
+::::: {.columns}
 
-![](img/Gistaq_sinfondo.png){width="30%"}
+:::: {.column width="60%"}
 
-![](https://www.argentina.gob.ar/sites/default/files/conae-logo-2023_1.png){width="30%"}
-:::
+::: {.eqi-container}
 
-::: {.column width="33%"}
-![](https://difusion.pci.unc.edu.ar/unc/files/identidad_visual/unc2_f.jpg){width="30%"}
+![](img/Gistaq_sinfondo.png){height="75px"}
 
-![](https://www.unne.edu.ar/wp-content/uploads/Logo-UNNE-Angosto.png){width="30%"}
+![](img/logo_utn6.png){height="75px"}
 
-![](https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png){width="30%"}
-:::
-
-::: {.column width="33%"}
-![](img/logo_utn6.png){width="30%"}
-
-![](https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png){width="30%"}
-
-![](https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png){width="30%"}
-:::
+![](https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png){height="75px"}
 
 :::
 
-</center>
+::: {.eqi-container}
 
+![](img/CONAE.png){height="75px"}
+
+![](https://difusion.pci.unc.edu.ar/unc/files/identidad_visual/unc2_a.jpg){height="75px"}
+
+![](img/iidthh.png){height="75px"}
+
+:::
+
+::: {.eqi-container}
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png){height="75px"}
+
+![](img/06%20UNNE%20Justificado%20Color.png){height="75px"}
+
+![](https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png){height="75px"}
+
+:::
+
+::::
+
+:::: {.column width="40%"}
+::::
+
+:::::
 
 # Recursos
 
 ::: {.fondo}
 
-[{{< iconify ph:download-fill >}} Descargar {{< iconify dashicons:pdf >}}](https://github.com/vhgauto/seminario2-gulich/blob/02b1202e27f1d166e81aa0de56bb3c92c0216de3/slides6.pdf)
+[{{< iconify ph:download-fill >}} Descargar {{< iconify dashicons:pdf >}}](https://raw.githubusercontent.com/vhgauto/seminario2-gulich/main/slides6.pdf)
 
 [{{< iconify mdi:github >}} Repositorio de esta presentación](https://github.com/vhgauto/seminario2-gulich)
 
