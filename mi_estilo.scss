@@ -54,6 +54,17 @@ $callout-border-width: 1rem;
 
 /*-- scss:rules --*/
 
+.fondo {
+    background-color: $rosa;
+    padding: 10px;
+    a {
+      color: $azul;
+        &:hover {
+          color: $celeste;
+        }
+    }
+}
+
 .grande {
     font-size: 3em;
 }
