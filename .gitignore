@@ -1,6 +1,14 @@
+.Rproj.user
 _extensions/
 .vdoc.r
 slides3_files/
+slides4_files/
+slides5_files/
+slides6_files/
+slides3.*
+slides4.*
+slides5.*
+TEST*
 
 # History files
 .Rhistory
