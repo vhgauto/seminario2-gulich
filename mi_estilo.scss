@@ -21,7 +21,7 @@ $presentation-font-size-root: 30px;
 $azul: #224289;
 $blanco: #FFFFFF;
 $celeste: lighten($azul, 60);
-$gris: silver ;
+$gris: #c0c0c0 ;
 $rosa: #EA99C0;
 $rosa-claro: #000000;
 $code-bg: $celeste;
@@ -153,6 +153,7 @@ caa {
 
 .reveal .slide-number {
     font-family: "JetBrains Mono";
+    color: $gris;
 }
 
 .reveal .footer > * {
@@ -309,3 +310,6 @@ linea {
   justify-content: space-between;
 }
 
+.gracias {
+    background-color: $celeste;
+}
