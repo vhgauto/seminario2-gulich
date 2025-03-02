@@ -738,7 +738,13 @@ Gracias por su tiempo
 
 # Recursos
 
-[{{< iconify ph:download-fill >}} Descargar {{< iconify dashicons:pdf >}}](https://github.com/vhgauto/seminario2-gulich/blob/main/sol_susp.R)
+::: {.fondo}
+
+[{{< iconify ph:download-fill >}} Descargar {{< iconify dashicons:pdf >}}](https://github.com/vhgauto/seminario2-gulich/blob/02b1202e27f1d166e81aa0de56bb3c92c0216de3/slides6.pdf)
+
+[{{< iconify mdi:github >}} Repositorio de esta presentación](https://github.com/vhgauto/seminario2-gulich)
+
+:::
 
 [{{< iconify mdi:youtube >}} Reproducible Manuscripts with Quarto - posit::conf(2023)](https://youtu.be/BoiW9UWDLY0?si=H9EnYi-xunEG5wYo)
 
@@ -756,4 +762,3 @@ Gracias por su tiempo
 
 [{{< iconify mdi:github >}} Quarto Extensions](https://github.com/quarto-ext)
 
-[{{< iconify mdi:github >}} Repositorio de esta presentación](https://github.com/vhgauto/seminario2-gulich)
