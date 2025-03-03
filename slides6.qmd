@@ -94,7 +94,7 @@ Estimar indicadores de calidad de agua en la cuenca media del río Paraná para 
 :::
 
 ::: {.column width="35%"}
-![](img/logo_utn6.png)
+![](img/logo_utn7.png)
 :::
 
 ::: {.column width="10%"}
@@ -244,7 +244,7 @@ Vida de un proyecto de investigación.
 
 flowchart LR
     a1[Creación] ==> a2[Inicio]
-    a2 ====> |<span class='eos-icons--hourglass'></span>| a3[Objetivo final]
+    a2 ====> |<span class="svg-spinners--clock"></span>| a3[Objetivo final]
 
     a3 ==> a4([Publicación])
     a3 ==> a5([Congreso])
