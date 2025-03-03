@@ -652,11 +652,9 @@ El desarrollo de este Proyecto de Investigación permitió que los integrantes a
 
 ::::
 
-<br>
-
 :::: {.eqi-container}
 
-{{< iconify devicon:rstudio >}}
+{{< iconify vscode-icons:file-type-scss >}}
 
 {{< iconify file-icons:bibtex >}}
 
@@ -664,7 +662,17 @@ El desarrollo de este Proyecto de Investigación permitió que los integrantes a
 
 {{< iconify fa6-brands:r-project >}}
 
-![](https://raw.githubusercontent.com/posit-dev/positron/main/positron-product-icons/positron.png){width="120px"}
+![](https://raw.githubusercontent.com/posit-dev/positron/main/positron-product-icons/positron.png){width="100px"}
+
+::::
+
+:::: {.eqi-container}
+
+{{< iconify dashicons:html >}}
+
+{{< iconify vscode-icons:file-type-mermaid >}}
+
+{{< iconify devicon:latex >}}
 
 ::::
 
@@ -681,34 +689,41 @@ El desarrollo de este Proyecto de Investigación permitió que los integrantes a
 
 ::: {.r-fit-text}
 
-Gracias por su tiempo
+<azul style='font-family:Rufina'>**Gracias por su tiempo**</azul>
 
 :::
 
 ::::: {.columns}
 
-:::: {.column}
-[MS Víctor Gauto {{< iconify ic:round-home >}}](https://vhgauto.github.io/)
+::: {.fondo-azul}
 
-[{{< iconify ic:outline-email >}} victor.gauto@ca.frre.utn.edu.ar](mailto:victor.gauto@ca.frre.utn.edu.ar)
+:::: {.column width="50%"}
+[<gris>{{< iconify ic:round-home >}} MS Víctor Gauto</gris>](https://vhgauto.github.io/)
+
+[<gris>{{< iconify ic:outline-email >}} victor.gauto@ca.frre.utn.edu.ar</gris>](mailto:victor.gauto@ca.frre.utn.edu.ar)
 ::::
 
-:::: {.column}
+:::: {.column width="30%"}
 
 ::: {.eqi-container}
 
-[{{< iconify logos:twitter >}}](https://twitter.com/vhgauto)
+[<gris style='font-size:2em'>{{< iconify mdi:twitter >}}</gris>](https://twitter.com/vhgauto)
 
-[{{< iconify skill-icons:instagram >}}](https://www.instagram.com/vhgauto/)
+[<gris style='font-size:2em'>{{< iconify mdi:instagram >}}</gris>](https://www.instagram.com/vhgauto/)
 
-[{{< iconify mdi:github >}}](https://github.com/vhgauto)
+[<gris style='font-size:2em'>{{< iconify mdi:github >}}</gris>](https://github.com/vhgauto)
 
-[{{< iconify logos:bluesky >}}](https://bsky.app/profile/vhgauto.bsky.social)
+[<gris style='font-size:2em'>{{< iconify ri:bluesky-fill >}}</gris>](https://bsky.app/profile/vhgauto.bsky.social)
 
-[{{< iconify logos:mastodon-icon >}}](https://fosstodon.org/@vhgauto)
+[<gris style='font-size:2em'>{{< iconify mdi:mastodon >}}</gris>](https://fosstodon.org/@vhgauto)
 
 :::
 
+::::
+
+:::
+
+:::: {.column width="20%"}
 ::::
 
 :::::
@@ -731,7 +746,7 @@ Gracias por su tiempo
 
 ![](img/CONAE.png){height="75px"}
 
-![](https://difusion.pci.unc.edu.ar/unc/files/identidad_visual/unc2_a.jpg){height="75px"}
+![](https://difusion.pci.unc.edu.ar/unc/files/identidad_visual/UNC_03_NEGRO.svg){height="75px"}
 
 ![](img/iidthh.png){height="75px"}
 
@@ -742,8 +757,6 @@ Gracias por su tiempo
 ![](https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png){height="75px"}
 
 ![](img/06%20UNNE%20Justificado%20Color.png){height="75px"}
-
-![](https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png){height="75px"}
 
 :::
 
@@ -779,4 +792,3 @@ Gracias por su tiempo
 [{{< iconify mdi:github >}} Repositorio del sitio web](https://github.com/vhgauto/gistaq_parana)
 
 [{{< iconify mdi:github >}} Quarto Extensions](https://github.com/quarto-ext)
-
