@@ -31,6 +31,7 @@ author:
         url: http://www.irea.cnr.it/
 format:
   revealjs:
+    auto-play-media: true
     highlight-style: kate
     width: 1200
     embed-resources: false
@@ -57,7 +58,6 @@ format:
 execute:
   echo: false
   eval: true
-engine: knitr
 editor_options:
   chunk_output_type: console
 ---
@@ -109,7 +109,7 @@ Estimar indicadores de calidad de agua en la cuenca media del río Paraná para 
 
 :::
 
-Desarrolló un sitio web, colaborativo, con ejecución automática, gratuito y de código abierto.
+Sitio web colaborativo con ejecución automática, gratuito y de código abierto.
 
 ## Portada
 
@@ -141,6 +141,7 @@ Desarrolló un sitio web, colaborativo, con ejecución automática, gratuito y d
 
 - Secciones y subsecciones
 - Facilitar la navegación en el sitio web
+- Contenido variable de acuerdo al desarrollo
 
 :::
 
@@ -159,8 +160,8 @@ Desarrolló un sitio web, colaborativo, con ejecución automática, gratuito y d
 ::: {.column width="40%"}
 
 - Descripción de los códigos de programación utilizados
-- Justificar el procesamiento de los datos
-- Aclarar la metodología de cálculo para favorecer la reproducibilidad
+- Justificación del procesamiento de los datos
+- Aclaración de la metodología de cálculo para favorecer la reproducibilidad
 
 :::
 
@@ -206,7 +207,7 @@ Desarrolló un sitio web, colaborativo, con ejecución automática, gratuito y d
 
 ::: {.column width="60%"}
 
-![](img/mapa.png){fig-align="center"}
+![](vid/mapa.mp4){loop="true"}
 
 :::
 
@@ -243,7 +244,7 @@ Vida de un proyecto de investigación.
 }%%
 
 flowchart LR
-    a1[Creación] ==> a2[Inicio]
+    a1[Formulación] ==> a2[Inicio]
     a2 ====> |<span class="svg-spinners--clock"></span>| a3[Objetivo final]
 
     a3 ==> a4([Publicación])
@@ -253,36 +254,40 @@ flowchart LR
 
 . . .
 
-- Muestreos.
-- Puesta a punto de técnicas.
-- Análisis de resultados parciales.
-- Lectura de bibliografía.
-- Otras tareas.
+- Muestreos
+- Ensayos fisicoquímicos
+- Análisis de resultados parciales
+- Lectura de bibliografía
+- Otras tareas
 
 ## Durante el desarrollo
 
-- Un <linea>documento dinámico</linea>, que se adapte a la etapa actual del proyecto.
+- <linea>Documento dinámico</linea>, que se adapte a la etapa actual del proyecto.
 
-- Un lugar de <linea>fácil acceso</linea> donde se puedan ver los resultados parciales.
+- Sitio de <linea>fácil acceso</linea> donde se puedan ver los resultados parciales.
 
-- Que la búsqueda de bibliográfica esté <linea>unificada</linea> en un solo sitio.
+- Búsqueda de bibliográfica <linea>unificada</linea>.
 
-- Con ejecución de lenguaje de programación y <linea>reproducibilidad</linea> de los resultados.
+- Ejecución de lenguaje de programación y <linea>reproducibilidad</linea> de los resultados.
 
 - Todos los integrantes del proyecto puedan <linea>aportar sin problemas</linea> y sin temor a descompaginar el documento.
 
-- Que sirva de material de consulta y para ver todo el <linea>esfuerzo realizado</linea>.
+- Material de consulta y ver todo el <linea>esfuerzo realizado</linea>.
+
+<center>
+<rosa>{{< iconify carbon:development size=8x >}}</rosa>
+</center>
 
 # Herramientas
 
-- <rosa>R {{< iconify fa6-brands:r-project >}} y Python {{< iconify akar-icons:python-fill >}}</rosa>: lectura y obtención de datos, procesamiento y almacenamiento de resultados, generación de figuras, tablas y mapas.
+- <rosa>{{< iconify fa6-brands:r-project >}} R y  {{< iconify akar-icons:python-fill >}} Python</rosa>: lectura y obtención de datos, procesamiento y almacenamiento de resultados, generación de figuras, tablas y mapas.
 <br>
 <br>
-- <rosa>Git {{< iconify fe:git >}} y GitHub {{< iconify mdi:github >}}</rosa>: gestión del control de versiones y colaboración entre integrantes del proyecto.
+- <rosa>{{< iconify fe:git >}} Git y {{< iconify mdi:github >}} GitHub</rosa>: gestión del control de versiones y colaboración entre integrantes del proyecto.
 <br>
 <br>
-- <rosa>Quarto {{< iconify simple-icons:quarto >}}</rosa>: compilar todo el contenido y publicación del sitio web.
-  + <b>Manuscripts</b> permite crear sitios web con énfasis en la reproducibilidad y enfocado a documentos científicos.
+- <rosa>{{< iconify simple-icons:quarto >}} Quarto</rosa>: compilar todo el contenido y publicación del sitio web.
+  + `manuscripts` permite crear sitios web con énfasis en la reproducibilidad y enfocado a documentos científicos.
 
 ## {{< iconify fa6-brands:r-project >}} R
 
@@ -297,6 +302,10 @@ flowchart LR
 ::: {.column width="80%"}
 
 `{targets}` permite la ejecución automática de funciones y gestiona las dependencias entre estas.
+
+Verifica el estado actual del flujo de tareas y ejecuta únicamente aquellas que están desactualizadas.
+
+Monitorea archivos y re-ejecuta el código cuando se detecta un cambio.
 
 :::
 
@@ -323,11 +332,13 @@ flowchart LR
 
 `{renv}` gestiona el entorno de ejecución, las versiones de los paquetes necesarios y las dependencias.
 
+Genera un archivo registro que permite la reproducibilidad del entorno de ejecución.
+
 :::
 
 ::::
 
-![](https://rstudio.github.io/renv/articles/renv.png){width="50%" fig-align="center"}
+![](https://rstudio.github.io/renv/articles/renv.png){width="40%" fig-align="center"}
 
 ## {{< iconify fa6-brands:r-project >}} R
 
@@ -341,7 +352,7 @@ flowchart LR
 
 ::: {.column width="80%"}
 
-`{tidyverse}` múltiples paquetes para el procesamiento general de los datos.
+`{tidyverse}` con múltiples paquetes para el procesamiento general de los datos.
 
 :::
 
@@ -357,7 +368,7 @@ flowchart LR
 
 ::: {.column width="80%"}
 
-`{terra}` procesamiento de datos geográficos y lectura de ráster y vectores.
+`{terra}` para el procesamiento de datos geográficos y lectura de ráster y vectores.
 
 :::
 
@@ -373,7 +384,7 @@ flowchart LR
 
 ::: {.column width="80%"}
 
-`{corrr}` cálculo de coeficientes de correlación lineal.
+`{corrr}` para el cálculo de coeficientes de correlación lineal.
 
 :::
 
@@ -391,7 +402,7 @@ flowchart LR
 
 ::: {.column width="80%"}
 
-`{ggplot2}` creación de figuras básicas.
+`{ggplot2}` para la creación de figuras básicas.
 
 :::
 
@@ -407,7 +418,7 @@ flowchart LR
 
 ::: {.column width="80%"}
 
-`{ggiraph}` creación de figuras interactivas.
+`{ggiraph}` para la creación de figuras interactivas.
 
 :::
 
@@ -423,7 +434,7 @@ flowchart LR
 
 ::: {.column width="80%"}
 
-`{leaflet}` mapas interactivos.
+`{leaflet}` para generar mapas interactivos.
 
 :::
 
@@ -457,35 +468,76 @@ Copernicus Data Space
 
 ## {{< iconify fe:git >}} GIT
 
-Gestionar las versiones del proyecto ante cada cambio y colaboración entre integrantes.
+Gestión de cambios del proyecto y permite la colaboración simultánea de los integrantes.
 
-<rosa style='font-size:4rem'>{{< iconify mdi:github >}}</rosa> `github` servicio de almacenamiento en la nube.
+<rosa style='font-size:4rem'>{{< iconify mdi:github >}}</rosa> `github` servicio de almacenamiento en la nube
 
-<rosa style='font-size:4rem'>{{< iconify hugeicons:git-branch >}}</rosa> `branch` para cada integrante, así cada uno colaboraba en una sección sin interferir en el resto del repositorio.
+<rosa style='font-size:4rem'>{{< iconify hugeicons:git-branch >}}</rosa> `branch` por integrante, así cada uno colaboraba en una sección sin interferir en el resto del repositorio
 
-<rosa style='font-size:4rem'>{{< iconify hugeicons:git-pull-request >}}</rosa> `pull request` para solicitar incorporar cambios.
+<rosa style='font-size:4rem'>{{< iconify hugeicons:git-pull-request >}}</rosa> `pull request` para solicitar la incorporación de cambios
 
-<rosa style='font-size:4rem'>{{< iconify hugeicons:git-merge >}}</rosa> `merge` se fusionan los cambios una vez revisados y aceptados.
+<rosa style='font-size:4rem'>{{< iconify hugeicons:git-merge >}}</rosa> `merge` para combinar los cambios una vez revisados y aceptados
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
-- Un proyecto en `quarto` permite combinar cálculos mediante lenguaje de programación y texto para generar un producto en múltiples formatos.
+- Permite combinar cálculos mediante lenguaje de programación y texto para generar un producto en múltiples formatos
 
-- Ofrece una plataforma para la publicación del producto generado y acceder al mismo como sitio web.
+- Ofrece una plataforma para la publicación del producto generado y acceder al mismo como sitio web
 
 ```{mermaid}
-flowchart LR
-  s1[<span class="ant-design--code-filled"></span><br>scripts]:::e1 ===> q1[<span class="simple-icons--quarto"></span><br>quarto]:::e1
+%%{
+  init: {
+    'themeVariables': {
+      'edgeLabelBackground': '#224289',
+      'edgeLabel': 'red'
+    }
+  }
+}%%
 
-  s2[<span class="material-symbols--markdown"></span><br>markdown]:::e1 ==> q1
+flowchart LR
+  s1[<span class="ant-design--code-filled"></span><br>scripts]:::e1 ==> q1[<span class="simple-icons--quarto"></span><br>quarto]:::e1
+
+  s2[<span class="material-symbols--markdown"></span><br>markdown]:::e1 ===> q1
 
   s3[<span class="fe--document"></span><br>texto]:::e1 ===> q1
 
   s4[<span class="file-icons--latex"></span><br>LaTeX]:::e1 ==> q1
 
-  q1 ===> h1[<span class="ph--file-html-thin"></span>]:::e1
+  q1 ==>|<b style='color:white'>pandoc</b>| h1[<span class="qlementine-icons--file-html-16"></span><br>html]:::e1
 
-  h1 ===> w1[<span class="mdi--web"></span><br>sitio web]:::e1
+  h1 ==>|<b style='color:white'>quarto pub</b>| w1[<span class="mdi--web"></span><br>sitio web]:::e1
+
+  classDef e1 stroke:none,color:#FFFFFF,fill:none;
+```
+
+## {{< iconify simple-icons:quarto >}} QUARTO
+
+- Permite combinar cálculos mediante lenguaje de programación y texto para generar un producto en múltiples formatos
+
+- Ofrece una plataforma para la publicación del producto generado y acceder al mismo como sitio web
+
+```{mermaid}
+%%{
+  init: {
+    'themeVariables': {
+      'edgeLabelBackground': '#224289',
+      'edgeLabel': 'red'
+    }
+  }
+}%%
+
+flowchart LR
+  s1[<span class="ant-design--code-filled"></span><br>scripts]:::e1 ==> q1[<span class="simple-icons--quarto"></span><br>quarto]:::e1
+
+  s2[<span class="material-symbols--markdown"></span><br>markdown]:::e1 ===> q1
+
+  s3[<span class="fe--document"></span><br>texto]:::e1 ===> q1
+
+  s4[<span class="file-icons--latex"></span>]:::e1 ==> q1
+
+  q1 ==>|<b style='color:white'>pandoc</b>| h1[<span class="qlementine-icons--file-html-16"></span><br>html]:::e1
+
+  h1 ==>|<b style='color:white'>quarto pub</b>| w1[<span class="mdi--web"></span><br>sitio web]:::e1
 
   classDef e1 stroke:none,color:#FFFFFF,fill:none;
 ```
@@ -494,30 +546,30 @@ flowchart LR
 
 <center class='grande'>
 
-::: {.columns}
-::: {.column width="25%"}
-{{< iconify devicon:python >}}
-<br>
-<rosa>{{< iconify fa6-brands:r-project >}}</rosa>
-:::
-::: {.column width="25%"}
-{{< iconify devicon:julia-wordmark >}}
-<br>
-<rosa>{{< iconify simple-icons:observable >}}</rosa>
-:::
-::: {.column width="25%"}
-<rosa>{{< iconify tabler:sql >}}</rosa>
+::: {.eqi-container}
 
-<br>
-<rosa>{{< iconify devicon-plain:bash >}}</rosa>
-:::
-::: {.column width="25%"}
-{{< iconify vscode-icons:file-type-mermaid >}}
-<br>
-<rosa>{{< iconify file-icons:graphviz >}}</rosa>
-:::
+{{< iconify akar-icons:python-fill >}}
+
+{{< iconify fa6-brands:r-project >}}
+
+{{< iconify file-icons:julia >}}
+
+{{< iconify simple-icons:observable >}}
+
 :::
 
+::: {.eqi-container}
+{{< iconify tabler:sql >}}
+
+{{< iconify devicon-plain:bash >}}
+
+{{< iconify simple-icons:mermaid >}}
+
+{{< iconify file-icons:graphviz >}}
+
+:::
+
+</rosa>
 <center>
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
@@ -526,11 +578,13 @@ flowchart LR
 
 - Ofrece la posibilidad de generar formatos de salida estáticos (`.pdf`, `.docx`) que cumplan con un estilo dado por una revista.
 
-- `quarto publish` permite publicar el sitio web en Quarto Pub {{< iconify simple-icons:quarto >}} o GitHub Pages.
+- `quarto publish` permite publicar el sitio web en Quarto Pub {{< iconify simple-icons:quarto >}} o GitHub Pages {{< iconify mdi:github >}}.
 
 - Al combinarlo con `{targets}`, las figuras/tablas/mapas se regeneran cada vez que se incorporan nuevos datos, o se modifican los scripts, actualizando los resultados.
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
+
+Estructura de archivos y directorios.
 
 ```{r}
 #| eval: false
@@ -672,7 +726,7 @@ El desarrollo de este Proyecto de Investigación permitió que los integrantes a
 
 {{< iconify vscode-icons:file-type-mermaid >}}
 
-{{< iconify devicon:latex >}}
+{{< iconify file-icons:latex >}}
 
 ::::
 
@@ -792,3 +846,5 @@ El desarrollo de este Proyecto de Investigación permitió que los integrantes a
 [{{< iconify mdi:github >}} Repositorio del sitio web](https://github.com/vhgauto/gistaq_parana)
 
 [{{< iconify mdi:github >}} Quarto Extensions](https://github.com/quarto-ext)
+
+[{{< iconify mdi:github >}} Estilos de citas bibliográficas](https://github.com/citation-style-language/styles)

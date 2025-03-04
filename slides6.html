@@ -15,7 +15,7 @@
 <meta name="author" content="Dra. Anabella Ferral">
 <meta name="author" content="Dr.&nbsp;Osvaldo Cardozo">
 <meta name="author" content="Dra. Claudia Giardino">
-<meta name="dcterms.date" content="2025-03-03">
+<meta name="dcterms.date" content="2025-03-04">
 <title>Aplicación de Quarto en proyectos de investigación</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -102,7 +102,7 @@
     code span.vs { color: #bf0303; } /* VerbatimString */
     code span.wa { color: #bf0303; } /* Warning */
   </style>
-<link rel="stylesheet" href="slides6_files/libs/revealjs/dist/theme/quarto-a1ad2ba836eacef102120cb0c360600b.css">
+<link rel="stylesheet" href="slides6_files/libs/revealjs/dist/theme/quarto-65b220fdbe777be1848309ed2c9896a1.css">
 <link href="slides6_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
 <link href="slides6_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
 <link href="slides6_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -267,7 +267,7 @@ Dra. Claudia Giardino
     </div>
 </div>
 
-  <p class="date">2025-03-03</p>
+  <p class="date">2025-03-04</p>
 </section><section class="title-slide slide level1"><h1>Contenido</h1>
 <ul>
 <li>Introducción</li>
@@ -306,7 +306,7 @@ Estimar indicadores de calidad de agua en la cuenca media del río Paraná para 
 </div><div class="column" style="width:10%;">
 
 </div></div>
-<p>Desarrolló un sitio web, colaborativo, con ejecución automática, gratuito y de código abierto.</p>
+<p>Sitio web colaborativo con ejecución automática, gratuito y de código abierto.</p>
 </section><section class="slide level2"><h2>Portada</h2>
 <div class="columns">
 <div class="column" style="width:30%;">
@@ -329,6 +329,7 @@ Estimar indicadores de calidad de agua en la cuenca media del río Paraná para 
 <ul>
 <li>Secciones y subsecciones</li>
 <li>Facilitar la navegación en el sitio web</li>
+<li>Contenido variable de acuerdo al desarrollo</li>
 </ul>
 </div><div class="column" style="width:60%;">
 <div class="quarto-figure quarto-figure-center">
@@ -341,8 +342,8 @@ Estimar indicadores de calidad de agua en la cuenca media del río Paraná para 
 <div class="column" style="width:40%;">
 <ul>
 <li>Descripción de los códigos de programación utilizados</li>
-<li>Justificar el procesamiento de los datos</li>
-<li>Aclarar la metodología de cálculo para favorecer la reproducibilidad</li>
+<li>Justificación del procesamiento de los datos</li>
+<li>Aclaración de la metodología de cálculo para favorecer la reproducibilidad</li>
 </ul>
 </div><div class="column" style="width:60%;">
 <div class="quarto-figure quarto-figure-center">
@@ -373,10 +374,7 @@ Estimar indicadores de calidad de agua en la cuenca media del río Paraná para 
 <li>Ubicación de los sitios de muestreo</li>
 </ul>
 </div><div class="column" style="width:60%;">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="img/mapa.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
+<p><video data-src="vid/mapa.mp4" loop="true" controls=""><a href="vid/mapa.mp4">Video</a></video></p>
 </div></div>
 </section><section class="slide level2"><h2></h2>
 <div class="r-fit-text">
@@ -401,7 +399,7 @@ Estimar indicadores de calidad de agua en la cuenca media del río Paraná para 
 }%%
 
 flowchart LR
-    a1[Creación] ==&gt; a2[Inicio]
+    a1[Formulación] ==&gt; a2[Inicio]
     a2 ====&gt; |&lt;span class="svg-spinners--clock"&gt;&lt;/span&gt;| a3[Objetivo final]
 
     a3 ==&gt; a4([Publicación])
@@ -415,34 +413,38 @@ flowchart LR
 </div>
 <div class="fragment">
 <ul>
-<li>Muestreos.</li>
-<li>Puesta a punto de técnicas.</li>
-<li>Análisis de resultados parciales.</li>
-<li>Lectura de bibliografía.</li>
-<li>Otras tareas.</li>
+<li>Muestreos</li>
+<li>Ensayos fisicoquímicos</li>
+<li>Análisis de resultados parciales</li>
+<li>Lectura de bibliografía</li>
+<li>Otras tareas</li>
 </ul>
 </div>
 </section><section class="slide level2"><h2>Durante el desarrollo</h2>
 <ul>
-<li><p>Un <linea>documento dinámico</linea>, que se adapte a la etapa actual del proyecto.</p></li>
-<li><p>Un lugar de <linea>fácil acceso</linea> donde se puedan ver los resultados parciales.</p></li>
-<li><p>Que la búsqueda de bibliográfica esté <linea>unificada</linea> en un solo sitio.</p></li>
-<li><p>Con ejecución de lenguaje de programación y <linea>reproducibilidad</linea> de los resultados.</p></li>
+<li><p><linea>Documento dinámico</linea>, que se adapte a la etapa actual del proyecto.</p></li>
+<li><p>Sitio de <linea>fácil acceso</linea> donde se puedan ver los resultados parciales.</p></li>
+<li><p>Búsqueda de bibliográfica <linea>unificada</linea>.</p></li>
+<li><p>Ejecución de lenguaje de programación y <linea>reproducibilidad</linea> de los resultados.</p></li>
 <li><p>Todos los integrantes del proyecto puedan <linea>aportar sin problemas</linea> y sin temor a descompaginar el documento.</p></li>
-<li><p>Que sirva de material de consulta y para ver todo el <linea>esfuerzo realizado</linea>.</p></li>
-</ul></section></section><section><section class="title-slide slide level1"><h1>Herramientas</h1>
+<li><p>Material de consulta y ver todo el <linea>esfuerzo realizado</linea>.</p></li>
+</ul>
+<center>
+<rosa><iconify-icon role="img" inline="" icon="carbon:development" style="font-size: 8em;" aria-label="Icon development from carbon Iconify.design set." title="Icon development from carbon Iconify.design set."></iconify-icon></rosa>
+</center>
+</section></section><section><section class="title-slide slide level1"><h1>Herramientas</h1>
 <ul>
 <li>
-<rosa>R <iconify-icon role="img" inline="" icon="fa6-brands:r-project" aria-label="Icon r-project from fa6-brands Iconify.design set." title="Icon r-project from fa6-brands Iconify.design set."></iconify-icon> y Python <iconify-icon role="img" inline="" icon="akar-icons:python-fill" aria-label="Icon python-fill from akar-icons Iconify.design set." title="Icon python-fill from akar-icons Iconify.design set."></iconify-icon></rosa>: lectura y obtención de datos, procesamiento y almacenamiento de resultados, generación de figuras, tablas y mapas. <br><br>
+<rosa><iconify-icon role="img" inline="" icon="fa6-brands:r-project" aria-label="Icon r-project from fa6-brands Iconify.design set." title="Icon r-project from fa6-brands Iconify.design set."></iconify-icon> R y <iconify-icon role="img" inline="" icon="akar-icons:python-fill" aria-label="Icon python-fill from akar-icons Iconify.design set." title="Icon python-fill from akar-icons Iconify.design set."></iconify-icon> Python</rosa>: lectura y obtención de datos, procesamiento y almacenamiento de resultados, generación de figuras, tablas y mapas. <br><br>
 </li>
 <li>
-<rosa>Git <iconify-icon role="img" inline="" icon="fe:git" aria-label="Icon git from fe Iconify.design set." title="Icon git from fe Iconify.design set."></iconify-icon> y GitHub <iconify-icon role="img" inline="" icon="mdi:github" aria-label="Icon github from mdi Iconify.design set." title="Icon github from mdi Iconify.design set."></iconify-icon></rosa>: gestión del control de versiones y colaboración entre integrantes del proyecto. <br><br>
+<rosa><iconify-icon role="img" inline="" icon="fe:git" aria-label="Icon git from fe Iconify.design set." title="Icon git from fe Iconify.design set."></iconify-icon> Git y <iconify-icon role="img" inline="" icon="mdi:github" aria-label="Icon github from mdi Iconify.design set." title="Icon github from mdi Iconify.design set."></iconify-icon> GitHub</rosa>: gestión del control de versiones y colaboración entre integrantes del proyecto. <br><br>
 </li>
 <li>
-<rosa>Quarto <iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon></rosa>: compilar todo el contenido y publicación del sitio web.
+<rosa><iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon> Quarto</rosa>: compilar todo el contenido y publicación del sitio web.
 <ul>
 <li>
-<b>Manuscripts</b> permite crear sitios web con énfasis en la reproducibilidad y enfocado a documentos científicos.</li>
+<code>manuscripts</code> permite crear sitios web con énfasis en la reproducibilidad y enfocado a documentos científicos.</li>
 </ul>
 </li>
 </ul></section><section class="slide level2"><h2>
@@ -455,6 +457,8 @@ flowchart LR
 </div>
 </div><div class="column" style="width:80%;">
 <p><a href="https://docs.ropensci.org/targets/">targets</a> permite la ejecución automática de funciones y gestiona las dependencias entre estas.</p>
+<p>Verifica el estado actual del flujo de tareas y ejecuta únicamente aquellas que están desactualizadas.</p>
+<p>Monitorea archivos y re-ejecuta el código cuando se detecta un cambio.</p>
 </div></div>
 </section><section class="slide level2"><h2>
 <iconify-icon role="img" inline="" icon="fa6-brands:r-project" aria-label="Icon r-project from fa6-brands Iconify.design set." title="Icon r-project from fa6-brands Iconify.design set."></iconify-icon> R</h2>
@@ -507,9 +511,10 @@ flowchart LR
 </div>
 </div><div class="column" style="width:80%;">
 <p><a href="https://rstudio.github.io/renv/">renv</a> gestiona el entorno de ejecución, las versiones de los paquetes necesarios y las dependencias.</p>
+<p>Genera un archivo registro que permite la reproducibilidad del entorno de ejecución.</p>
 </div></div>
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="https://rstudio.github.io/renv/articles/renv.png" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
+<figure><p><img data-src="https://rstudio.github.io/renv/articles/renv.png" class="quarto-figure quarto-figure-center" style="width:40.0%"></p>
 </figure>
 </div>
 </section><section class="slide level2"><h2>
@@ -521,7 +526,7 @@ flowchart LR
 </figure>
 </div>
 </div><div class="column" style="width:80%;">
-<p><a href="https://tidyverse.tidyverse.org">tidyverse</a> múltiples paquetes para el procesamiento general de los datos.</p>
+<p><a href="https://tidyverse.tidyverse.org">tidyverse</a> con múltiples paquetes para el procesamiento general de los datos.</p>
 </div></div>
 <div class="columns">
 <div class="column" style="width:20%;">
@@ -530,7 +535,7 @@ flowchart LR
 </figure>
 </div>
 </div><div class="column" style="width:80%;">
-<p><a href="https://rspatial.org/">terra</a> procesamiento de datos geográficos y lectura de ráster y vectores.</p>
+<p><a href="https://rspatial.org/">terra</a> para el procesamiento de datos geográficos y lectura de ráster y vectores.</p>
 </div></div>
 <div class="columns">
 <div class="column" style="width:20%;">
@@ -539,7 +544,7 @@ flowchart LR
 </figure>
 </div>
 </div><div class="column" style="width:80%;">
-<p><a href="https://github.com/tidymodels/corrr">corrr</a> cálculo de coeficientes de correlación lineal.</p>
+<p><a href="https://github.com/tidymodels/corrr">corrr</a> para el cálculo de coeficientes de correlación lineal.</p>
 </div></div>
 </section><section class="slide level2"><h2>
 <iconify-icon role="img" inline="" icon="fa6-brands:r-project" aria-label="Icon r-project from fa6-brands Iconify.design set." title="Icon r-project from fa6-brands Iconify.design set."></iconify-icon> R</h2>
@@ -550,7 +555,7 @@ flowchart LR
 </figure>
 </div>
 </div><div class="column" style="width:80%;">
-<p><a href="https://ggplot2.tidyverse.org">ggplot2</a> creación de figuras básicas.</p>
+<p><a href="https://ggplot2.tidyverse.org">ggplot2</a> para la creación de figuras básicas.</p>
 </div></div>
 <div class="columns">
 <div class="column" style="width:20%;">
@@ -559,7 +564,7 @@ flowchart LR
 </figure>
 </div>
 </div><div class="column" style="width:80%;">
-<p><a href="https://davidgohel.github.io/ggiraph/">ggiraph</a> creación de figuras interactivas.</p>
+<p><a href="https://davidgohel.github.io/ggiraph/">ggiraph</a> para la creación de figuras interactivas.</p>
 </div></div>
 <div class="columns">
 <div class="column" style="width:20%;">
@@ -568,7 +573,7 @@ flowchart LR
 </figure>
 </div>
 </div><div class="column" style="width:80%;">
-<p><a href="https://rstudio.github.io/leaflet/">leaflet</a> mapas interactivos.</p>
+<p><a href="https://rstudio.github.io/leaflet/">leaflet</a> para generar mapas interactivos.</p>
 </div></div>
 </section><section class="slide level2"><h2>
 <iconify-icon role="img" inline="" icon="akar-icons:python-fill" aria-label="Icon python-fill from akar-icons Iconify.design set." title="Icon python-fill from akar-icons Iconify.design set."></iconify-icon> PYTHON</h2>
@@ -591,34 +596,83 @@ flowchart LR
 </div></div>
 </section><section class="slide level2"><h2>
 <iconify-icon role="img" inline="" icon="fe:git" aria-label="Icon git from fe Iconify.design set." title="Icon git from fe Iconify.design set."></iconify-icon> GIT</h2>
-<p>Gestionar las versiones del proyecto ante cada cambio y colaboración entre integrantes.</p>
-<p><rosa style="font-size:4rem"><iconify-icon role="img" inline="" icon="mdi:github" aria-label="Icon github from mdi Iconify.design set." title="Icon github from mdi Iconify.design set."></iconify-icon></rosa><code>github</code> servicio de almacenamiento en la nube.</p>
-<p><rosa style="font-size:4rem"><iconify-icon role="img" inline="" icon="hugeicons:git-branch" aria-label="Icon git-branch from hugeicons Iconify.design set." title="Icon git-branch from hugeicons Iconify.design set."></iconify-icon></rosa><code>branch</code> para cada integrante, así cada uno colaboraba en una sección sin interferir en el resto del repositorio.</p>
-<p><rosa style="font-size:4rem"><iconify-icon role="img" inline="" icon="hugeicons:git-pull-request" aria-label="Icon git-pull-request from hugeicons Iconify.design set." title="Icon git-pull-request from hugeicons Iconify.design set."></iconify-icon></rosa><code>pull request</code> para solicitar incorporar cambios.</p>
-<p><rosa style="font-size:4rem"><iconify-icon role="img" inline="" icon="hugeicons:git-merge" aria-label="Icon git-merge from hugeicons Iconify.design set." title="Icon git-merge from hugeicons Iconify.design set."></iconify-icon></rosa><code>merge</code> se fusionan los cambios una vez revisados y aceptados.</p>
+<p>Gestión de cambios del proyecto y permite la colaboración simultánea de los integrantes.</p>
+<p><rosa style="font-size:4rem"><iconify-icon role="img" inline="" icon="mdi:github" aria-label="Icon github from mdi Iconify.design set." title="Icon github from mdi Iconify.design set."></iconify-icon></rosa><code>github</code> servicio de almacenamiento en la nube</p>
+<p><rosa style="font-size:4rem"><iconify-icon role="img" inline="" icon="hugeicons:git-branch" aria-label="Icon git-branch from hugeicons Iconify.design set." title="Icon git-branch from hugeicons Iconify.design set."></iconify-icon></rosa><code>branch</code> por integrante, así cada uno colaboraba en una sección sin interferir en el resto del repositorio</p>
+<p><rosa style="font-size:4rem"><iconify-icon role="img" inline="" icon="hugeicons:git-pull-request" aria-label="Icon git-pull-request from hugeicons Iconify.design set." title="Icon git-pull-request from hugeicons Iconify.design set."></iconify-icon></rosa><code>pull request</code> para solicitar la incorporación de cambios</p>
+<p><rosa style="font-size:4rem"><iconify-icon role="img" inline="" icon="hugeicons:git-merge" aria-label="Icon git-merge from hugeicons Iconify.design set." title="Icon git-merge from hugeicons Iconify.design set."></iconify-icon></rosa><code>merge</code> para combinar los cambios una vez revisados y aceptados</p>
 </section><section class="slide level2"><h2>
 <iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon> QUARTO</h2>
 <ul>
-<li><p>Un proyecto en <code>quarto</code> permite combinar cálculos mediante lenguaje de programación y texto para generar un producto en múltiples formatos.</p></li>
-<li><p>Ofrece una plataforma para la publicación del producto generado y acceder al mismo como sitio web.</p></li>
+<li><p>Permite combinar cálculos mediante lenguaje de programación y texto para generar un producto en múltiples formatos</p></li>
+<li><p>Ofrece una plataforma para la publicación del producto generado y acceder al mismo como sitio web</p></li>
 </ul>
 <div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""></figure><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart LR
-  s1[&lt;span class="ant-design--code-filled"&gt;&lt;/span&gt;&lt;br&gt;scripts]:::e1 ===&gt; q1[&lt;span class="simple-icons--quarto"&gt;&lt;/span&gt;&lt;br&gt;quarto]:::e1
+<pre class="mermaid mermaid-js">%%{
+  init: {
+    'themeVariables': {
+      'edgeLabelBackground': '#224289',
+      'edgeLabel': 'red'
+    }
+  }
+}%%
 
-  s2[&lt;span class="material-symbols--markdown"&gt;&lt;/span&gt;&lt;br&gt;markdown]:::e1 ==&gt; q1
+flowchart LR
+  s1[&lt;span class="ant-design--code-filled"&gt;&lt;/span&gt;&lt;br&gt;scripts]:::e1 ==&gt; q1[&lt;span class="simple-icons--quarto"&gt;&lt;/span&gt;&lt;br&gt;quarto]:::e1
+
+  s2[&lt;span class="material-symbols--markdown"&gt;&lt;/span&gt;&lt;br&gt;markdown]:::e1 ===&gt; q1
 
   s3[&lt;span class="fe--document"&gt;&lt;/span&gt;&lt;br&gt;texto]:::e1 ===&gt; q1
 
   s4[&lt;span class="file-icons--latex"&gt;&lt;/span&gt;&lt;br&gt;LaTeX]:::e1 ==&gt; q1
 
-  q1 ===&gt; h1[&lt;span class="ph--file-html-thin"&gt;&lt;/span&gt;]:::e1
+  q1 ==&gt;|&lt;b style='color:white'&gt;pandoc&lt;/b&gt;| h1[&lt;span class="qlementine-icons--file-html-16"&gt;&lt;/span&gt;&lt;br&gt;html]:::e1
 
-  h1 ===&gt; w1[&lt;span class="mdi--web"&gt;&lt;/span&gt;&lt;br&gt;sitio web]:::e1
+  h1 ==&gt;|&lt;b style='color:white'&gt;quarto pub&lt;/b&gt;| w1[&lt;span class="mdi--web"&gt;&lt;/span&gt;&lt;br&gt;sitio web]:::e1
+
+  classDef e1 stroke:none,color:#FFFFFF,fill:none;
+</pre>
+</div>
+<p></p>
+</div>
+</div>
+</div>
+</section><section class="slide level2"><h2>
+<iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon> QUARTO</h2>
+<ul>
+<li><p>Permite combinar cálculos mediante lenguaje de programación y texto para generar un producto en múltiples formatos</p></li>
+<li><p>Ofrece una plataforma para la publicación del producto generado y acceder al mismo como sitio web</p></li>
+</ul>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""></figure><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{
+  init: {
+    'themeVariables': {
+      'edgeLabelBackground': '#224289',
+      'edgeLabel': 'red'
+    }
+  }
+}%%
+
+flowchart LR
+  s1[&lt;span class="ant-design--code-filled"&gt;&lt;/span&gt;&lt;br&gt;scripts]:::e1 ==&gt; q1[&lt;span class="simple-icons--quarto"&gt;&lt;/span&gt;&lt;br&gt;quarto]:::e1
+
+  s2[&lt;span class="material-symbols--markdown"&gt;&lt;/span&gt;&lt;br&gt;markdown]:::e1 ===&gt; q1
+
+  s3[&lt;span class="fe--document"&gt;&lt;/span&gt;&lt;br&gt;texto]:::e1 ===&gt; q1
+
+  s4[&lt;span class="file-icons--latex"&gt;&lt;/span&gt;]:::e1 ==&gt; q1
+
+  q1 ==&gt;|&lt;b style='color:white'&gt;pandoc&lt;/b&gt;| h1[&lt;span class="qlementine-icons--file-html-16"&gt;&lt;/span&gt;&lt;br&gt;html]:::e1
+
+  h1 ==&gt;|&lt;b style='color:white'&gt;quarto pub&lt;/b&gt;| w1[&lt;span class="mdi--web"&gt;&lt;/span&gt;&lt;br&gt;sitio web]:::e1
 
   classDef e1 stroke:none,color:#FFFFFF,fill:none;
 </pre>
@@ -630,20 +684,19 @@ flowchart LR
 </section><section class="slide level2"><h2>
 <iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon> QUARTO</h2>
 <center class="grande">
-<div class="columns">
-<div class="column" style="width:25%;">
-<p><iconify-icon role="img" inline="" icon="devicon:python" aria-label="Icon python from devicon Iconify.design set." title="Icon python from devicon Iconify.design set."></iconify-icon></p>
-<p><br><rosa><iconify-icon role="img" inline="" icon="fa6-brands:r-project" aria-label="Icon r-project from fa6-brands Iconify.design set." title="Icon r-project from fa6-brands Iconify.design set."></iconify-icon></rosa></p>
-</div><div class="column" style="width:25%;">
-<p><iconify-icon role="img" inline="" icon="devicon:julia-wordmark" aria-label="Icon julia-wordmark from devicon Iconify.design set." title="Icon julia-wordmark from devicon Iconify.design set."></iconify-icon></p>
-<p><br><rosa><iconify-icon role="img" inline="" icon="simple-icons:observable" aria-label="Icon observable from simple-icons Iconify.design set." title="Icon observable from simple-icons Iconify.design set."></iconify-icon></rosa></p>
-</div><div class="column" style="width:25%;">
-<p><rosa><iconify-icon role="img" inline="" icon="tabler:sql" aria-label="Icon sql from tabler Iconify.design set." title="Icon sql from tabler Iconify.design set."></iconify-icon></rosa></p>
-<p><br><rosa><iconify-icon role="img" inline="" icon="devicon-plain:bash" aria-label="Icon bash from devicon-plain Iconify.design set." title="Icon bash from devicon-plain Iconify.design set."></iconify-icon></rosa></p>
-</div><div class="column" style="width:25%;">
-<p><iconify-icon role="img" inline="" icon="vscode-icons:file-type-mermaid" aria-label="Icon file-type-mermaid from vscode-icons Iconify.design set." title="Icon file-type-mermaid from vscode-icons Iconify.design set."></iconify-icon></p>
-<p><br><rosa><iconify-icon role="img" inline="" icon="file-icons:graphviz" aria-label="Icon graphviz from file-icons Iconify.design set." title="Icon graphviz from file-icons Iconify.design set."></iconify-icon></rosa></p>
-</div></div>
+<div class="eqi-container">
+<p><iconify-icon role="img" inline="" icon="akar-icons:python-fill" aria-label="Icon python-fill from akar-icons Iconify.design set." title="Icon python-fill from akar-icons Iconify.design set."></iconify-icon></p>
+<p><iconify-icon role="img" inline="" icon="fa6-brands:r-project" aria-label="Icon r-project from fa6-brands Iconify.design set." title="Icon r-project from fa6-brands Iconify.design set."></iconify-icon></p>
+<p><iconify-icon role="img" inline="" icon="file-icons:julia" aria-label="Icon julia from file-icons Iconify.design set." title="Icon julia from file-icons Iconify.design set."></iconify-icon></p>
+<p><iconify-icon role="img" inline="" icon="simple-icons:observable" aria-label="Icon observable from simple-icons Iconify.design set." title="Icon observable from simple-icons Iconify.design set."></iconify-icon></p>
+</div>
+<div class="eqi-container">
+<p><iconify-icon role="img" inline="" icon="tabler:sql" aria-label="Icon sql from tabler Iconify.design set." title="Icon sql from tabler Iconify.design set."></iconify-icon></p>
+<p><iconify-icon role="img" inline="" icon="devicon-plain:bash" aria-label="Icon bash from devicon-plain Iconify.design set." title="Icon bash from devicon-plain Iconify.design set."></iconify-icon></p>
+<p><iconify-icon role="img" inline="" icon="simple-icons:mermaid" aria-label="Icon mermaid from simple-icons Iconify.design set." title="Icon mermaid from simple-icons Iconify.design set."></iconify-icon></p>
+<p><iconify-icon role="img" inline="" icon="file-icons:graphviz" aria-label="Icon graphviz from file-icons Iconify.design set." title="Icon graphviz from file-icons Iconify.design set."></iconify-icon></p>
+</div>
+
 <center>
 </center>
 </center></section><section class="slide level2"><h2>
@@ -651,10 +704,11 @@ flowchart LR
 <ul>
 <li><p><code>quarto manuscripts</code> está diseñado para escribir documentos científicos, con énfasis en la reproducibilidad, ya que se invita a los lectores a interesarse por los scripts (notebooks).</p></li>
 <li><p>Ofrece la posibilidad de generar formatos de salida estáticos (<code>.pdf</code>, <code>.docx</code>) que cumplan con un estilo dado por una revista.</p></li>
-<li><p><code>quarto publish</code> permite publicar el sitio web en Quarto Pub <iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon> o GitHub Pages.</p></li>
+<li><p><code>quarto publish</code> permite publicar el sitio web en Quarto Pub <iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon> o GitHub Pages <iconify-icon role="img" inline="" icon="mdi:github" aria-label="Icon github from mdi Iconify.design set." title="Icon github from mdi Iconify.design set."></iconify-icon>.</p></li>
 <li><p>Al combinarlo con <a href="https://docs.ropensci.org/targets/">targets</a>, las figuras/tablas/mapas se regeneran cada vez que se incorporan nuevos datos, o se modifican los scripts, actualizando los resultados.</p></li>
 </ul></section><section class="slide level2"><h2>
 <iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="Icon quarto from simple-icons Iconify.design set."></iconify-icon> QUARTO</h2>
+<p>Estructura de archivos y directorios.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3" data-code-line-numbers="|11,15,21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a>quarto_manuscript</span>
 <span id="cb3-2"><a href=""></a>├── bibliografía</span>
@@ -779,7 +833,7 @@ flowchart LR
 <div class="eqi-container">
 <p><iconify-icon role="img" inline="" icon="dashicons:html" aria-label="Icon html from dashicons Iconify.design set." title="Icon html from dashicons Iconify.design set."></iconify-icon></p>
 <p><iconify-icon role="img" inline="" icon="vscode-icons:file-type-mermaid" aria-label="Icon file-type-mermaid from vscode-icons Iconify.design set." title="Icon file-type-mermaid from vscode-icons Iconify.design set."></iconify-icon></p>
-<p><iconify-icon role="img" inline="" icon="devicon:latex" aria-label="Icon latex from devicon Iconify.design set." title="Icon latex from devicon Iconify.design set."></iconify-icon></p>
+<p><iconify-icon role="img" inline="" icon="file-icons:latex" aria-label="Icon latex from file-icons Iconify.design set." title="Icon latex from file-icons Iconify.design set."></iconify-icon></p>
 </div>
 </center>
 </section><section class="title-slide slide level1"><h1>Mejoras a futuro</h1>
@@ -840,6 +894,7 @@ flowchart LR
 <p><a href="https://rstudio.github.io/renv/articles/renv.html"><iconify-icon role="img" inline="" icon="humbleicons:link" aria-label="Icon link from humbleicons Iconify.design set." title="Icon link from humbleicons Iconify.design set."></iconify-icon> Introduction to renv</a></p>
 <p><a href="https://github.com/vhgauto/gistaq_parana"><iconify-icon role="img" inline="" icon="mdi:github" aria-label="Icon github from mdi Iconify.design set." title="Icon github from mdi Iconify.design set."></iconify-icon> Repositorio del sitio web</a></p>
 <p><a href="https://github.com/quarto-ext"><iconify-icon role="img" inline="" icon="mdi:github" aria-label="Icon github from mdi Iconify.design set." title="Icon github from mdi Iconify.design set."></iconify-icon> Quarto Extensions</a></p>
+<p><a href="https://github.com/citation-style-language/styles"><iconify-icon role="img" inline="" icon="mdi:github" aria-label="Icon github from mdi Iconify.design set." title="Icon github from mdi Iconify.design set."></iconify-icon> Estilos de citas bibliográficas</a></p>
 
 </section>
 </div>
@@ -951,7 +1006,7 @@ flowchart LR
         showNotes: false,
 
         // Global override for autoplaying embedded media (null/true/false)
-        autoPlayMedia: null,
+        autoPlayMedia: true,
 
         // Global override for preloading lazy-loaded iframes (null/true/false)
         preloadIframes: null,
