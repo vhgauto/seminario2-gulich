@@ -38,7 +38,7 @@ format:
     incremental: false
     logo: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png
     footer: |
-      <b><blanco>MS Víctor Gauto <rosa>{{< iconify svg-spinners:bouncing-ball >}}</rosa> Aplicación de <rosa>Quarto</rosa> en proyectos de investigación</blanco></b>
+      <b class="fondo-azul"><blanco>MS Víctor Gauto <rosa>{{< iconify svg-spinners:bouncing-ball >}}</rosa> Aplicación de <rosa>Quarto</rosa> en proyectos de investigación</blanco></b>
     slide-number: c/t
     progress: true
     hash-type: number
@@ -52,7 +52,6 @@ format:
     code-link: true
     include-in-header:
       - extras/favicon.html
-      - extras/mermaid.html
     theme:
       - mi_estilo.scss
 execute:
@@ -275,15 +274,15 @@ flowchart LR
 - Material de consulta y ver todo el <linea>esfuerzo realizado</linea>.
 
 <center>
-<rosa>{{< iconify carbon:development size=8x >}}</rosa>
+<span class="carbon--development"></span>
 </center>
 
 # Herramientas
 
-- <rosa>{{< iconify fa6-brands:r-project >}} R y  {{< iconify akar-icons:python-fill >}} Python</rosa>: lectura y obtención de datos, procesamiento y almacenamiento de resultados, generación de figuras, tablas y mapas.
+- <rosa>{{< iconify fa6-brands:r-project >}} R</rosa> y <rosa>{{< iconify akar-icons:python-fill >}} Python</rosa>: lectura y obtención de datos, procesamiento y almacenamiento de resultados, generación de figuras, tablas y mapas.
 <br>
 <br>
-- <rosa>{{< iconify fe:git >}} Git y {{< iconify mdi:github >}} GitHub</rosa>: gestión del control de versiones y colaboración entre integrantes del proyecto.
+- <rosa>{{< iconify fe:git >}} Git</rosa> y <rosa>{{< iconify mdi:github >}} GitHub</rosa>: gestión del control de versiones y colaboración entre integrantes del proyecto.
 <br>
 <br>
 - <rosa>{{< iconify simple-icons:quarto >}} Quarto</rosa>: compilar todo el contenido y publicación del sitio web.
@@ -477,38 +476,6 @@ Gestión de cambios del proyecto y permite la colaboración simultánea de los i
 <rosa style='font-size:4rem'>{{< iconify hugeicons:git-pull-request >}}</rosa> `pull request` para solicitar la incorporación de cambios
 
 <rosa style='font-size:4rem'>{{< iconify hugeicons:git-merge >}}</rosa> `merge` para combinar los cambios una vez revisados y aceptados
-
-## {{< iconify simple-icons:quarto >}} QUARTO
-
-- Permite combinar cálculos mediante lenguaje de programación y texto para generar un producto en múltiples formatos
-
-- Ofrece una plataforma para la publicación del producto generado y acceder al mismo como sitio web
-
-```{mermaid}
-%%{
-  init: {
-    'themeVariables': {
-      'edgeLabelBackground': '#224289',
-      'edgeLabel': 'red'
-    }
-  }
-}%%
-
-flowchart LR
-  s1[<span class="ant-design--code-filled"></span><br>scripts]:::e1 ==> q1[<span class="simple-icons--quarto"></span><br>quarto]:::e1
-
-  s2[<span class="material-symbols--markdown"></span><br>markdown]:::e1 ===> q1
-
-  s3[<span class="fe--document"></span><br>texto]:::e1 ===> q1
-
-  s4[<span class="file-icons--latex"></span><br>LaTeX]:::e1 ==> q1
-
-  q1 ==>|<b style='color:white'>pandoc</b>| h1[<span class="qlementine-icons--file-html-16"></span><br>html]:::e1
-
-  h1 ==>|<b style='color:white'>quarto pub</b>| w1[<span class="mdi--web"></span><br>sitio web]:::e1
-
-  classDef e1 stroke:none,color:#FFFFFF,fill:none;
-```
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
@@ -821,7 +788,11 @@ El desarrollo de este Proyecto de Investigación permitió que los integrantes a
 
 :::::
 
-# Recursos
+# Recursos {.smaller}
+
+::::: {.columns}
+
+:::: {.column width="35%"}
 
 ::: {.fondo}
 
@@ -830,6 +801,13 @@ El desarrollo de este Proyecto de Investigación permitió que los integrantes a
 [{{< iconify mdi:github >}} Repositorio de esta presentación](https://github.com/vhgauto/seminario2-gulich)
 
 :::
+
+::::
+
+:::: {.column width="65%"}
+::::
+
+:::::
 
 [{{< iconify mdi:youtube >}} Reproducible Manuscripts with Quarto - posit::conf(2023)](https://youtu.be/BoiW9UWDLY0?si=H9EnYi-xunEG5wYo)
 
