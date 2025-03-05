@@ -38,7 +38,7 @@ format:
     incremental: false
     logo: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png
     footer: |
-      <b class="fondo-azul"><blanco>MS Víctor Gauto <rosa>{{< iconify svg-spinners:bouncing-ball >}}</rosa> Elevate research projects with <quarto-portada>Quarto</quarto-portada>
+      <b class="fondo-azul"><blanco>MS Víctor Gauto <rosa>{{< iconify svg-spinners:bouncing-ball >}}</rosa> Elevate research projects with <rosa>Quarto</rosa>
     slide-number: c/t
     progress: true
     hash-type: number
