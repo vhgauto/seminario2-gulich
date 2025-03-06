@@ -54,6 +54,10 @@ $callout-border-width: 1rem;
 
 /*-- scss:rules --*/
 
+li::marker {
+    color: $rosa;
+}
+
 .fondo {
     background-color: $rosa;
     padding: 10px;
@@ -238,10 +242,6 @@ azul {
 
 code {
     border-radius: 5px;
-}
-
-li::marker {
-    color: $rosa;
 }
 
 .carbon--development {
