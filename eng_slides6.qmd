@@ -501,7 +501,7 @@ flowchart LR
 
   s4[<span class="file-icons--latex"></span>]:::e1 ==> q1
 
-  q1 ==>|<b style='color:white'>pandoc</b>| h1[<span class="qlementine-icons--file-html-16"></span><br>html]:::e1
+  q1 ==> h1[<span class="qlementine-icons--file-html-16"></span><br>html]:::e1
 
   h1 ==>|<b style='color:white'>quarto pub</b>| w1[<span class="mdi--web"></span><br>website]:::e1
 
@@ -650,27 +650,27 @@ The Project Research development allowed us to learn a new set of tools.
 
 :::: {.eqi-container}
 
-{{< iconify devicon:vscode >}}
+<lang-rosa>{{< iconify akar-icons:vscode-fill >}}</lang-rosa>
 
-{{< iconify devicon:git >}}
+<lang-rosa>{{< iconify iconoir:git-solid >}}</lang-rosa>
 
-{{< iconify fe:github >}}
+<lang-rosa>{{< iconify fe:github >}}</lang-rosa>
 
-{{< iconify simple-icons:quarto >}}
+<lang-rosa>{{< iconify simple-icons:quarto >}}</lang-rosa>
 
-{{< iconify devicon:python >}}
+<lang-rosa>{{< iconify akar-icons:python-fill >}}</lang-rosa>
 
 ::::
 
 :::: {.eqi-container}
 
-{{< iconify vscode-icons:file-type-scss >}}
+<lang-rosa>{{< iconify akar-icons:sass-fill >}}</lang-rosa>
 
-{{< iconify file-icons:bibtex >}}
+<lang-rosa>{{< iconify file-icons:bibtex >}}</lang-rosa>
 
-{{< iconify material-symbols:markdown >}}
+<lang-rosa>{{< iconify material-symbols:markdown >}}</lang-rosa>
 
-{{< iconify fa6-brands:r-project >}}
+<lang-rosa>{{< iconify fa6-brands:r-project >}}</lang-rosa>
 
 ![](https://raw.githubusercontent.com/posit-dev/positron/main/positron-product-icons/positron.png){width="100px"}
 
@@ -678,11 +678,11 @@ The Project Research development allowed us to learn a new set of tools.
 
 :::: {.eqi-container}
 
-{{< iconify dashicons:html >}}
+<lang-rosa>{{< iconify dashicons:html >}}</lang-rosa>
 
-{{< iconify vscode-icons:file-type-mermaid >}}
+<lang-rosa>{{< iconify simple-icons:mermaid >}}</lang-rosa>
 
-{{< iconify file-icons:latex >}}
+<lang-rosa>{{< iconify file-icons:latex >}}</lang-rosa>
 
 ::::
 
@@ -701,13 +701,13 @@ The Project Research development allowed us to learn a new set of tools.
 
 ::: {.r-fit-text}
 
-<azul style='font-family:Rufina'>**Thanks for your time**</azul>
+<gracias>**Thanks for your time**</gracias>
 
 :::
 
 ::::: {.columns}
 
-::: {.fondo-azul}
+::: {.fondo-azul-gracias}
 
 :::: {.column width="50%"}
 [<gris>{{< iconify ic:round-home >}} MS Víctor Gauto</gris>](https://vhgauto.github.io/)
