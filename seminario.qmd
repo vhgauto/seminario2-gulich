@@ -791,7 +791,7 @@ The Project Research development allowed us to learn a new set of tools.
 
 ::: {.fondo}
 
-[{{< iconify ph:download-fill >}} **Download** {{< iconify dashicons:pdf >}}](https://raw.githubusercontent.com/vhgauto/seminario2-gulich/main/slides6.pdf)
+[{{< iconify ph:download-fill >}} **Download** {{< iconify dashicons:pdf >}}](https://raw.githubusercontent.com/vhgauto/seminario2-gulich/main/seminario.pdf)
 
 [{{< iconify mdi:github >}} **This presentation repository** ](https://github.com/vhgauto/seminario2-gulich)
 
