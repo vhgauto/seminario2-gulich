@@ -11,6 +11,7 @@ slides5.*
 eng_slides6_files/
 TEST*
 versiones_viejas/
+seminario_files/
 
 # History files
 .Rhistory
