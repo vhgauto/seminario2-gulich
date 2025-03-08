@@ -23,7 +23,8 @@ $blanco: #FFFFFF;
 $celeste: lighten($azul, 60);
 $gris: #c0c0c0 ;
 $rosa: #EA99C0;
-$rosa-claro: #000000;
+$negro: #000000;
+$rosa-claro: lighthen($rosa, 60);
 $code-bg: $celeste;
 
 // colors
@@ -78,7 +79,7 @@ li::marker {
 }
 
 :root {
-    --quarto-hl-fu-color: #{$rosa-claro};
+    --quarto-hl-fu-color: #{$negro};
 }
 
 .reveal .footer > * {
@@ -237,7 +238,6 @@ azul {
 .fondo-azul-gracias {
     background-color: $azul;
     padding: 5px;
-    border: solid 2px $blanco;
 }
 
 code {
@@ -264,7 +264,7 @@ gracias {
     font-family: "Rufina";
     color: $azul;
     font-weight: bold;
-    text-shadow: 3px 3px $blanco;
+    text-shadow: 2px 2px $blanco;
 }
 
 // QUARTO
