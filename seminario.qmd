@@ -31,10 +31,10 @@ author:
         url: http://www.irea.cnr.it/
 format:
   revealjs:
+    embed-resources: false
     auto-play-media: true
     highlight-style: kate
     width: 1200
-    embed-resources: true
     incremental: false
     logo: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png
     footer: |
@@ -701,7 +701,7 @@ The Project Research development allowed us to learn a new set of tools.
 - Organice website visual features (colors, fonts, styles, margins) in the `.scss` file.
 - Use the full potential of `quarto manuscript`, so the results are created by the notebooks.
 
-# {background-color="#c0c0c0"}
+# {background-color="#EA99C0"}
 
 ::: {.r-fit-text}
 
@@ -709,76 +709,82 @@ The Project Research development allowed us to learn a new set of tools.
 
 :::
 
-::::: {.columns}
+:::::: {.columns}
 
-::: {.fondo-azul-gracias}
+::::: {.fondo-azul-gracias}
 
-:::: {.column width="50%"}
-[<gris>{{< iconify ic:round-home >}} MS Víctor Gauto</gris>](https://vhgauto.github.io/)
+:::: {.column width="45%"}
+[<blanco>{{< iconify ic:round-home >}} </blanco> <rosa> MS Víctor Gauto</rosa>](https://vhgauto.github.io/)
 
-[<gris>{{< iconify ic:outline-email >}} victor.gauto@ca.frre.utn.edu.ar</gris>](mailto:victor.gauto@ca.frre.utn.edu.ar)
+[<blanco>{{< iconify ic:outline-email >}} </blanco> <rosa> victor.gauto@ca.frre.utn.edu.ar</rosa>](mailto:victor.gauto@ca.frre.utn.edu.ar)
 ::::
 
-:::: {.column width="30%"}
+:::: {.column width="35%"}
 
 ::: {.eqi-container}
 
-[<gris style='font-size:2em'>{{< iconify mdi:twitter >}}</gris>](https://twitter.com/vhgauto)
+[<rosa style='font-size:2em'>{{< iconify mdi:twitter >}}</rosa>](https://twitter.com/vhgauto)
 
-[<gris style='font-size:2em'>{{< iconify mdi:instagram >}}</gris>](https://www.instagram.com/vhgauto/)
+[<rosa style='font-size:2em'>{{< iconify mdi:instagram >}}</rosa>](https://www.instagram.com/vhgauto/)
 
-[<gris style='font-size:2em'>{{< iconify mdi:github >}}</gris>](https://github.com/vhgauto)
+[<rosa style='font-size:2em'>{{< iconify mdi:github >}}</rosa>](https://github.com/vhgauto)
 
-[<gris style='font-size:2em'>{{< iconify ri:bluesky-fill >}}</gris>](https://bsky.app/profile/vhgauto.bsky.social)
+[<rosa style='font-size:2em'>{{< iconify ri:bluesky-fill >}}</rosa>](https://bsky.app/profile/vhgauto.bsky.social)
 
-[<gris style='font-size:2em'>{{< iconify mdi:mastodon >}}</gris>](https://fosstodon.org/@vhgauto)
+[<rosa style='font-size:2em'>{{< iconify mdi:mastodon >}}</rosa>](https://fosstodon.org/@vhgauto)
 
 :::
 
 ::::
 
-:::
-
-:::: {.column width="20%"}
+:::: {.column style="margin-top:20px; width:15%"}
+<blanco style='font-family:JetBrains Mono; font-size:1.3em'>/vhgauto</blanco>
 ::::
 
 :::::
 
+::::::
+
+<!--  -->
+
 ::::: {.columns}
+
+:::: {.column width="20%"}
+::::
 
 :::: {.column width="60%"}
 
 ::: {.eqi-container}
 
-![](img/Gistaq_sinfondo.png){height="75px"}
+![](img/Gistaq_sinfondo.png){height="70px"}
 
-![](img/logo_utn6.png){height="75px"}
+![](img/logo_utn6.png){height="70px"}
 
-![](https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png){height="75px"}
-
-:::
-
-::: {.eqi-container}
-
-![](img/CONAE.png){height="75px"}
-
-![](https://difusion.pci.unc.edu.ar/unc/files/identidad_visual/UNC_03_NEGRO.svg){height="75px"}
-
-![](img/iidthh.png){height="75px"}
+![](https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png){height="70px"}
 
 :::
 
 ::: {.eqi-container}
 
-![](https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png){height="75px"}
+![](img/CONAE.png){height="70px"}
 
-![](img/06%20UNNE%20Justificado%20Color.png){height="75px"}
+![](https://difusion.pci.unc.edu.ar/unc/files/identidad_visual/UNC_03_NEGRO.svg){height="70px"}
+
+![](img/iidthh.png){height="70px"}
+
+:::
+
+::: {.eqi-container}
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png){height="70px"}
+
+![](img/06%20UNNE%20Justificado%20Color.png){height="70px"}
 
 :::
 
 ::::
 
-:::: {.column width="40%"}
+:::: {.column width="20%"}
 ::::
 
 :::::
