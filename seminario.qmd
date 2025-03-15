@@ -31,7 +31,7 @@ author:
         url: http://www.irea.cnr.it/
 format:
   revealjs:
-    embed-resources: false
+    embed-resources: true
     auto-play-media: true
     highlight-style: kate
     width: 1200
@@ -249,6 +249,8 @@ flowchart LR
     a3 ==> a4([Paper])
     a3 ==> a5([Conference])
     a3 ==> a6([Report])
+
+classDef default stroke:#FFC0CB,color:#FFFFFF,fill:#224289;
 ```
 
 . . .
@@ -468,13 +470,13 @@ Copernicus Data Space
 
 Version control management and simultaneous collaboration between project members.
 
-<rosa style='font-size:4rem'>{{< iconify mdi:github >}}</rosa> `github` cloud storage service
+<rosa style='font-size:4rem'>{{< iconify mdi:github >}}</rosa> `github` cloud storage service.
 
-<rosa style='font-size:4rem'>{{< iconify hugeicons:git-branch >}}</rosa> `branch` per member, so each one works in a specific section without interfering with the remaining repository
+<rosa style='font-size:4rem'>{{< iconify hugeicons:git-branch >}}</rosa> `branch` per member, so each one works in a specific section without interfering with the remaining repository.
 
-<rosa style='font-size:4rem'>{{< iconify hugeicons:git-pull-request >}}</rosa> `pull request` to request adding changes
+<rosa style='font-size:4rem'>{{< iconify hugeicons:git-pull-request >}}</rosa> `pull request` to request adding changes.
 
-<rosa style='font-size:4rem'>{{< iconify hugeicons:git-merge >}}</rosa> `merge` to combine changes once checked and accepted
+<rosa style='font-size:4rem'>{{< iconify hugeicons:git-merge >}}</rosa> `merge` to combine changes once checked and accepted.
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
@@ -544,7 +546,7 @@ flowchart LR
 
 - Offers multiple static outputs (`.pdf`, `.docx`) that follow an specific template from a magazine.
 
-- `quarto publish` allows to deploy the website in Quarto Pub {{< iconify simple-icons:quarto >}} or GitHub Pages {{< iconify mdi:github >}}.
+- `quarto publish` allows to deploy the website in <rosa>Quarto Pub {{< iconify simple-icons:quarto >}}</rosa> or <rosa>GitHub Pages {{< iconify mdi:github >}}</rosa>.
 
 - In combination with `{targets}`, plots/tables/maps are regenerated with new data input, or script modification, updating the results.
 
@@ -684,6 +686,8 @@ The Project Research development allowed us to learn a new set of tools.
 
 <lang-rosa>{{< iconify file-icons:latex >}}</lang-rosa>
 
+<lang-rosa>{{< iconify simple-icons:typst >}}</lang-rosa>
+
 ::::
 
 </center>
@@ -714,24 +718,24 @@ The Project Research development allowed us to learn a new set of tools.
 ::::: {.fondo-azul-gracias}
 
 :::: {.column width="45%"}
-[<blanco>{{< iconify ic:round-home >}} </blanco> <rosa> MS Víctor Gauto</rosa>](https://vhgauto.github.io/)
+[<blanco>{{< iconify ic:round-home >}} MS Víctor Gauto</blanco>](https://vhgauto.github.io/)
 
-[<blanco>{{< iconify ic:outline-email >}} </blanco> <rosa> victor.gauto@ca.frre.utn.edu.ar</rosa>](mailto:victor.gauto@ca.frre.utn.edu.ar)
+[<blanco>{{< iconify ic:outline-email >}} victor.gauto@ca.frre.utn.edu.ar</blanco>](mailto:victor.gauto@ca.frre.utn.edu.ar)
 ::::
 
 :::: {.column width="35%"}
 
 ::: {.eqi-container}
 
-[<rosa style='font-size:2em'>{{< iconify mdi:twitter >}}</rosa>](https://twitter.com/vhgauto)
+[<blanco style='font-size:2em'>{{< iconify mdi:twitter >}}</blanco>](https://twitter.com/vhgauto)
 
-[<rosa style='font-size:2em'>{{< iconify mdi:instagram >}}</rosa>](https://www.instagram.com/vhgauto/)
+[<blanco style='font-size:2em'>{{< iconify mdi:instagram >}}</blanco>](https://www.instagram.com/vhgauto/)
 
-[<rosa style='font-size:2em'>{{< iconify mdi:github >}}</rosa>](https://github.com/vhgauto)
+[<blanco style='font-size:2em'>{{< iconify mdi:github >}}</blanco>](https://github.com/vhgauto)
 
-[<rosa style='font-size:2em'>{{< iconify ri:bluesky-fill >}}</rosa>](https://bsky.app/profile/vhgauto.bsky.social)
+[<blanco style='font-size:2em'>{{< iconify ri:bluesky-fill >}}</blanco>](https://bsky.app/profile/vhgauto.bsky.social)
 
-[<rosa style='font-size:2em'>{{< iconify mdi:mastodon >}}</rosa>](https://fosstodon.org/@vhgauto)
+[<blanco style='font-size:2em'>{{< iconify mdi:mastodon >}}</blanco>](https://fosstodon.org/@vhgauto)
 
 :::
 
@@ -744,8 +748,6 @@ The Project Research development allowed us to learn a new set of tools.
 :::::
 
 ::::::
-
-<!--  -->
 
 ::::: {.columns}
 
@@ -822,9 +824,11 @@ The Project Research development allowed us to learn a new set of tools.
 
 [{{< iconify humbleicons:link >}} Introduction to renv](https://rstudio.github.io/renv/articles/renv.html)
 
-[{{< iconify humbleicons:link >}} R for Data Science (2e)](https://r4ds.hadley.nz/)
+[{{< iconify bytesize:book >}} R for Data Science (2e)](https://r4ds.hadley.nz/)
 
-[{{< iconify humbleicons:link >}} ggiraph-book](https://www.ardata.fr/ggiraph-book/)
+[{{< iconify bytesize:book >}} ggiraph-book](https://www.ardata.fr/ggiraph-book/)
+
+[{{< iconify bytesize:book >}} Quarto: The Definitive Guide](https://quarto-tdg.org/)
 
 [{{< iconify mdi:github >}} Website repository](https://github.com/vhgauto/gistaq_parana)
 
