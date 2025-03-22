@@ -1,0 +1,9 @@
+<style>
+  body:has(.present.hide-logo) {
+    --logo-display: none;
+  }
+
+  .slide-logo {
+    display: var(--logo-display, block) !important;
+  }
+</style>
