@@ -12,6 +12,9 @@
 // Noto Sans
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+// Fleur De Leah
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+
 // fuente
 $font-family-sans-serif: "Noto Sans", serif !default;
 $font-family-monospace: "JetBrains Mono";
@@ -22,6 +25,7 @@ $azul: #224289;
 $blanco: #FFFFFF;
 $celeste: lighten($azul, 60);
 $gris: #c0c0c0 ;
+$gris2: #4D4D4D;
 $rosa: #EA99C0;
 $negro: #000000;
 $rosa-claro: lighthen($rosa, 60);
@@ -55,6 +59,23 @@ $callout-border-width: 1rem;
 
 /*-- scss:rules --*/
 
+.fin {
+    font-family: "Fleur De Leah";
+    color: $gris2;
+}
+
+div.reveal.has-logo div.slide-number {
+    font-family: "JetBrains Mono";
+    color: $gris;
+    font-size: .5em;
+}
+
+.header-section-number {
+    font-family: "JetBrains Mono";
+    color: $blanco;
+    font-size: .6em;
+}
+
 li::marker {
     color: $rosa;
 }
@@ -80,6 +101,7 @@ li::marker {
 
 :root {
     --quarto-hl-fu-color: #{$negro};
+    --header-font-color: #{$rosa};
 }
 
 .reveal .footer > * {
@@ -155,11 +177,6 @@ caa {
     color: $gris;
     font-size: 1rem;
     margin-top: 150px imporant;
-}
-
-.reveal .slide-number {
-    font-family: "JetBrains Mono";
-    color: $gris;
 }
 
 .reveal .footer > * {
