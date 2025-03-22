@@ -31,7 +31,8 @@ author:
         url: http://www.irea.cnr.it/
 format:
   revealjs:
-    embed-resources: true
+    embed-resources: false
+    number-sections: true
     auto-play-media: true
     highlight-style: kate
     width: 1200
@@ -39,7 +40,7 @@ format:
     logo: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png
     footer: |
       <b class="fondo-azul"><blanco>MS Víctor Gauto <rosa>{{< iconify svg-spinners:bouncing-ball >}}</rosa> Elevate research projects with <rosa>Quarto</rosa>
-    slide-number: c/t
+    slide-number: true
     progress: true
     hash-type: number
     date: today
@@ -52,6 +53,9 @@ format:
     code-link: true
     include-in-header:
       - extras/favicon.html
+      - extras/hide-logo.html
+    include-after-body:
+      - extras/hide-menu.html
     theme:
       - mi_estilo.scss
 execute:
@@ -63,11 +67,12 @@ editor_options:
 
 # Content
 
-- Introduction
-- Motivation
-- Tools
-- Future improvements
-- Resources
+- Introduction ([{{< iconify icomoon-free:section >}} @sec-introduction])
+- Motivation ([{{< iconify icomoon-free:section >}} @sec-motivation])
+- Tools ([{{< iconify icomoon-free:section >}} @sec-tools])
+- Conclusion ([{{< iconify icomoon-free:section >}} @sec-conclusion])
+- Future improvements ([{{< iconify icomoon-free:section >}} @sec-future])
+- Resources ([{{< iconify icomoon-free:section >}} @sec-resources])
 
 ::: {.r-fit-text}
 
@@ -77,7 +82,7 @@ https://vhgauto.quarto.pub/seminario2-gulich/
 
 :::
 
-# Introduction
+# Introduction {#sec-introduction}
 
 ::: {.callout title="Research project"}
 
@@ -212,7 +217,7 @@ Collaborative website with automatic running, interactive and open source.
 
 ::::
 
-##
+## {.unnumbered}
 
 ::: {.r-fit-text}
 
@@ -228,7 +233,7 @@ https://vhgauto.quarto.pub/gistaq-parana/
 
 :::
 
-# Motivation
+# Motivation {#sec-motivation}
 
 Research project typical life journey.
 
@@ -280,7 +285,7 @@ classDef default stroke:#FFC0CB,color:#FFFFFF,fill:#224289;
 <span class="carbon--development"></span>
 </center>
 
-# Tools
+# Tools {#sec-tools}
 
 - <rosa>{{< iconify fa6-brands:r-project >}} R</rosa> y <rosa>{{< iconify akar-icons:python-fill >}} Python</rosa>: reading and data collection; processing and results storage; plots, tables and maps generation.
 
@@ -644,7 +649,7 @@ format:
       url: https://vhgauto.quarto.pub/gistaq-parana
 ```
 
-# Conclusion
+# Conclusion {#sec-conclusion}
 
 The Project Research development allowed us to learn a new set of tools.
 
@@ -692,7 +697,7 @@ The Project Research development allowed us to learn a new set of tools.
 
 </center>
 
-# Future improvements
+# Future improvements {#sec-future}
 
 - Rewrite functions used by `{targets}`.
   + Define arguments clearly.
@@ -705,7 +710,7 @@ The Project Research development allowed us to learn a new set of tools.
 - Organice website visual features (colors, fonts, styles, margins) in the `.scss` file.
 - Use the full potential of `quarto manuscript`, so the results are created by the notebooks.
 
-# {background-color="#EA99C0"}
+# {.unnumbered background-color="#EA99C0"}
 
 ::: {.r-fit-text}
 
@@ -791,7 +796,7 @@ The Project Research development allowed us to learn a new set of tools.
 
 :::::
 
-# Resources {.smaller}
+# Resources {#sec-resources .smaller}
 
 ::::: {.columns}
 
@@ -835,3 +840,19 @@ The Project Research development allowed us to learn a new set of tools.
 [{{< iconify mdi:github >}} Quarto Extensions](https://github.com/quarto-ext)
 
 [{{< iconify mdi:github >}} Official repository for Citation Style Language (CSL) citation styles](https://github.com/citation-style-language/styles)
+
+# {data-hide-slide-number="true" .unnumbered .unlisted background-color="#333333" footer='false' .hide-logo .center}
+
+:::: {.r-fit-text}
+
+<center>
+
+::: {.fin}
+
+The End
+
+:::
+
+</center>
+
+::::
