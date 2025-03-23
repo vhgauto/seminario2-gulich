@@ -59,6 +59,17 @@ $callout-border-width: 1rem;
 
 /*-- scss:rules --*/
 
+.reveal .slides section .fragment.hl-blanco {
+  opacity: unset;
+  visibility: unset;
+
+  &.visible, &.current-fragment {
+      color: $azul;
+      background-color: $blanco;
+      border-radius: 3px;
+  }
+}
+
 .fin {
     font-family: "Fleur De Leah";
     color: $gris2;
