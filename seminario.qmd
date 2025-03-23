@@ -3,7 +3,7 @@ title: "Elevate research projects with <quarto-portada>Quarto</quarto-portada>"
 title-slide-attributes:
   data-background-color: "#224289"
 author:
-  - name: "<vhg>MS Víctor Gauto</vhg>"
+  - name: "<vhg>**MS** Víctor Gauto</vhg>"
     affiliation:
       - name: "<rosa><b>GISTAQ</b> (UTN-FRRe)</rosa>"
         url: https://www.instagram.com/gistaq.utn/
@@ -13,19 +13,19 @@ author:
         url: https://ig.conae.unc.edu.ar/
     email: victor.gauto@ca.free.utn.edu.ar
     corresponding: true
-  - name: "Dr. Matías Bonansea"
+  - name: "**Dr.** Matías Bonansea"
     affiliation:
       - name: "<b>ICBIA</b> (UNRC, CONICET)"
         url: https://icbia.conicet.gov.ar/
-  - name: "Dr. Anabella Ferral"
+  - name: "**Dr.** Anabella Ferral"
     affiliation:
       - name: "<b>Instituto Gulich</b> (UNC, CONAE)"
         url: https://ig.conae.unc.edu.ar/
-  - name: "Dr. Osvaldo Cardozo"
+  - name: "**Dr.** Osvaldo Cardozo"
     affiliation:
       - name: "<b>IIDTHH</b> (UNNE, CONICET)"
         url: https://iidthh.conicet.gov.ar/
-  - name: "Dr. Claudia Giardino"
+  - name: "**Dr.** Claudia Giardino"
     affiliation:
       - name: "<b>IREA</b> (CNR)"
         url: http://www.irea.cnr.it/
@@ -268,17 +268,17 @@ classDef default stroke:#FFC0CB,color:#FFFFFF,fill:#224289;
 
 ## During the project development
 
-- <linea>Dynamic document</linea>, that adapts to the current project state.
+- [Dynamic document]{.fragment .hl-blanco}, that adapts to the current project state.
 
-- <linea>Easy access</linea> site to check the latest results.
+- [Easy access]{.fragment .hl-blanco} site to check the latest results.
 
-- <linea>Unified</linea> reference search.
+- [Unified]{.fragment .hl-blanco} reference search.
 
-- Script code execution and results <linea>reproducibility</linea>.
+- Script code execution and results [reproducibility]{.fragment .hl-blanco}.
 
-- All project members can work seamless and without problems and <linea>no fear of disarranging the document</linea>.
+- All project members can work seamless and without problems and [no fear of disarranging the document]{.fragment .hl-blanco}.
 
-- Consultation resource and to admire all the <linea>effort done</linea>.
+- Consultation resource and to admire all the [effort]{.fragment .hl-blanco} done.
 
 
 <center>
@@ -485,9 +485,9 @@ Version control management and simultaneous collaboration between project member
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
-- Combines code execution by programming language and narrative text to create a product in multiple formatted options
+- Combines code execution by [programming language]{.fragment .hl-blanco fragment-index=1} and [narrative text]{.fragment .hl-blanco fragment-index=1} to create a product in multiple formatted options
 
-- Offers a publishing platform for the output and to access it as a website
+- Offers a [publishing platform]{.fragment .hl-blanco fragment-index=2} for the output and to access it as a website
 
 ```{mermaid}
 %%{
@@ -547,13 +547,13 @@ flowchart LR
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
-- `quarto manuscript` is design for scientific document authoring, with emphasis in reproducibility, since it encourages the readers to explore processing scripts (<i>notebooks</i>).
+- **Manuscript** is design for [scientific document authoring]{.fragment .hl-blanco}, with emphasis in reproducibility, since it encourages the readers to explore processing scripts (<i>notebooks</i>).<br><br>
 
-- Offers multiple static outputs (`.pdf`, `.docx`) that follow an specific template from a magazine.
+- Offers [multiple static outputs]{.fragment .hl-blanco} that follow an specific template from a magazine.<br><br>
 
-- `quarto publish` allows to deploy the website in <rosa>Quarto Pub {{< iconify simple-icons:quarto >}}</rosa> or <rosa>GitHub Pages {{< iconify mdi:github >}}</rosa>.
+- It allows to [deploy the website]{.fragment .hl-blanco} in <rosa>Quarto Pub {{< iconify simple-icons:quarto >}}</rosa> or <rosa>GitHub Pages {{< iconify mdi:github >}}</rosa>.<br><br>
 
-- In combination with `{targets}`, plots/tables/maps are regenerated with new data input, or script modification, updating the results.
+- In combination with `{targets}`, plots/tables/maps are regenerated with new data input, or script modification, [updating the results]{.fragment .hl-blanco}.
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
@@ -651,7 +651,7 @@ format:
 
 # Conclusion {#sec-conclusion}
 
-The Project Research development allowed us to learn a new set of tools.
+The **Research Project** development allowed us to learn a [new set of tools]{.fragment .hl-blanco}.
 
 <center style='font-size:3em'>
 
@@ -699,16 +699,15 @@ The Project Research development allowed us to learn a new set of tools.
 
 # Future improvements {#sec-future}
 
-- Rewrite functions used by `{targets}`.
+- [Rewrite functions]{.fragment .hl-blanco} used by `{targets}`.
   + Define arguments clearly.
   + Return descriptive messages during runtime and in case of errors.
   + Incorporate website rendering.
-- Optimize satellite data download, avoiding to get the entire product.
+- Optimize satellite data download, [avoiding to get the entire product]{.fragment .hl-blanco}.
   + {{< iconify simple-icons:googleearthengine >}} Google Earth Engine.
   + {{< iconify fa6-brands:r-project >}}&nbsp;`{rsi}` package.
-- Generate a `.pdf` version of the website for easy sharing.
-- Organice website visual features (colors, fonts, styles, margins) in the `.scss` file.
-- Use the full potential of `quarto manuscript`, so the results are created by the notebooks.
+- [Organice website visual features]{.fragment .hl-blanco} (colors, fonts, styles, margins) in the `.scss` file.
+- Use the full potential of **Manuscript**, so the [results are created by the notebooks]{.fragment .hl-blanco}.
 
 # {.unnumbered background-color="#EA99C0"}
 
