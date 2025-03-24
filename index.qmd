@@ -856,19 +856,3 @@ The End
 </center>
 
 ::::
-
-# {background-iframe="stars/index.html"}
-
-:::: {.r-fit-text}
-
-<center>
-
-::: {.fin}
-
-The End
-
-:::
-
-</center>
-
-::::
