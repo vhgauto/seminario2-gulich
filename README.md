@@ -2,7 +2,7 @@
 
 <center>
 
-## [LINK](https://vhgauto.quarto.pub/seminario2-gulich/)
+## [LINK](https://vhgauto.github.io/seminario2-gulich)
 
 </center>
 
