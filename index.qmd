@@ -1,0 +1,874 @@
+---
+title: "Elevate research projects with <quarto-portada>Quarto</quarto-portada>"
+title-slide-attributes:
+  data-background-color: "#224289"
+author:
+  - name: "<vhg>**MS** Víctor Gauto</vhg>"
+    affiliation:
+      - name: "<rosa><b>GISTAQ</b> (UTN-FRRe)</rosa>"
+        url: https://www.instagram.com/gistaq.utn/
+      - name: "<rosa><b>IIDTHH</b> (UNNE, CONICET)</rosa>"
+        url: https://iidthh.conicet.gov.ar/
+      - name: "<rosa><b>Instituto Gulich</b> (UNC, CONAE)<rosa>"
+        url: https://ig.conae.unc.edu.ar/
+    email: victor.gauto@ca.free.utn.edu.ar
+    corresponding: true
+  - name: "**Dr.** Matías Bonansea"
+    affiliation:
+      - name: "<b>ICBIA</b> (UNRC, CONICET)"
+        url: https://icbia.conicet.gov.ar/
+  - name: "**Dr.** Anabella Ferral"
+    affiliation:
+      - name: "<b>Instituto Gulich</b> (UNC, CONAE)"
+        url: https://ig.conae.unc.edu.ar/
+  - name: "**Dr.** Osvaldo Cardozo"
+    affiliation:
+      - name: "<b>IIDTHH</b> (UNNE, CONICET)"
+        url: https://iidthh.conicet.gov.ar/
+  - name: "**Dr.** Claudia Giardino"
+    affiliation:
+      - name: "<b>IREA</b> (CNR)"
+        url: http://www.irea.cnr.it/
+format:
+  revealjs:
+    embed-resources: true
+    number-sections: true
+    auto-play-media: true
+    highlight-style: kate
+    width: 1200
+    incremental: false
+    logo: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png
+    footer: |
+      <b class="fondo-azul"><blanco>MS Víctor Gauto <rosa>{{< iconify svg-spinners:bouncing-ball >}}</rosa> Elevate research projects with <rosa>Quarto</rosa>
+    slide-number: true
+    progress: true
+    hash-type: number
+    date: today
+    center-title-slide: false
+    transition: none
+    navigation-mode: linear
+    link-external-icon: false
+    link-external-newwindow: true
+    code-copy: true
+    code-link: true
+    include-in-header:
+      - extras/favicon.html
+      - extras/hide-logo.html
+    include-after-body:
+      - extras/hide-menu.html
+    theme:
+      - mi_estilo.scss
+execute:
+  echo: false
+  eval: true
+editor_options:
+  chunk_output_type: console
+preload-iframes: true
+---
+
+# Content
+
+- Introduction ([{{< iconify icomoon-free:section >}} @sec-introduction])
+- Motivation ([{{< iconify icomoon-free:section >}} @sec-motivation])
+- Tools ([{{< iconify icomoon-free:section >}} @sec-tools])
+- Conclusion ([{{< iconify icomoon-free:section >}} @sec-conclusion])
+- Future improvements ([{{< iconify icomoon-free:section >}} @sec-future])
+- Resources ([{{< iconify icomoon-free:section >}} @sec-resources])
+
+::: {.r-fit-text}
+
+```r
+https://vhgauto.quarto.pub/seminario2-gulich/
+```
+
+:::
+
+# Introduction {#sec-introduction}
+
+::: {.callout title="Research project"}
+
+<p style='font-size:2rem'>
+To estimate water quality indicators in Paraná River middle basin for algorithm development using satellite remote sensing techniques
+</p>
+
+:::
+
+::: {.columns}
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="35%"}
+![](img/logo_utn7.png)
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="35%"}
+![](img/Gistaq_sinfondo.png)
+:::
+
+::: {.column width="10%"}
+:::
+
+:::
+
+Collaborative website with automatic running, interactive and open source.
+
+## Front page
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+- Authors
+- Affiliation
+- Last modified date
+- Keywords
+- More resources links
+
+:::
+
+::: {.column width="70%"}
+
+![](img/portada.png){width="60%" fig-align="center"}
+
+:::
+
+::::
+
+## Table of content
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+- Sections and subsections
+- Ease website navigation
+- Variable content according to the development
+
+:::
+
+::: {.column width="60%"}
+
+![](img/toc.png){width="40%" fig-align="center"}
+
+:::
+
+::::
+
+## Notebooks
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+- Source code description
+- Processing data justification
+- Calculus methodology explanation to promote reproducibility
+
+:::
+
+::: {.column width="60%"}
+
+![](img/notebooks.png){fig-align="center"}
+
+:::
+
+::::
+
+## References
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+- Formatted references according to desired style (`.csl`)
+- Reference preview on citation hover
+
+:::
+
+::: {.column width="60%"}
+
+![](img/referencias.png){fig-align="center"}
+
+:::
+
+::::
+
+## Maps, tables & interactive plots
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+- Results visualization
+- Correlation between parameters exploration
+- Spectral properties description
+- Sample site location
+
+:::
+
+::: {.column width="60%"}
+
+![](vid/mapa.mp4){loop="true"}
+
+:::
+
+::::
+
+## {.unnumbered}
+
+::: {.r-fit-text}
+
+[Web site {{< iconify tabler:external-link >}}](https://vhgauto.quarto.pub/gistaq-parana/)
+
+:::
+
+::: {.r-fit-text}
+
+```r
+https://vhgauto.quarto.pub/gistaq-parana/
+```
+
+:::
+
+# Motivation {#sec-motivation}
+
+Research project typical life journey.
+
+```{mermaid}
+
+%%{
+  init: {
+    'themeVariables': {
+      'edgeLabelBackground': '#224289'
+    }
+  }
+}%%
+
+flowchart LR
+    a1[Thinking] ==> a2[Beginning]
+    a2 ====> |<span class="svg-spinners--clock"></span>| a3[Main goal]
+
+    a3 ==> a4([Paper])
+    a3 ==> a5([Conference])
+    a3 ==> a6([Report])
+
+classDef default stroke:#FFC0CB,color:#FFFFFF,fill:#224289;
+```
+
+. . .
+
+- Water sampling
+- Physicochemical test
+- Partial results analyses
+- Reference reading
+- Other tasks
+
+## During the project development
+
+- [Dynamic document]{.fragment .hl-blanco}, that adapts to the current project state.
+
+- [Easy access]{.fragment .hl-blanco} site to check the latest results.
+
+- [Unified]{.fragment .hl-blanco} reference search.
+
+- Script code execution and results [reproducibility]{.fragment .hl-blanco}.
+
+- All project members can work seamless and without problems and [no fear of disarranging the document]{.fragment .hl-blanco}.
+
+- Consultation resource and to admire all the [effort]{.fragment .hl-blanco} done.
+
+
+<center>
+<span class="carbon--development"></span>
+</center>
+
+# Tools {#sec-tools}
+
+- <rosa>{{< iconify fa6-brands:r-project >}} R</rosa> y <rosa>{{< iconify akar-icons:python-fill >}} Python</rosa>: reading and data collection; processing and results storage; plots, tables and maps generation.
+
+- <rosa>{{< iconify fe:git >}} Git</rosa> y <rosa>{{< iconify mdi:github >}} GitHub</rosa>: version control management and project members collaboration.
+
+- <rosa>{{< iconify simple-icons:quarto >}} Quarto</rosa>: to content compilation and website publishing.
+  + `manuscript` allows website creation with an emphasis in reproducibility and targeted to scientific and academic documents.
+
+## {{< iconify fa6-brands:r-project >}} R
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+![](https://raw.githubusercontent.com/ropensci/targets/refs/heads/main/man/figures/logo.png){width="150px" fig-align="center"}
+
+:::
+
+::: {.column width="80%"}
+
+`{targets}` allows automatic functions execution and dependencies management between them.
+
+Check current workflow state and execute only outdated targets.
+
+File monitoring and code re-execution when change detection.
+
+:::
+
+::::
+
+## {{< iconify fa6-brands:r-project >}} R
+
+```{mermaid}
+%%| fig-align: center
+%%| file: extras/mermaid.mmd
+```
+
+## {{< iconify fa6-brands:r-project >}} R
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+![](img/renv.png){width="150px" fig-align="center"}
+
+:::
+
+::: {.column width="80%"}
+
+`{renv}` execution environment management, package version and its dependencies.
+
+Log file that allows environment reproducibility.
+
+:::
+
+::::
+
+![](https://rstudio.github.io/renv/articles/renv.png){width="40%" fig-align="center"}
+
+## {{< iconify fa6-brands:r-project >}} R
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+![](https://tidyverse.tidyverse.org/logo.png){width="150px" fig-align="center"}
+
+:::
+
+::: {.column width="80%"}
+
+`{tidyverse}` with multiple packages for general purpose data processing and manipulation.
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+![](https://rspatial.github.io/terra/logo.png){width="150px" fig-align="center"}
+
+:::
+
+::: {.column width="80%"}
+
+`{terra}` for geographic data processing and vector and raster reading.
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+![](https://corrr.tidymodels.org/logo.png){width="150px" fig-align="center"}
+
+:::
+
+::: {.column width="80%"}
+
+`{corrr}` linear correlation coefficient calculation.
+
+:::
+
+::::
+
+## {{< iconify fa6-brands:r-project >}} R
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+![](https://ggplot2.tidyverse.org/logo.png){width="150px" fig-align="center"}
+
+:::
+
+::: {.column width="80%"}
+
+`{ggplot2}` for basic plot creation (`.png`).
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+![](img/ggiraph.png){width="150px" fig-align="center"}
+
+:::
+
+::: {.column width="80%"}
+
+`{ggiraph}` for interactive plot creation (`.html`).
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+![](https://leafletjs.com/docs/images/logo.png){width="150px" fig-align="center"}
+
+:::
+
+::: {.column width="80%"}
+
+`{leaflet}` for interactive map creation (`.html`).
+
+:::
+
+::::
+
+## {{< iconify akar-icons:python-fill >}} PYTHON
+
+Copernicus Data Space
+
+![](https://dataspace.copernicus.eu/themes/custom/copernicus/logo.svg){width="100%"}
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+- Collection
+- Processing level
+- Region of interest
+- Time range
+- Credentials
+
+:::
+
+::: {.column width="50%"}
+
+![](https://www.esa.int/var/esa/storage/images/applications/observing_the_earth/copernicus/sentinel-2/19729272-16-eng-GB/Sentinel-2_pillars.png){width="40%" fig-align="center"}
+
+:::
+
+:::
+
+## {{< iconify fe:git >}} GIT
+
+Version control management and simultaneous collaboration between project members.
+
+<rosa style='font-size:4rem'>{{< iconify mdi:github >}}</rosa> `github` cloud storage service.
+
+<rosa style='font-size:4rem'>{{< iconify hugeicons:git-branch >}}</rosa> `branch` per member, so each one works in a specific section without interfering with the remaining repository.
+
+<rosa style='font-size:4rem'>{{< iconify hugeicons:git-pull-request >}}</rosa> `pull request` to request adding changes.
+
+<rosa style='font-size:4rem'>{{< iconify hugeicons:git-merge >}}</rosa> `merge` to combine changes once checked and accepted.
+
+## {{< iconify simple-icons:quarto >}} QUARTO
+
+- Combines code execution by [programming language]{.fragment .hl-blanco fragment-index=1} and [narrative text]{.fragment .hl-blanco fragment-index=1} to create a product in multiple formatted options
+
+- Offers a [publishing platform]{.fragment .hl-blanco fragment-index=2} for the output and to access it as a website
+
+```{mermaid}
+%%{
+  init: {
+    'themeVariables': {
+      'edgeLabelBackground': '#224289',
+      'edgeLabel': 'red'
+    }
+  }
+}%%
+
+flowchart LR
+  s1[<span class="ant-design--code-filled"></span><br>scripts]:::e1 ==> q1[<span class="simple-icons--quarto"></span><br>quarto]:::e1
+
+  s2[<span class="material-symbols--markdown"></span><br>markdown]:::e1 ===> q1
+
+  s3[<span class="fe--document"></span><br>text]:::e1 ===> q1
+
+  s4[<span class="file-icons--latex"></span>]:::e1 ==> q1
+
+  q1 ==> h1[<span class="qlementine-icons--file-html-16"></span><br>html]:::e1
+
+  h1 ==>|<b style='color:white'>quarto pub</b>| w1[<span class="mdi--web"></span><br>website]:::e1
+
+  classDef e1 stroke:none,color:#FFFFFF,fill:none;
+```
+
+## {{< iconify simple-icons:quarto >}} QUARTO
+
+<center class='grande'>
+
+::: {.eqi-container}
+
+<lang-rosa>{{< iconify akar-icons:python-fill >}}</lang-rosa>
+
+<lang-rosa>{{< iconify fa6-brands:r-project >}}</lang-rosa>
+
+<lang-rosa>{{< iconify file-icons:julia >}}</lang-rosa>
+
+<lang-rosa>{{< iconify simple-icons:observable >}}</lang-rosa>
+
+:::
+
+::: {.eqi-container}
+<lang-rosa>{{< iconify tabler:sql >}}</lang-rosa>
+
+<lang-rosa>{{< iconify devicon-plain:bash >}}</lang-rosa>
+
+<lang-rosa>{{< iconify simple-icons:mermaid >}}</lang-rosa>
+
+<lang-rosa>{{< iconify file-icons:graphviz >}}</lang-rosa>
+
+:::
+
+</rosa>
+<center>
+
+## {{< iconify simple-icons:quarto >}} QUARTO
+
+- **Manuscript** is design for [scientific document authoring]{.fragment .hl-blanco}, with emphasis in reproducibility, since it encourages the readers to explore processing scripts (<i>notebooks</i>).<br><br>
+
+- Offers [multiple static outputs]{.fragment .hl-blanco} that follow an specific template from a magazine.<br><br>
+
+- It allows to [deploy the website]{.fragment .hl-blanco} in <rosa>Quarto Pub {{< iconify simple-icons:quarto >}}</rosa> or <rosa>GitHub Pages {{< iconify mdi:github >}}</rosa>.<br><br>
+
+- In combination with `{targets}`, plots/tables/maps are regenerated with new data input, or script modification, [updating the results]{.fragment .hl-blanco}.
+
+## {{< iconify simple-icons:quarto >}} QUARTO
+
+File and directories tree.
+
+```{r}
+#| eval: false
+#| echo: true
+#| code-line-numbers: "|11,15,21"
+quarto_manuscript
+├── bibliography
+│   ├── ieee.csl
+│   └── reference.bib
+├── data
+│   ├── laboratory.csv
+│   └── reflectance.csv
+├── plot
+│   ├── boxplot.png
+│   └── time_series.png
+├── manuscript.qmd
+├── notebooks
+│   ├── plots.qmd
+│   └── data_reading.qmd
+├── _publish.yml
+├── raster
+├── scripts
+│   ├── functions.R
+│   └── support.R
+├── vectors
+├── _quarto.yml
+└── _targets.R
+```
+
+## {{< iconify simple-icons:quarto >}} QUARTO
+
+```{r filename="manuscript.qmd"}
+#| eval: false
+#| echo: true
+---
+title: Research Project
+author: Víctor Gauto
+date: last modified
+---
+
+# Introducción
+
+**Paraná River** has <i>water</i>.
+
+````{r}
+ggplot(data, aes(x, y)) +
+  geom_point()
+````
+
+```
+
+## {{< iconify simple-icons:quarto >}} QUARTO
+
+```{r filename="_quarto.yml"}
+#| eval: false
+#| echo: true
+project:
+  type: manuscript
+
+manuscript:
+  article: manuscrito.qmd
+  notebooks:
+    - notebooks/data_reading.qmd
+
+format:
+  html:
+    lang: es
+    include-in-header:
+      - extras/favicon.html
+    theme:
+      - extras/my_style.scss
+    toc: true
+    code-link: true
+    code-copy: true
+    tbl-cap-location: margin
+    fig-cap-location: bottom
+    bibliography: bibliography/reference.bib
+    csl: bibliography/ieee.csl
+    html-math-method: katex
+```
+## {{< iconify simple-icons:quarto >}} QUARTO
+
+```{r filename="_publish.yml"}
+#| eval: false
+#| echo: true
+- source: project
+  quarto-pub:
+    - id: ff90d76c-20c0-4210-8791-5d868ede4c50
+      url: https://vhgauto.quarto.pub/gistaq-parana
+```
+
+# Conclusion {#sec-conclusion}
+
+The **Research Project** development allowed us to learn a [new set of tools]{.fragment .hl-blanco}.
+
+<center style='font-size:3em'>
+
+:::: {.eqi-container}
+
+<lang-rosa>{{< iconify akar-icons:vscode-fill >}}</lang-rosa>
+
+<lang-rosa>{{< iconify iconoir:git-solid >}}</lang-rosa>
+
+<lang-rosa>{{< iconify fe:github >}}</lang-rosa>
+
+<lang-rosa>{{< iconify simple-icons:quarto >}}</lang-rosa>
+
+<lang-rosa>{{< iconify akar-icons:python-fill >}}</lang-rosa>
+
+::::
+
+:::: {.eqi-container}
+
+<lang-rosa>{{< iconify akar-icons:sass-fill >}}</lang-rosa>
+
+<lang-rosa>{{< iconify file-icons:bibtex >}}</lang-rosa>
+
+<lang-rosa>{{< iconify material-symbols:markdown >}}</lang-rosa>
+
+<lang-rosa>{{< iconify fa6-brands:r-project >}}</lang-rosa>
+
+![](https://raw.githubusercontent.com/posit-dev/positron/main/positron-product-icons/positron.png){width="100px"}
+
+::::
+
+:::: {.eqi-container}
+
+<lang-rosa>{{< iconify dashicons:html >}}</lang-rosa>
+
+<lang-rosa>{{< iconify simple-icons:mermaid >}}</lang-rosa>
+
+<lang-rosa>{{< iconify file-icons:latex >}}</lang-rosa>
+
+<lang-rosa>{{< iconify simple-icons:typst >}}</lang-rosa>
+
+::::
+
+</center>
+
+# Future improvements {#sec-future}
+
+- [Rewrite functions]{.fragment .hl-blanco} used by `{targets}`.
+  + Define arguments clearly.
+  + Return descriptive messages during runtime and in case of errors.
+  + Incorporate website rendering.
+- Optimize satellite data download, [avoiding to get the entire product]{.fragment .hl-blanco}.
+  + {{< iconify simple-icons:googleearthengine >}} Google Earth Engine.
+  + {{< iconify fa6-brands:r-project >}}&nbsp;`{rsi}` package.
+- [Organice website visual features]{.fragment .hl-blanco} (colors, fonts, styles, margins) in the `.scss` file.
+- Use the full potential of **Manuscript**, so the [results are created by the notebooks]{.fragment .hl-blanco}.
+
+# {.unnumbered background-color="#EA99C0"}
+
+::: {.r-fit-text}
+
+<gracias>**Thanks for your time**</gracias>
+
+:::
+
+:::::: {.columns}
+
+::::: {.fondo-azul-gracias}
+
+:::: {.column width="45%"}
+[<blanco>{{< iconify ic:round-home >}} MS Víctor Gauto</blanco>](https://vhgauto.github.io/)
+
+[<blanco>{{< iconify ic:outline-email >}} victor.gauto@ca.frre.utn.edu.ar</blanco>](mailto:victor.gauto@ca.frre.utn.edu.ar)
+::::
+
+:::: {.column width="35%"}
+
+::: {.eqi-container}
+
+[<blanco style='font-size:2em'>{{< iconify mdi:twitter >}}</blanco>](https://twitter.com/vhgauto)
+
+[<blanco style='font-size:2em'>{{< iconify mdi:instagram >}}</blanco>](https://www.instagram.com/vhgauto/)
+
+[<blanco style='font-size:2em'>{{< iconify mdi:github >}}</blanco>](https://github.com/vhgauto)
+
+[<blanco style='font-size:2em'>{{< iconify ri:bluesky-fill >}}</blanco>](https://bsky.app/profile/vhgauto.bsky.social)
+
+[<blanco style='font-size:2em'>{{< iconify mdi:mastodon >}}</blanco>](https://fosstodon.org/@vhgauto)
+
+:::
+
+::::
+
+:::: {.column style="margin-top:20px; width:15%"}
+<blanco style='font-family:JetBrains Mono; font-size:1.3em'>/vhgauto</blanco>
+::::
+
+:::::
+
+::::::
+
+::::: {.columns}
+
+:::: {.column width="20%"}
+::::
+
+:::: {.column width="60%"}
+
+::: {.eqi-container}
+
+![](img/Gistaq_sinfondo.png){height="70px"}
+
+![](img/logo_utn6.png){height="70px"}
+
+![](https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png){height="70px"}
+
+:::
+
+::: {.eqi-container}
+
+![](img/CONAE.png){height="70px"}
+
+![](https://difusion.pci.unc.edu.ar/unc/files/identidad_visual/UNC_03_NEGRO.svg){height="70px"}
+
+![](img/iidthh.png){height="70px"}
+
+:::
+
+::: {.eqi-container}
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png){height="70px"}
+
+![](img/06%20UNNE%20Justificado%20Color.png){height="70px"}
+
+:::
+
+::::
+
+:::: {.column width="20%"}
+::::
+
+:::::
+
+# Resources {#sec-resources .smaller}
+
+::::: {.columns}
+
+:::: {.column width="35%"}
+
+::: {.fondo}
+
+[{{< iconify ph:download-fill >}} **Download** {{< iconify dashicons:pdf >}}](https://raw.githubusercontent.com/vhgauto/seminario2-gulich/main/seminario.pdf)
+
+[{{< iconify mdi:github >}} **This presentation repository** ](https://github.com/vhgauto/seminario2-gulich)
+
+:::
+
+::::
+
+:::: {.column width="65%"}
+::::
+
+:::::
+
+[{{< iconify mdi:youtube >}} Reproducible Manuscripts with Quarto - posit::conf(2023)](https://youtu.be/BoiW9UWDLY0?si=H9EnYi-xunEG5wYo)
+
+[{{< iconify mdi:youtube >}} Quarto for Academics | Mine Çetinkaya-Rundel](https://www.youtube.com/watch?v=EbAAmrB0luA)
+
+[{{< iconify humbleicons:link >}} Quarto | Get started](https://quarto.org/docs/get-started/)
+
+[{{< iconify humbleicons:link >}} Quarto Manuscripts](https://quarto.org/docs/manuscripts/)
+
+[{{< iconify humbleicons:link >}} The {targets} R package user manual](https://books.ropensci.org/targets/)
+
+[{{< iconify humbleicons:link >}} Introduction to renv](https://rstudio.github.io/renv/articles/renv.html)
+
+[{{< iconify bytesize:book >}} R for Data Science (2e)](https://r4ds.hadley.nz/)
+
+[{{< iconify bytesize:book >}} ggiraph-book](https://www.ardata.fr/ggiraph-book/)
+
+[{{< iconify bytesize:book >}} Quarto: The Definitive Guide](https://quarto-tdg.org/)
+
+[{{< iconify mdi:github >}} Website repository](https://github.com/vhgauto/gistaq_parana)
+
+[{{< iconify mdi:github >}} Quarto Extensions](https://github.com/quarto-ext)
+
+[{{< iconify mdi:github >}} Official repository for Citation Style Language (CSL) citation styles](https://github.com/citation-style-language/styles)
+
+# {data-hide-slide-number="true" .unnumbered .unlisted background-color="#333333" footer='false' .hide-logo .center background-iframe="stars/index.html" transition="fade" transition-speed="slow"}
+
+:::: {.r-fit-text}
+
+<center>
+
+::: {.fin}
+
+The End
+
+:::
+
+</center>
+
+::::
+
+# {background-iframe="stars/index.html"}
+
+:::: {.r-fit-text}
+
+<center>
+
+::: {.fin}
+
+The End
+
+:::
+
+</center>
+
+::::
