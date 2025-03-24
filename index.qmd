@@ -78,7 +78,7 @@ preload-iframes: true
 ::: {.r-fit-text}
 
 ```r
-https://vhgauto.quarto.pub/seminario2-gulich/
+https://vhgauto.github.io/seminario2-gulich/
 ```
 
 :::
@@ -804,7 +804,7 @@ The **Research Project** development allowed us to learn a [new set of tools]{.f
 
 ::: {.fondo}
 
-[{{< iconify ph:download-fill >}} **Download** {{< iconify dashicons:pdf >}}](https://raw.githubusercontent.com/vhgauto/seminario2-gulich/main/seminario.pdf)
+[{{< iconify ph:download-fill >}} **Download** {{< iconify dashicons:pdf >}}](https://raw.githubusercontent.com/vhgauto/seminario2-gulich/main/index.pdf)
 
 [{{< iconify mdi:github >}} **This presentation repository** ](https://github.com/vhgauto/seminario2-gulich)
 
