@@ -32,6 +32,7 @@ author:
 format:
   revealjs:
     embed-resources: false
+    preload-iframes: true
     number-sections: true
     auto-play-media: true
     highlight-style: kate
@@ -840,7 +841,7 @@ The **Research Project** development allowed us to learn a [new set of tools]{.f
 
 [{{< iconify mdi:github >}} Official repository for Citation Style Language (CSL) citation styles](https://github.com/citation-style-language/styles)
 
-# {data-hide-slide-number="true" .unnumbered .unlisted background-color="#333333" footer='false' .hide-logo .center}
+# {data-hide-slide-number="true" .unnumbered .unlisted background-color="#333333" footer='false' .hide-logo .center background-iframe="stars/index.html" transition="fade" transition-speed="slow"}
 
 :::: {.r-fit-text}
 
