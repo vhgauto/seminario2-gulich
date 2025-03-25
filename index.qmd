@@ -58,12 +58,19 @@ format:
       - extras/hide-menu.html
     theme:
       - mi_estilo.scss
+    pointer:
+      pointerSize: 15
+      color: "#E62E32"
+      alwaysVisible: false
+      key: "q"
 execute:
   echo: false
   eval: true
 editor_options:
   chunk_output_type: console
 preload-iframes: true
+revealjs-plugins:
+  - pointer
 ---
 
 # Content
