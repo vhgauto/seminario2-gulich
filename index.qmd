@@ -236,7 +236,7 @@ https://vhgauto.quarto.pub/gistaq-parana/
 
 Research project typical life journey.
 
-```{mermaid}
+```{mermaid mermaid-proyecto-investigación}
 
 %%{
   init: {
@@ -317,7 +317,7 @@ File monitoring and code re-execution when change detection.
 
 ## {{< iconify fa6-brands:r-project >}} R
 
-```{mermaid}
+```{mermaid workflow-targets}
 %%| fig-align: center
 %%| file: extras/mermaid.mmd
 ```
@@ -488,7 +488,7 @@ Version control management and simultaneous collaboration between project member
 
 - Offers a [publishing platform]{.fragment .hl-blanco fragment-index=2} for the output and to access it as a website
 
-```{mermaid}
+```{mermaid workflow-quarto}
 %%{
   init: {
     'themeVariables': {
@@ -593,7 +593,7 @@ Files and directory tree.
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
-```{r filename="manuscript.qmd"}
+```{r, label="manuscrito-qmd", filename="manuscript.qmd"}
 #| eval: false
 #| echo: true
 ---
@@ -615,7 +615,7 @@ ggplot(data, aes(x, y)) +
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
-```{r filename="_quarto.yml"}
+```{r, label="quarto-yml", filename="_quarto.yml"}
 #| eval: false
 #| echo: true
 project:
@@ -644,7 +644,7 @@ format:
 ```
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
-```{r filename="_publish.yml"}
+```{r, label="publish-yml", filename="_publish.yml"}
 #| eval: false
 #| echo: true
 - source: project
