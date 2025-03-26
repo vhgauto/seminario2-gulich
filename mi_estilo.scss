@@ -35,6 +35,8 @@ $code-bg: $celeste;
 $body-bg: $azul !default;
 $body-color: $blanco !default;
 $link-color: $rosa !default;
+$link-hover-color: $blanco !default;
+
 $selection-bg: $gris !default;
 
 // headings
@@ -58,6 +60,51 @@ $mermaid-node-fg-color: $rosa;
 $callout-border-width: 1rem;
 
 /*-- scss:rules --*/
+
+.fluent--document-yml-16-filled {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23ffa100' d='M8 4.5V1H4.5A1.5 1.5 0 0 0 3 2.5v6.881a1.5 1.5 0 0 1 1.75-.18a1.5 1.5 0 0 1 2.092.628l.658 1.317l.659-1.317a1.5 1.5 0 0 1 2.341-.447a1.5 1.5 0 0 1 2.5 1.09V6H9.5A1.5 1.5 0 0 1 8 4.5m1 0V1.25L12.75 5H9.5a.5.5 0 0 1-.5-.5M2.5 15a.5.5 0 0 0 .5-.5v-1.361l1.429-2.382a.5.5 0 1 0-.858-.515l-1.07 1.786l-1.072-1.786a.5.5 0 0 0-.858.515l1.43 2.382v1.36a.5.5 0 0 0 .5.5m3.447-4.724A.5.5 0 0 0 5 10.5v4a.5.5 0 1 0 1 0v-1.882l1.053 2.105a.5.5 0 0 0 .894 0L9 12.618V14.5a.5.5 0 1 0 1 0v-4a.5.5 0 0 0-.947-.224L7.5 13.382zM12 10.5a.5.5 0 0 0-1 0v4a.5.5 0 0 0 .5.5h2a.5.5 0 1 0 0-1H12z'/%3E%3C/svg%3E");
+}
+
+.fa6-brands--r-project2 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 581 512'%3E%3Cpath fill='%23256ABC' d='M581 226.6C581 119.1 450.9 32 290.5 32S0 119.1 0 226.6C0 322.4 103.3 402 239.4 418.1V480h99.1v-61.5c24.3-2.7 47.6-7.4 69.4-13.9L448 480h112l-67.4-113.7c54.5-35.4 88.4-84.9 88.4-139.7m-466.8 14.5c0-73.5 98.9-133 220.8-133s211.9 40.7 211.9 133c0 50.1-26.5 85-70.3 106.4c-2.4-1.6-4.7-2.9-6.4-3.7c-10.2-5.2-27.8-10.5-27.8-10.5s86.6-6.4 86.6-92.7s-90.6-87.9-90.6-87.9h-199V361c-74.1-21.5-125.2-67.1-125.2-119.9m225.1 38.3v-55.6c57.8 0 87.8-6.8 87.8 27.3c0 36.5-38.2 28.3-87.8 28.3m-.9 72.5H365c10.8 0 18.9 11.7 24 19.2c-16.1 1.9-33 2.8-50.6 2.9z'/%3E%3C/svg%3E");
+}
+
+.simple-icons--quarto2 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2375AADB' d='M12.65 12.854V24c6.042-.325 10.923-5.105 11.33-11.125H12.65Zm-1.504 0H.02c.427 5.94 5.166 10.699 11.105 11.105V12.854Zm1.505-1.505H24C23.675 5.247 18.753.325 12.65 0Zm-1.505 0V0C5.106.427.326 5.308 0 11.35Z'/%3E%3C/svg%3E");
+}
+
+.material-symbols--csv {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2367ff5e' d='M5.75 15h3v-1.5h-2.5v-3h2.5V9h-3q-.425 0-.712.288T4.75 10v4q0 .425.288.713T5.75 15m3.9 0h3q.425 0 .713-.288T13.65 14v-1.5q0-.425-.288-.788t-.712-.362h-1.5v-.85h2.5V9h-3q-.425 0-.712.288T9.65 10v1.5q0 .425.288.763t.712.337h1.5v.9h-2.5zm6.6 0h1.5l1.75-6H18l-1 3.45L16 9h-1.5zM4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20z'/%3E%3C/svg%3E");
+}
+
+.material-symbols--file-png {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23c64c4c' d='M6.5 11.5v-1h1v1zm10 3.5h1q.625 0 1.063-.437T19 13.5V12h-1.5v1.5h-1v-3H19q0-.625-.437-1.062T17.5 9h-1q-.625 0-1.062.438T15 10.5v3q0 .625.438 1.063T16.5 15M5 15h1.5v-2H8q.425 0 .713-.288T9 12v-2q0-.425-.288-.712T8 9H5zm5 0h1.5v-2.4l1 2.4H14V9h-1.5v2.35L11.5 9H10zm-6 5q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm0-2V6z'/%3E%3C/svg%3E");
+}
 
 .reveal .slides section .fragment.hl-blanco {
   opacity: unset;
@@ -93,6 +140,8 @@ li::marker {
 
 .fondo {
     background-color: $rosa;
+    border-radius: 5px;
+    box-shadow: 2px 2px $blanco;
     padding: 10px;
     a {
       color: $azul;
@@ -266,6 +315,8 @@ azul {
 .fondo-azul-gracias {
     background-color: $azul;
     padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px $celeste;
 }
 
 code {
