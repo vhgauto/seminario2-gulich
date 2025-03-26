@@ -73,7 +73,7 @@ revealjs-plugins:
   - pointer
 ---
 
-# Content
+# Outline
 
 - Introduction ([{{< iconify icomoon-free:section >}} @sec-introduction])
 - Motivation ([{{< iconify icomoon-free:section >}} @sec-motivation])
@@ -102,21 +102,12 @@ To estimate water quality indicators in Paraná River middle basin for algorithm
 
 ::: {.columns}
 
-::: {.column width="10%"}
+::: {.column width="50%"}
+![](img/logo_utn7.png){height="150px" fig-align="center"}
 :::
 
-::: {.column width="35%"}
-![](img/logo_utn7.png)
-:::
-
-::: {.column width="10%"}
-:::
-
-::: {.column width="35%"}
-![](img/Gistaq_sinfondo.png)
-:::
-
-::: {.column width="10%"}
+::: {.column width="50%"}
+![](img/Gistaq_sinfondo.png){height="150px" fig-align="center"}
 :::
 
 :::
@@ -300,7 +291,7 @@ classDef default stroke:#FFC0CB,color:#FFFFFF,fill:#224289;
 - <rosa>{{< iconify fe:git >}} Git</rosa> y <rosa>{{< iconify mdi:github >}} GitHub</rosa>: version control management and project members collaboration.
 
 - <rosa>{{< iconify simple-icons:quarto >}} Quarto</rosa>: to content compilation and website publishing.
-  + `manuscript` allows website creation with an emphasis in reproducibility and targeted to scientific and academic documents.
+  + **Manuscript** allows website creation with an emphasis in reproducibility and targeted to scientific and academic documents.
 
 ## {{< iconify fa6-brands:r-project >}} R
 
@@ -565,35 +556,40 @@ flowchart LR
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
-File and directories tree.
+::::: {.columns}
 
-```{r}
-#| eval: false
-#| echo: true
-#| code-line-numbers: "|11,15,21"
-quarto_manuscript
-├── bibliography
-│   ├── ieee.csl
-│   └── reference.bib
-├── data
-│   ├── laboratory.csv
-│   └── reflectance.csv
-├── plot
-│   ├── boxplot.png
-│   └── time_series.png
-├── manuscript.qmd
-├── notebooks
-│   ├── plots.qmd
-│   └── data_reading.qmd
-├── _publish.yml
-├── raster
-├── scripts
-│   ├── functions.R
-│   └── support.R
-├── vectors
-├── _quarto.yml
-└── _targets.R
-```
+:::: {.column width="30%"}
+Files and directory tree.
+::::
+
+:::: {.column width="70%"}
+::: {style="font-family: 'JetBrains Mono'; font-size: .7em; margin-left: 150px;"}
+**quarto_manuscript**<br>
+├── {{< iconify flat-color-icons:folder >}} bibliography/<br>
+│   ├── ieee.csl<br>
+│   └── {{< iconify file-icons:bibtex >}} reference.bib<br>
+├── {{< iconify flat-color-icons:folder >}} data/<br>
+│   ├── <span class="material-symbols--csv"></span> laboratory.csv<br>
+│   └── <span class="material-symbols--csv"></span> reflectance.csv<br>
+├── {{< iconify flat-color-icons:folder >}} plots/<br>
+│   ├── <span class="material-symbols--file-png"></span> boxplot.png<br>
+│   └── <span class="material-symbols--file-png"></span> time_series.png<br>
+├── {{< iconify flat-color-icons:folder >}} notebooks/<br>
+│   ├── <span class="simple-icons--quarto2"></span> plots.qmd<br>
+│   └── <span class="simple-icons--quarto2"></span> data_reading.qmd<br>
+├── {{< iconify flat-color-icons:folder >}} raster/<br>
+├── {{< iconify flat-color-icons:folder >}} scripts/<br>
+│   ├── <span class="fa6-brands--r-project2"></span> functions.R<br>
+│   └── <span class="fa6-brands--r-project2"></span> support.R<br>
+├── {{< iconify flat-color-icons:folder >}} vectors/<br>
+├── <span class="fluent--document-yml-16-filled"></span> [_publish.yml]{.fragment .hl-blanco fragment-index=1}<br>
+├── <span class="fluent--document-yml-16-filled"></span> [_quarto.yml]{.fragment .hl-blanco fragment-index=1}<br>
+├── <span class="fa6-brands--r-project2"></span> _targets.R<br>
+└── <span class="simple-icons--quarto2"></span> [manuscript.qmd]{.fragment .hl-blanco fragment-index=1}<br>
+:::
+::::
+
+:::::
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
@@ -774,7 +770,7 @@ The **Research Project** development allowed us to learn a [new set of tools]{.f
 
 ![](img/logo_utn6.png){height="70px"}
 
-![](https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png){height="70px"}
+![](img/logo_ig2.png){height="70px"}
 
 :::
 
@@ -811,9 +807,9 @@ The **Research Project** development allowed us to learn a [new set of tools]{.f
 
 ::: {.fondo}
 
-[{{< iconify ph:download-fill >}} **Download** {{< iconify dashicons:pdf >}}](https://raw.githubusercontent.com/vhgauto/seminario2-gulich/main/index.pdf)
+[{{< iconify teenyicons:pdf-solid >}} &nbsp; **Download** &nbsp; {{< iconify ph:download-fill >}}](https://raw.githubusercontent.com/vhgauto/seminario2-gulich/main/index.pdf)
 
-[{{< iconify mdi:github >}} **This presentation repository** ](https://github.com/vhgauto/seminario2-gulich)
+[{{< iconify icon-park-outline:slide >}} &nbsp; **This presentation repository** &nbsp; {{< iconify mdi:github >}}](https://github.com/vhgauto/seminario2-gulich)
 
 :::
 
