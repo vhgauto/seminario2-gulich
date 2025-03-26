@@ -280,9 +280,11 @@ classDef default stroke:#FFC0CB,color:#FFFFFF,fill:#224289;
 - Consultation resource and to admire all the [effort]{.fragment .hl-blanco} done.
 
 
-<center>
+::: {style="text-align: right"}
+
 <span class="carbon--development"></span>
-</center>
+
+:::
 
 # Tools {#sec-tools}
 
