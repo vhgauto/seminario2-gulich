@@ -1,10 +1,10 @@
 # Aplicación de Quarto en proyectos de investigación
 
-<center>
+<p align="center">
 
 # [LINK](https://vhgauto.github.io/seminario2-gulich)
 
-</center>
+</p>
 
 Seminario presentado por **MS Víctor Gauto** como parte del Doctorado en Geomática y Sistemas Espaciales del [Instituto Gulich](https://ig.conae.unc.edu.ar/).
 
