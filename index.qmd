@@ -713,7 +713,7 @@ The **Research Project** development allowed us to learn a [new set of tools]{.f
 - [Organice website visual features]{.fragment .hl-blanco} (colors, fonts, styles, margins) in the `.scss` file.
 - Use the full potential of **Manuscript**, so the [results are created by the notebooks]{.fragment .hl-blanco}.
 
-# {.unnumbered background-color="#EA99C0"}
+# {.unnumbered background-color="#F79CD4"}
 
 ::: {.r-fit-text}
 
