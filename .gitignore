@@ -13,6 +13,8 @@ TEST*
 versiones_viejas/
 seminario_files/
 seminario.html
+IG/
+.vscode/
 
 # History files
 .Rhistory

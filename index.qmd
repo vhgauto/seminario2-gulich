@@ -60,7 +60,7 @@ format:
       - mi_estilo.scss
     pointer:
       pointerSize: 15
-      color: "#E62E32"
+      color: "#F6B40E"
       alwaysVisible: false
       key: "q"
 execute:
