@@ -29,7 +29,7 @@ $gris2: #4D4D4D;
 $rosa: #F79CD4;
 $negro: #000000;
 $rosa-claro: lighthen($rosa, 60);
-$code-bg: $celeste;
+$code-bg: $gris;
 
 // colors
 $body-bg: $azul !default;
@@ -60,6 +60,11 @@ $mermaid-node-fg-color: $rosa;
 $callout-border-width: 1rem;
 
 /*-- scss:rules --*/
+
+.title-slide h1 {
+  text-decoration: underline 2px solid $celeste;
+  text-underline-offset: 5px;
+}
 
 .fluent--document-yml-16-filled {
   display: inline-block;
@@ -172,7 +177,8 @@ li::marker {
 }
 
 h1.title {
-    margin-bottom: 1.1em;
+    margin-bottom: .7em;
+    font-size: 3em;
 }
 
 .reveal .quarto-title-block .quarto-title-authors .quarto-title-author {
@@ -229,14 +235,21 @@ caa {
 }
 
 .subtitle {
-    color: $gris;
+    color: $blanco;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    font-size: 1.5em;
+}
+
+#title-slide .subtitle, div.reveal div.slides section.quarto-title-block .subtitle {
+  margin-bottom: .5rem;
 }
 
 .date {
     font-family: "JetBrains Mono";
     color: $gris;
     font-size: 1rem;
-    margin-top: 150px imporant;
+    margin-top: 0px imporant;
 }
 
 .reveal .footer > * {
@@ -320,7 +333,7 @@ azul {
 }
 
 code {
-    border-radius: 5px;
+    border-radius: 0px;
 }
 
 .carbon--development {
