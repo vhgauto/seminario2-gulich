@@ -1,5 +1,6 @@
 ---
-title: "Elevate research projects with <quarto-portada>Quarto</quarto-portada>"
+title: "Improve research projects with <quarto-portada>Quarto</quarto-portada>"
+subtitle: <u>Case of study</u>
 title-slide-attributes:
   data-background-color: "#224289"
 author:
@@ -344,7 +345,7 @@ Log file that allows environment reproducibility.
 
 ::::
 
-![](https://rstudio.github.io/renv/articles/renv.png){width="40%" fig-align="center"}
+![](img/rnev_gg.png){width="50%" fig-align="center"}
 
 ## {{< iconify fa6-brands:r-project >}} R
 
