@@ -1,34 +1,34 @@
 ---
-title: "Improve research projects with <quarto-portada>Quarto</quarto-portada>"
+title: Improve research projects with <quarto-portada>Quarto</quarto-portada>
 subtitle: <u>Case of study</u>
 title-slide-attributes:
   data-background-color: "#224289"
 author:
-  - name: "<vhg>**MS** Víctor Gauto</vhg>"
+  - name: <vhg>**MS** Víctor Gauto</vhg>
     affiliation:
-      - name: "<rosa><b>GISTAQ</b> (UTN-FRRe)</rosa>"
+      - name: <rosa><b>GISTAQ</b> (UTN-FRRe)</rosa>
         url: https://www.instagram.com/gistaq.utn/
-      - name: "<rosa><b>IIDTHH</b> (UNNE, CONICET)</rosa>"
+      - name: <rosa><b>IIDTHH</b> (UNNE, CONICET)</rosa>
         url: https://iidthh.conicet.gov.ar/
-      - name: "<rosa><b>Instituto Gulich</b> (UNC, CONAE)<rosa>"
+      - name: <rosa><b>Instituto Gulich</b> (UNC, CONAE)<rosa>
         url: https://ig.conae.unc.edu.ar/
     email: victor.gauto@ca.free.utn.edu.ar
     corresponding: true
   - name: "**Dr.** Matías Bonansea"
     affiliation:
-      - name: "<b>ICBIA</b> (UNRC, CONICET)"
+      - name: <b>ICBIA</b> (UNRC, CONICET)
         url: https://icbia.conicet.gov.ar/
   - name: "**Dr.** Anabella Ferral"
     affiliation:
-      - name: "<b>Instituto Gulich</b> (UNC, CONAE)"
+      - name: <b>Instituto Gulich</b> (UNC, CONAE)
         url: https://ig.conae.unc.edu.ar/
   - name: "**Dr.** Osvaldo Cardozo"
     affiliation:
-      - name: "<b>IIDTHH</b> (UNNE, CONICET)"
+      - name: <b>IIDTHH</b> (UNNE, CONICET)
         url: https://iidthh.conicet.gov.ar/
   - name: "**Dr.** Claudia Giardino"
     affiliation:
-      - name: "<b>IREA</b> (CNR)"
+      - name: <b>IREA</b> (CNR)
         url: http://www.irea.cnr.it/
 format:
   revealjs:
