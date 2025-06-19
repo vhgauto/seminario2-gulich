@@ -43,7 +43,7 @@ format:
       <b class="fondo-azul"><blanco>MS Víctor Gauto <rosa>{{< iconify svg-spinners:bouncing-ball >}}</rosa> Improve research projects with  <rosa>Quarto</rosa>
     slide-number: true
     progress: true
-    hash-type: number
+    hash-type: title
     date: today
     center-title-slide: false
     transition: none
