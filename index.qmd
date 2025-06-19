@@ -76,12 +76,12 @@ revealjs-plugins:
 
 # Outline
 
-- Introduction ([{{< iconify icomoon-free:section >}} @sec-introduction])
-- Motivation ([{{< iconify icomoon-free:section >}} @sec-motivation])
-- Tools ([{{< iconify icomoon-free:section >}} @sec-tools])
-- Conclusion ([{{< iconify icomoon-free:section >}} @sec-conclusion])
-- Future improvements ([{{< iconify icomoon-free:section >}} @sec-future])
-- Resources ([{{< iconify icomoon-free:section >}} @sec-resources])
+- Introduction ([$\S$ @sec-introduction])
+- Motivation ([$\S$ @sec-motivation])
+- Tools ([$\S$ @sec-tools])
+- Conclusion ([$\S$ @sec-conclusion])
+- Future improvements ([$\S$ @sec-future])
+- Resources ([$\S$ @sec-resources])
 
 ::: {.r-fit-text}
 
@@ -119,19 +119,21 @@ Collaborative website with automatic running, interactive and open source.
 
 :::: {.columns}
 
-::: {.column width="30%"}
+::: {.column width="40%"}
 
 - Authors
 - Affiliation
+- Other format (.pdf by `typst`)
 - Last modified date
+- Abstract
 - Keywords
 - More resources links
 
 :::
 
-::: {.column width="70%"}
+::: {.column width="60%"}
 
-![](img/portada.png){width="60%" fig-align="center"}
+![](img/portada.png){width="75%" fig-align="center"}
 
 :::
 
@@ -339,7 +341,7 @@ File monitoring and code re-execution when change detection.
 
 `{renv}` execution environment management, package version and its dependencies.
 
-Log file that allows environment reproducibility.
+Log file (`renv.lock`) that allows environment reproducibility.
 
 :::
 
@@ -771,7 +773,7 @@ The **Research Project** development allowed us to learn a [new set of tools]{.f
 
 ![](img/Gistaq_sinfondo.png){height="70px"}
 
-![](img/logo_utn6.png){height="70px"}
+![](img/logo_utn7.png){height="70px"}
 
 ![](img/logo_ig2.png){height="70px"}
 
