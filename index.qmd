@@ -58,7 +58,7 @@ format:
     include-after-body:
       - extras/hide-menu.html
     theme:
-      - mi_estilo.scss
+      - extras/mi_estilo.scss
     pointer:
      pointerSize: 15
      color: "#F6B40E"
