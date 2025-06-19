@@ -34,8 +34,8 @@ $code-bg: $gris;
 // colors
 $body-bg: $azul !default;
 $body-color: $blanco !default;
-$link-color: $rosa !default;
-$link-hover-color: $blanco !default;
+$link-color: darken($rosa, 10) !default;
+$link-hover-color: darken($rosa, 25) !default;
 
 $selection-bg: $gris !default;
 
@@ -77,6 +77,8 @@ barra {
   height: 125px;
   width: 125px;
   margin-bottom: 15px;
+  // margin-top: 15px;
+  // margin-left: 15px;
   border: 1px solid white;
   background-color: #B86092;
 }
@@ -84,7 +86,9 @@ barra {
 .caja2 {
   height: 125px;
   width: 125px;
-  margin-bottom: 15px;
+  // margin-bottom: 15px;
+  // margin-top: 15px;
+  margin-left: 15px;
   border: 1px solid white;
   background-color: #007E2E;
 }
