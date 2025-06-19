@@ -66,6 +66,29 @@ $callout-border-width: 1rem;
   text-underline-offset: 5px;
 }
 
+barra {
+  font-weight: bold;
+  color: $rosa;
+  font-family: "JetBrains Mono";
+  font-size: 2.5em;
+}
+
+.caja1 {
+  height: 125px;
+  width: 125px;
+  margin-bottom: 15px;
+  border: 1px solid white;
+  background-color: #B86092;
+}
+
+.caja2 {
+  height: 125px;
+  width: 125px;
+  margin-bottom: 15px;
+  border: 1px solid white;
+  background-color: #007E2E;
+}
+
 .fluent--document-yml-16-filled {
   display: inline-block;
   width: 20px;
