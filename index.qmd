@@ -40,7 +40,7 @@ format:
     incremental: false
     logo: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png
     footer: |
-      <b class="fondo-azul"><blanco>MS Víctor Gauto <rosa>{{< iconify svg-spinners:bouncing-ball >}}</rosa> Elevate research projects with <rosa>Quarto</rosa>
+      <b class="fondo-azul"><blanco>MS Víctor Gauto <rosa>{{< iconify svg-spinners:bouncing-ball >}}</rosa> Improve research projects with  <rosa>Quarto</rosa>
     slide-number: true
     progress: true
     hash-type: number
@@ -60,10 +60,10 @@ format:
     theme:
       - mi_estilo.scss
     pointer:
-      pointerSize: 15
-      color: "#F6B40E"
-      alwaysVisible: false
-      key: "q"
+     pointerSize: 15
+     color: "#F6B40E"
+     alwaysVisible: false
+     key: "q"
 execute:
   echo: false
   eval: true
@@ -71,7 +71,7 @@ editor_options:
   chunk_output_type: console
 preload-iframes: true
 revealjs-plugins:
-  - pointer
+ - pointer
 ---
 
 # Outline
@@ -95,7 +95,7 @@ https://vhgauto.github.io/seminario2-gulich/
 
 ::: {.callout title="Research project"}
 
-<p style='font-size:2rem'>
+<p style='font-size:2.5rem'>
 To estimate water quality indicators in Paraná River middle basin for algorithm development using satellite remote sensing techniques
 </p>
 
@@ -113,7 +113,7 @@ To estimate water quality indicators in Paraná River middle basin for algorithm
 
 :::
 
-Collaborative website with automatic running, interactive and open source.
+Collaborative website with automatic update, interactive and open source.
 
 ## Front page
 
@@ -153,7 +153,7 @@ Collaborative website with automatic running, interactive and open source.
 
 ::: {.column width="60%"}
 
-![](img/toc.png){width="40%" fig-align="center"}
+![](img/toc.png){width="35%" fig-align="center"}
 
 :::
 
@@ -168,6 +168,7 @@ Collaborative website with automatic running, interactive and open source.
 - Source code description
 - Processing data justification
 - Calculus methodology explanation to promote reproducibility
+- External resources for further reading.
 
 :::
 
@@ -218,6 +219,36 @@ Collaborative website with automatic running, interactive and open source.
 :::
 
 ::::
+
+## Custom style
+
+- Fonts, from [Google Fonts {{< iconify simple-icons:googlefonts >}}](https://fonts.google.com/)
+
+<span style='font-family: Lato; font-size: 2.5em'>Lato</span> <barra>|</barra>  <span style='font-family: JetBrains Mono; font-size: 2.5em'>JetBrains Mono</span> 
+
+<b style='font-family: Libre Bodoni; font-size: 2.5em'>Libre Bodoni</b> <barra>|</barra> <span style='font-family: Bebas Neue; font-size: 2.5em'>Bebas Neue</span>
+
+- Accent colors
+
+<br>
+
+::::: {.columns}
+
+:::: {.column width="10%"}
+
+::: {.caja1}
+:::
+
+::::
+
+:::: {.column width="10%"}
+
+::: {.caja2}
+:::
+
+::::
+
+:::::
 
 ## {.unnumbered}
 
@@ -453,7 +484,7 @@ Log file (`renv.lock`) that allows environment reproducibility.
 
 Copernicus Data Space
 
-![](https://dataspace.copernicus.eu/themes/custom/copernicus/logo.svg){width="100%"}
+![](https://dataspace.copernicus.eu/themes/custom/copernicus/logo.svg){width="50%" fig-align="left"}
 
 ::: {.columns}
 
@@ -762,44 +793,42 @@ The **Research Project** development allowed us to learn a [new set of tools]{.f
 
 ::::::
 
+<br>
+
 ::::: {.columns}
 
-:::: {.column width="20%"}
+:::: {.column width="5%"}
 ::::
 
-:::: {.column width="60%"}
+:::: {.column width="90%"}
 
 ::: {.eqi-container}
 
-![](img/Gistaq_sinfondo.png){height="70px"}
+![](img/Gistaq_sinfondo.png){height="85px"}
 
-![](img/logo_utn7.png){height="70px"}
+![](img/logo_utn6.png){height="85px"}
 
-![](img/logo_ig2.png){height="70px"}
+![](img/logo_ig2.png){height="85px"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png){height="85px"}
 
 :::
 
 ::: {.eqi-container}
 
-![](img/CONAE.png){height="70px"}
+![](img/CONAE.png){height="85px"}
 
-![](https://difusion.pci.unc.edu.ar/unc/files/identidad_visual/UNC_03_NEGRO.svg){height="70px"}
+![](https://difusion.pci.unc.edu.ar/unc/files/identidad_visual/UNC_03_NEGRO.svg){height="85px"}
 
-![](img/iidthh.png){height="70px"}
+![](img/iidthh.png){height="85px"}
 
-:::
-
-::: {.eqi-container}
-
-![](https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png){height="70px"}
-
-![](img/06%20UNNE%20Justificado%20Color.png){height="70px"}
+![](img/06%20UNNE%20Justificado%20Color.png){height="85px"}
 
 :::
 
 ::::
 
-:::: {.column width="20%"}
+:::: {.column width="5%"}
 ::::
 
 :::::
