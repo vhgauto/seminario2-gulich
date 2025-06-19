@@ -89,6 +89,8 @@ revealjs-plugins:
 https://vhgauto.github.io/seminario2-gulich/
 ```
 
+![](img/qr_seminario.svg){.absolute top=20 right=20 width="400" height="400"}
+
 :::
 
 # Introduction {#sec-introduction}
@@ -265,6 +267,8 @@ https://vhgauto.quarto.pub/gistaq-parana/
 ```
 
 :::
+
+![](img/qr_proyecto.svg){fig-align="center" width="300px"}
 
 # Motivation {#sec-motivation}
 
@@ -510,7 +514,7 @@ Copernicus Data Space
 
 Version control management and simultaneous collaboration between project members.
 
-<rosa style='font-size:4rem'>{{< iconify mdi:github >}}</rosa> `github` cloud storage service.
+<rosa style='font-size:4rem'>{{< iconify mdi:github >}}</rosa> GitHub for cloud storage service and sharing.
 
 <rosa style='font-size:4rem'>{{< iconify hugeicons:git-branch >}}</rosa> `branch` per member, so each one works in a specific section without interfering with the remaining repository.
 
@@ -556,9 +560,9 @@ flowchart LR
 
 ::: {.eqi-container}
 
-<lang-rosa>{{< iconify akar-icons:python-fill >}}</lang-rosa>
-
 <lang-rosa>{{< iconify fa6-brands:r-project >}}</lang-rosa>
+
+<lang-rosa>{{< iconify akar-icons:python-fill >}}</lang-rosa>
 
 <lang-rosa>{{< iconify file-icons:julia >}}</lang-rosa>
 
