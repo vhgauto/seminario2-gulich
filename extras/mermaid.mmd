@@ -1,27 +1,20 @@
 graph LR
-  x3d474db92cf09724>"mensaje"] ==> xc5ec810879cc40ee>"recorte"]
-    x3d474db92cf09724>"mensaje"] ==> x32cb0d977e75588d>"elimino"]
-    x3d474db92cf09724>"mensaje"] ==> x0dc39fa9e42347ba>"reflectancia"]
-    x3d474db92cf09724>"mensaje"] ==> x0e71b645b3e50d0c>"script_descarga_py"]
-    x3d474db92cf09724>"mensaje"] ==> x70dd0adf732b9ac4>"estado_descarga"]
-    xfabd587be49f2fed>"fecha"] ==> x0dc39fa9e42347ba>"reflectancia"]
-    xfabd587be49f2fed>"fecha"] ==> x38637a02f9b83fc8>"lab"]
-    x0e71b645b3e50d0c>"script_descarga_py"] ==> x70dd0adf732b9ac4>"estado_descarga"]
-    x2eb57580dd338e28(["excel"]) ==> x1a91c1978c7a143b(["datos_lab"])
-    x38637a02f9b83fc8>"lab"] ==> x1a91c1978c7a143b(["datos_lab"])
-    x3975d57dc4a04f5c>"descarga"] ==> x0a08cea06a6d211f(["producto_zip"])
-    xe56f95f4237d1e66(["script_py"]) ==> x0a08cea06a6d211f(["producto_zip"])
-    xd2e55a6b497fb062(["fecha_descarga"]) ==> x4b150ba8dbe4203d(["recorte_tif"])
-    x0a08cea06a6d211f(["producto_zip"]) ==> x4b150ba8dbe4203d(["recorte_tif"])
-    xc5ec810879cc40ee>"recorte"] ==> x4b150ba8dbe4203d(["recorte_tif"])
-    x29bd13377b9e6171>"archivo_excel"] ==> x2eb57580dd338e28(["excel"])
-    x2eb57580dd338e28(["excel"]) ==> xd2e55a6b497fb062(["fecha_descarga"])
-    xfabd587be49f2fed>"fecha"] ==> xd2e55a6b497fb062(["fecha_descarga"])
-    xd2e55a6b497fb062(["fecha_descarga"]) ==> xe56f95f4237d1e66(["script_py"])
-    x0e71b645b3e50d0c>"script_descarga_py"] ==> xe56f95f4237d1e66(["script_py"])
-    x2eb57580dd338e28(["excel"]) ==> x75ae8feee719d1e2(["datos_gis"])
-    xd2e55a6b497fb062(["fecha_descarga"]) ==> x75ae8feee719d1e2(["datos_gis"])
-    x4b150ba8dbe4203d(["recorte_tif"]) ==> x75ae8feee719d1e2(["datos_gis"])
-    x0dc39fa9e42347ba>"reflectancia"] ==> x75ae8feee719d1e2(["datos_gis"])
-
+  x2eb57580dd338e28(["excel"]) ==> x75ae8feee719d1e2(["datos_gis"])
+  x27cf98eb0536b3cc(["fecha_actual"]) ==> x75ae8feee719d1e2(["datos_gis"])
+  x0dc39fa9e42347ba>"reflectancia"] ==> x75ae8feee719d1e2(["datos_gis"])
+  x2eb57580dd338e28(["excel"]) ==> x1a91c1978c7a143b(["datos_lab"])
+  x38637a02f9b83fc8>"lab"] ==> x1a91c1978c7a143b(["datos_lab"])
+  x29bd13377b9e6171>"archivo_excel"] ==> x2eb57580dd338e28(["excel"])
+  x2eb57580dd338e28(["excel"]) ==> x27cf98eb0536b3cc(["fecha_actual"])
+  xfabd587be49f2fed>"fecha"] ==> x27cf98eb0536b3cc(["fecha_actual"])
+  xfabd587be49f2fed>"fecha"] ==> x38637a02f9b83fc8>"lab"]
+  xc36834a08989fd92>"archivo_quarto"] ==> x0cceab94dc3cb992(["manuscrito"])
+  xc856c5bfddbb40a5{{"bandas_s2"}} ==> xc5ec810879cc40ee>"recorte"]
+  x9505d3eeeff3a790{{"puntos_muestreo"}} ==> xc5ec810879cc40ee>"recorte"]
+  x27cf98eb0536b3cc(["fecha_actual"]) ==> x4b150ba8dbe4203d(["recorte_tif"])
+  xc5ec810879cc40ee>"recorte"] ==> x4b150ba8dbe4203d(["recorte_tif"])
+  x3d474db92cf09724>"mensaje"] ==> x0dc39fa9e42347ba>"reflectancia"]
+  xfabd587be49f2fed>"fecha"] ==> x0dc39fa9e42347ba>"reflectancia"]
+  xcac90a77a625823f(["render_manuscrito"])
+  
   classDef default stroke:#FFC0CB,color:#FFFFFF,fill:#224289;
