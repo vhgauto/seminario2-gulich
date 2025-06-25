@@ -226,9 +226,13 @@ Collaborative website with automatic update, interactive and open source.
 
 - Fonts, from [Google Fonts {{< iconify simple-icons:googlefonts >}}](https://fonts.google.com/)
 
+<center>
+
 <span style='font-family: Lato; font-size: 2.5em'>Lato</span> <barra>|</barra>  <span style='font-family: JetBrains Mono; font-size: 2.5em'>JetBrains Mono</span> 
 
 <b style='font-family: Libre Bodoni; font-size: 2.5em'>Libre Bodoni</b> <barra>|</barra> <span style='font-family: Bebas Neue; font-size: 2.5em'>Bebas Neue</span>
+
+</center>
 
 - Accent colors
 
