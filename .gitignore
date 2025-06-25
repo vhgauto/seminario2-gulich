@@ -15,6 +15,7 @@ seminario_files/
 seminario.html
 IG/
 .vscode/
+vector/*
 
 # History files
 .Rhistory
