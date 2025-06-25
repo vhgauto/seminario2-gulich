@@ -216,7 +216,7 @@ Collaborative website with automatic update, interactive and open source.
 
 ::: {.column width="60%"}
 
-![](vid/mapa.mp4){loop="true"}
+![](vid/video.mp4){loop="true"}
 
 :::
 
