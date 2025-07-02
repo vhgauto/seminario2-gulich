@@ -449,22 +449,6 @@ Log file (`renv.lock`) that allows environment reproducibility, with package ver
 
 ::::
 
-<!-- :::: {.columns}
-
-::: {.column width="20%"}
-
-![](https://corrr.tidymodels.org/logo.png){width="150px" fig-align="center"}
-
-:::
-
-::: {.column width="80%"}
-
-`{corrr}` linear correlation coefficient calculation.
-
-:::
-
-:::: -->
-
 ## {{< iconify fa6-brands:r-project >}} R
 
 :::: {.columns}
@@ -665,6 +649,9 @@ Files and directory tree.
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
+:::: {.columns}
+
+::: {.column width="45%"}
 ```{r, label="quarto-yml", filename="_quarto.yml"}
 #| eval: false
 #| echo: true
@@ -692,8 +679,9 @@ format:
     csl: bibliography/ieee.csl
     html-math-method: katex
 ```
+:::
 
-## {{< iconify simple-icons:quarto >}} QUARTO
+::: {.column width="55%"}
 
 ```{r, label="manuscrito-qmd", filename="manuscript.qmd"}
 #| eval: false
@@ -725,6 +713,9 @@ ggplot(data, aes(x, y)) +
     - id: ff90d76c-20c0-4210-8791-5d868ede4c50
       url: https://vhgauto.quarto.pub/gistaq-parana
 ```
+:::
+
+::::
 
 # Conclusion {#sec-conclusion}
 
