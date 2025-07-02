@@ -64,6 +64,8 @@ format:
      color: "#F6B40E"
      alwaysVisible: false
      key: "q"
+  # beamer: 
+  #   use-rsvg-convert: true
 execute:
   echo: false
   eval: true
@@ -71,7 +73,7 @@ editor_options:
   chunk_output_type: console
 preload-iframes: true
 revealjs-plugins:
- - pointer
+- pointer
 ---
 
 # Outline
@@ -82,6 +84,8 @@ revealjs-plugins:
 - Conclusion ([$\S$ @sec-conclusion])
 - Future improvements ([$\S$ @sec-future])
 - Resources ([$\S$ @sec-resources])
+
+<center>Slides available online</center>
 
 ::: {.r-fit-text}
 
@@ -95,7 +99,7 @@ https://vhgauto.github.io/seminario2-gulich/
 
 # Introduction {#sec-introduction}
 
-::: {.callout title="Research project"}
+::: {.callout title='{{< iconify fxemoji:lightbulb >}} Research project'}
 
 <p style='font-size:2.5rem'>
 To estimate water quality indicators in Paraná River middle basin for algorithm development using satellite remote sensing techniques
@@ -148,8 +152,8 @@ Collaborative website with automatic update, interactive and open source.
 ::: {.column width="40%"}
 
 - Sections and subsections
-- Ease website navigation
-- Variable content according to the development
+- Easy website navigation
+- Variable content according to the progress development
 
 :::
 
@@ -167,16 +171,15 @@ Collaborative website with automatic update, interactive and open source.
 
 ::: {.column width="40%"}
 
-- Source code description
-- Processing data justification
-- Calculus methodology explanation to promote reproducibility
-- External resources for further reading.
+- Source code description to promote reproducibility
+- Processing data methodology
+- External resources for further reading
 
 :::
 
 ::: {.column width="60%"}
 
-![](img/notebooks.png){fig-align="center"}
+![](img/notebooks.png){width="60%" fig-align="center"}
 
 :::
 
@@ -189,7 +192,7 @@ Collaborative website with automatic update, interactive and open source.
 ::: {.column width="40%"}
 
 - Formatted references according to desired style (`.csl`)
-- Reference preview on citation hover
+- Reference preview on main text
 
 :::
 
@@ -203,18 +206,24 @@ Collaborative website with automatic update, interactive and open source.
 
 ## Maps, tables & interactive plots
 
-:::: {.columns}
+::::: {.columns}
 
-::: {.column width="40%"}
+:::: {.column width="40%"}
 
 - Results visualization
 - Correlation between parameters exploration
 - Spectral properties description
 - Sample site location
 
+::: {.callout appearance="simple" icon=false}
+Maps, tables and figures are updated automatically upon new measurements
 :::
 
-::: {.column width="60%"}
+::::
+
+:::: {.column width="60%"}
+
+::: {.content-visible when-format="html"}
 
 ![](vid/video.mp4){loop="true"}
 
@@ -222,9 +231,11 @@ Collaborative website with automatic update, interactive and open source.
 
 ::::
 
-## Custom style
+:::::
 
-- Fonts, from [Google Fonts {{< iconify simple-icons:googlefonts >}}](https://fonts.google.com/)
+## Custom styling
+
+- [Google Fonts {{< iconify simple-icons:googlefonts >}}](https://fonts.google.com/)
 
 <center>
 
@@ -256,7 +267,7 @@ Collaborative website with automatic update, interactive and open source.
 
 :::::
 
-![](https://api.iconify.design/vscode-icons/file-type-scss2.svg){.absolute bottom=20 right=20 width="200" height="200"}
+![](https://api.iconify.design/akar-icons/sass-fill.svg){.absolute bottom=20 right=20 width="200" height="200"}
 
 ## {.unnumbered}
 
@@ -278,7 +289,7 @@ https://vhgauto.quarto.pub/gistaq-parana/
 
 # Motivation {#sec-motivation}
 
-Research project typical life journey.
+Research project typical progress.
 
 ```{mermaid mermaid-proyecto-investigación}
 
@@ -292,7 +303,7 @@ Research project typical life journey.
 
 flowchart LR
     a1[Thinking] ==> a2[Beginning]
-    a2 ====> |<span class="svg-spinners--clock"></span>| a3[Main goal]
+    a2 ====> |<span class="eos-icons--rotating-gear"></span>| a3[Main goal]
 
     a3 ==> a4([Paper])
     a3 ==> a5([Conference])
@@ -303,41 +314,57 @@ classDef default stroke:#FFC0CB,color:#FFFFFF,fill:#224289;
 
 . . .
 
+:::: {.columns}
+
+::: {.column}
 - Water sampling
-- Physicochemical test
-- Partial results analyses
+- Physicochemical analyses
+- Partial results assessment
 - Reference reading
 - Other tasks
+:::
 
-## During the project development
+::: {.column}
 
-- [Dynamic document]{.fragment .hl-blanco}, that adapts to the current project state.
-
-- [Easy access]{.fragment .hl-blanco} site to check the latest results.
-
-- [Unified]{.fragment .hl-blanco} reference search.
-
-- Script code execution and results [reproducibility]{.fragment .hl-blanco}.
-
-- All project members can work seamless and without problems and [no fear of disarranging the document]{.fragment .hl-blanco}.
-
-- Consultation resource and to admire all the [effort]{.fragment .hl-blanco} done.
-
-
-::: {style="text-align: right"}
-
-<span class="carbon--development"></span>
+:::: {.callout appearance="minimal"}
+While doing the Project, we lost vision on all the data collected and the knowledge acquired
+::::
 
 :::
 
+
+::::
+
+## The solution should be a...
+
+- [Dynamic document]{.fragment .hl-blanco} to pour all the work, as is being made.
+
+- [Flexible]{.fragment .hl-blanco}, so its adapts to the current project state.
+
+- [Accesible]{.fragment .hl-blanco}, to check the latest results.
+
+- [Easy to share]{.fragment .hl-blanco} with colleagues and third parties.
+
+- [Unified]{.fragment .hl-blanco} reference search.
+
+- [Automatically updated]{.fragment .hl-blanco} with new data, affecting plots, maps and tables.
+
+- [Reproducible]{.fragment .hl-blanco}, with the entire script codes available.
+
+- All project members can work [seamlessly]{.fragment .hl-blanco} without sync conflicts.
+
+- Consultation reference resource and to admire all the [effort]{.fragment .hl-blanco} done so far.
+
+- [Inspiration material]{.fragment .hl-blanco} for future papers and congress presentations.
+
 # Tools {#sec-tools}
 
-- <rosa>{{< iconify fa6-brands:r-project >}} R</rosa> y <rosa>{{< iconify akar-icons:python-fill >}} Python</rosa>: reading and data collection; processing and results storage; plots, tables and maps generation.
+- <rosa>{{< iconify fa6-brands:r-project >}} R</rosa> & <rosa>{{< iconify akar-icons:python-fill >}} Python</rosa>: reading and data collection; processing and results storage; plots, tables and maps generation.
 
-- <rosa>{{< iconify fe:git >}} Git</rosa> y <rosa>{{< iconify mdi:github >}} GitHub</rosa>: version control management and project members collaboration.
+- <rosa>{{< iconify fe:git >}} Git</rosa> & <rosa>{{< iconify mdi:github >}} GitHub</rosa>: version control management and project members collaboration.
 
-- <rosa>{{< iconify simple-icons:quarto >}} Quarto</rosa>: to content compilation and website publishing.
-  + **Manuscript** allows website creation with an emphasis in reproducibility and targeted to scientific and academic documents.
+- <rosa>{{< iconify simple-icons:quarto >}} Quarto</rosa>: to gather all the content in a website and to publish.
+  + **Manuscript** allows website creation with emphasis in reproducibility and targeted to scientific and academic documents.
 
 ## {{< iconify fa6-brands:r-project >}} R
 
@@ -355,7 +382,7 @@ classDef default stroke:#FFC0CB,color:#FFFFFF,fill:#224289;
 
 Check current workflow state and execute only outdated targets.
 
-File monitoring and code re-execution when change detection.
+File monitoring and code re-execution upon change detection.
 
 :::
 
@@ -380,9 +407,15 @@ File monitoring and code re-execution when change detection.
 
 ::: {.column width="80%"}
 
-`{renv}` execution environment management, package version and its dependencies.
+`{renv}` for environment management, listing packages and dependencies.
 
-Log file (`renv.lock`) that allows environment reproducibility.
+Log file (`renv.lock`) that allows environment reproducibility, with package version and location repository.
+
+<!-- TODO cambiar el callout -->
+
+::: {.callout appearance="minimal"}
+Only for `R` packages.
+:::
 
 :::
 
@@ -402,7 +435,7 @@ Log file (`renv.lock`) that allows environment reproducibility.
 
 ::: {.column width="80%"}
 
-`{tidyverse}` with multiple packages for general purpose data processing and manipulation.
+`{tidyverse}` for general purpose data processing and manipulation.
 
 :::
 
@@ -418,13 +451,13 @@ Log file (`renv.lock`) that allows environment reproducibility.
 
 ::: {.column width="80%"}
 
-`{terra}` for geographic data processing and vector and raster reading.
+`{terra}` for geographic data processing and reading/writing of vector/raster .
 
 :::
 
 ::::
 
-:::: {.columns}
+<!-- :::: {.columns}
 
 ::: {.column width="20%"}
 
@@ -438,7 +471,7 @@ Log file (`renv.lock`) that allows environment reproducibility.
 
 :::
 
-::::
+:::: -->
 
 ## {{< iconify fa6-brands:r-project >}} R
 
@@ -452,7 +485,7 @@ Log file (`renv.lock`) that allows environment reproducibility.
 
 ::: {.column width="80%"}
 
-`{ggplot2}` for basic plot creation (`.png`).
+`{ggplot2}` for basic static plots (`.png`).
 
 :::
 
@@ -468,7 +501,7 @@ Log file (`renv.lock`) that allows environment reproducibility.
 
 ::: {.column width="80%"}
 
-`{ggiraph}` for interactive plot creation (`.html`).
+`{ggiraph}` for interactive plots (`.html`), with more data on hover.
 
 :::
 
@@ -478,7 +511,7 @@ Log file (`renv.lock`) that allows environment reproducibility.
 
 ::: {.column width="20%"}
 
-![](https://leafletjs.com/docs/images/logo.png){width="150px" fig-align="center"}
+![](img/leaflet.png){width="150px" fig-align="center"}
 
 :::
 
@@ -492,9 +525,7 @@ Log file (`renv.lock`) that allows environment reproducibility.
 
 ## {{< iconify akar-icons:python-fill >}} PYTHON
 
-Copernicus Data Space
-
-![](https://dataspace.copernicus.eu/themes/custom/copernicus/logo.svg){width="50%" fig-align="left"}
+![](https://dataspace.copernicus.eu/themes/custom/copernicus/logo.svg){width="50%" fig-align="center"}
 
 ::: {.columns}
 
@@ -520,19 +551,19 @@ Copernicus Data Space
 
 Version control management and simultaneous collaboration between project members.
 
-<rosa style='font-size:4rem'>{{< iconify mdi:github >}}</rosa> GitHub for cloud storage service and sharing.
+<rosa style='font-size:4rem'>{{< iconify mdi:github >}}</rosa> GitHub for cloud storage service, sharing and project repository.
 
 <rosa style='font-size:4rem'>{{< iconify hugeicons:git-branch >}}</rosa> `branch` per member, so each one works in a specific section without interfering with the remaining repository.
 
-<rosa style='font-size:4rem'>{{< iconify hugeicons:git-pull-request >}}</rosa> `pull request` to request adding changes.
+<rosa style='font-size:4rem'>{{< iconify hugeicons:git-pull-request >}}</rosa> `pull request` to request change inclusion.
 
 <rosa style='font-size:4rem'>{{< iconify hugeicons:git-merge >}}</rosa> `merge` to combine changes once checked and accepted.
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
-- Combines code execution by [programming language]{.fragment .hl-blanco fragment-index=1} and [narrative text]{.fragment .hl-blanco fragment-index=1} to create a product in multiple formatted options
+- Combines code execution from [programming language]{.fragment .hl-blanco fragment-index=1} and [narrative text]{.fragment .hl-blanco fragment-index=1} to create a output file in multiple formatted options.
 
-- Offers a [publishing platform]{.fragment .hl-blanco fragment-index=2} for the output and to access it as a website
+- Offers a [publishing platform]{.fragment .hl-blanco fragment-index=2} ([Quarto pub](https://quartopub.com/)) for the output as a website.
 
 ```{mermaid workflow-quarto}
 %%{
@@ -553,7 +584,10 @@ flowchart LR
 
   s4[<span class="file-icons--latex"></span>]:::e1 ==> q1
 
-  q1 ==> h1[<span class="qlementine-icons--file-html-16"></span><br>html]:::e1
+  q1 ==> h1[<span class="bytesize--book"></span> <span class="lineicons--www"></span><br>
+            <span class="majesticons--presentation"></span> <span class="ic--round-dashboard"></span><br>
+            <span class="carbon--pdf"></span> <span class="carbon--html"></span><br>
+            <span class="carbon--doc"></span> <span class="carbon--ppt"></span>]:::e1
 
   h1 ==>|<b style='color:white'>quarto pub</b>| w1[<span class="mdi--web"></span><br>website]:::e1
 
@@ -594,7 +628,7 @@ flowchart LR
 
 - **Manuscript** is design for [scientific document authoring]{.fragment .hl-blanco}, with emphasis in reproducibility, since it encourages the readers to explore processing scripts (<i>notebooks</i>).<br><br>
 
-- Offers [multiple static outputs]{.fragment .hl-blanco} that follow an specific template from a magazine.<br><br>
+- Offers [multiple static outputs]{.fragment .hl-blanco} (`.pdf`, `.docx`) that can follow a specific template.<br><br>
 
 - It allows to [deploy the website]{.fragment .hl-blanco} in <rosa>Quarto Pub {{< iconify simple-icons:quarto >}}</rosa> or <rosa>GitHub Pages {{< iconify mdi:github >}}</rosa>.<br><br>
 
@@ -639,28 +673,6 @@ Files and directory tree.
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
-```{r, label="manuscrito-qmd", filename="manuscript.qmd"}
-#| eval: false
-#| echo: true
----
-title: Research Project
-author: Víctor Gauto
-date: last modified
----
-
-# Introducción
-
-**Paraná River** has <i>water</i>.
-
-````{r}
-ggplot(data, aes(x, y)) +
-  geom_point()
-````
-
-```
-
-## {{< iconify simple-icons:quarto >}} QUARTO
-
 ```{r, label="quarto-yml", filename="_quarto.yml"}
 #| eval: false
 #| echo: true
@@ -688,7 +700,30 @@ format:
     csl: bibliography/ieee.csl
     html-math-method: katex
 ```
+
 ## {{< iconify simple-icons:quarto >}} QUARTO
+
+```{r, label="manuscrito-qmd", filename="manuscript.qmd"}
+#| eval: false
+#| echo: true
+---
+title: Research Project
+author: Víctor Gauto
+date: last modified
+---
+
+# Introducción
+
+**Paraná River** has <i>water</i>.
+
+````{r}
+ggplot(data, aes(x, y)) +
+  geom_point()
+````
+
+```
+
+<br>
 
 ```{r, label="publish-yml", filename="_publish.yml"}
 #| eval: false
@@ -700,6 +735,18 @@ format:
 ```
 
 # Conclusion {#sec-conclusion}
+
+- A Project website was developed using Quarto Manuscript.<br><br>
+
+- By combining multiple tools, the website content is updated automatically and publish.<br><br>
+
+- Project members participate in the development, in charge of their own sections.<br><br>
+
+- We can check the Project progress and be proud of what is done and plan what is left.<br><br>
+
+## All the tools involved
+
+<!-- TODO volver a redactar -->
 
 The **Research Project** development allowed us to learn a [new set of tools]{.fragment .hl-blanco}.
 
@@ -845,21 +892,23 @@ The **Research Project** development allowed us to learn a [new set of tools]{.f
 
 # Resources {#sec-resources .smaller}
 
+<!-- TODO sacar descarga de pdf? -->
+
 ::::: {.columns}
 
-:::: {.column width="35%"}
+:::: {.column width="50%"}
 
 ::: {.fondo}
 
-[{{< iconify teenyicons:pdf-solid >}} &nbsp; **Download** &nbsp; {{< iconify ph:download-fill >}}](https://raw.githubusercontent.com/vhgauto/seminario2-gulich/main/index.pdf)
+[{{< iconify teenyicons:pdf-solid >}} &nbsp; **Download presentation** &nbsp; {{< iconify ph:download-fill >}}](https://raw.githubusercontent.com/vhgauto/seminario2-gulich/main/index.pdf)
 
-[{{< iconify icon-park-outline:slide >}} &nbsp; **This presentation repository** &nbsp; {{< iconify mdi:github >}}](https://github.com/vhgauto/seminario2-gulich)
+[{{< iconify icon-park-outline:slide >}} &nbsp; **This presentation code is available here** &nbsp; {{< iconify mdi:github >}}](https://github.com/vhgauto/seminario2-gulich)
 
 :::
 
 ::::
 
-:::: {.column width="65%"}
+:::: {.column width="50%"}
 ::::
 
 :::::
@@ -875,6 +924,8 @@ The **Research Project** development allowed us to learn a [new set of tools]{.f
 [{{< iconify humbleicons:link >}} The {targets} R package user manual](https://books.ropensci.org/targets/)
 
 [{{< iconify humbleicons:link >}} Introduction to renv](https://rstudio.github.io/renv/articles/renv.html)
+
+[{{< iconify humbleicons:link >}} Quarto Pub - Publishing service for Quarto documents](https://quarto.org/docs/publishing/quarto-pub.html)
 
 [{{< iconify bytesize:book >}} R for Data Science (2e)](https://r4ds.hadley.nz/)
 
