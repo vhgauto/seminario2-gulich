@@ -64,8 +64,6 @@ format:
      color: "#F6B40E"
      alwaysVisible: false
      key: "q"
-  # beamer: 
-  #   use-rsvg-convert: true
 execute:
   echo: false
   eval: true
@@ -139,7 +137,7 @@ Collaborative website with automatic update, interactive and open source.
 
 ::: {.column width="60%"}
 
-![](img/portada.png){width="75%" fig-align="center"}
+![](img/portada.png){height="600px" fig-align="center"}
 
 :::
 
@@ -159,7 +157,7 @@ Collaborative website with automatic update, interactive and open source.
 
 ::: {.column width="60%"}
 
-![](img/toc.png){width="35%" fig-align="center"}
+![](img/toc.png){height="600px" fig-align="center"}
 
 :::
 
@@ -179,7 +177,7 @@ Collaborative website with automatic update, interactive and open source.
 
 ::: {.column width="60%"}
 
-![](img/notebooks.png){width="60%" fig-align="center"}
+![](img/notebooks.png){height="600px" fig-align="center"}
 
 :::
 
@@ -198,7 +196,7 @@ Collaborative website with automatic update, interactive and open source.
 
 ::: {.column width="60%"}
 
-![](img/referencias.png){fig-align="center"}
+![](img/referencias.png){height="600px" fig-align="center"}
 
 :::
 
@@ -267,7 +265,7 @@ Maps, tables and figures are updated automatically upon new measurements
 
 :::::
 
-![](https://api.iconify.design/akar-icons/sass-fill.svg){.absolute bottom=20 right=20 width="200" height="200"}
+![](https://api.iconify.design/akar-icons/sass-fill.svg?color=%23ffffff){.absolute bottom=20 right=20 width="200" height="200"}
 
 ## {.unnumbered}
 
@@ -409,13 +407,7 @@ File monitoring and code re-execution upon change detection.
 
 `{renv}` for environment management, listing packages and dependencies.
 
-Log file (`renv.lock`) that allows environment reproducibility, with package version and location repository.
-
-<!-- TODO cambiar el callout -->
-
-::: {.callout appearance="minimal"}
-Only for `R` packages.
-:::
+Log file (`renv.lock`) that allows environment reproducibility, with package version and location repository. Only for `R` packages.
 
 :::
 
@@ -744,11 +736,9 @@ ggplot(data, aes(x, y)) +
 
 - We can check the Project progress and be proud of what is done and plan what is left.<br><br>
 
-## All the tools involved
+## Tools learned
 
-<!-- TODO volver a redactar -->
-
-The **Research Project** development allowed us to learn a [new set of tools]{.fragment .hl-blanco}.
+The website creation alongside the Project development allowed us to learn a [new set of tools]{.fragment .hl-blanco}.
 
 <center style='font-size:3em'>
 
@@ -781,6 +771,8 @@ The **Research Project** development allowed us to learn a [new set of tools]{.f
 ::::
 
 :::: {.eqi-container}
+
+<lang-rosa>{{< iconify ant-design:code-filled >}}</lang-rosa>
 
 <lang-rosa>{{< iconify dashicons:html >}}</lang-rosa>
 
@@ -892,17 +884,15 @@ The **Research Project** development allowed us to learn a [new set of tools]{.f
 
 # Resources {#sec-resources .smaller}
 
-<!-- TODO sacar descarga de pdf? -->
-
 ::::: {.columns}
 
 :::: {.column width="50%"}
 
 ::: {.fondo}
 
-[{{< iconify teenyicons:pdf-solid >}} &nbsp; **Download presentation** &nbsp; {{< iconify ph:download-fill >}}](https://raw.githubusercontent.com/vhgauto/seminario2-gulich/main/index.pdf)
-
+<center>
 [{{< iconify icon-park-outline:slide >}} &nbsp; **This presentation code is available here** &nbsp; {{< iconify mdi:github >}}](https://github.com/vhgauto/seminario2-gulich)
+</center>
 
 :::
 
@@ -921,11 +911,11 @@ The **Research Project** development allowed us to learn a [new set of tools]{.f
 
 [{{< iconify humbleicons:link >}} Quarto Manuscripts](https://quarto.org/docs/manuscripts/)
 
+[{{< iconify humbleicons:link >}} Quarto Pub - Publishing service for Quarto documents](https://quarto.org/docs/publishing/quarto-pub.html)
+
 [{{< iconify humbleicons:link >}} The {targets} R package user manual](https://books.ropensci.org/targets/)
 
 [{{< iconify humbleicons:link >}} Introduction to renv](https://rstudio.github.io/renv/articles/renv.html)
-
-[{{< iconify humbleicons:link >}} Quarto Pub - Publishing service for Quarto documents](https://quarto.org/docs/publishing/quarto-pub.html)
 
 [{{< iconify bytesize:book >}} R for Data Science (2e)](https://r4ds.hadley.nz/)
 
