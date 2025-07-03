@@ -203,6 +203,18 @@ barra {
   }
 }
 
+.reveal .slides section .fragment.hl-proud {
+  opacity: unset;
+  visibility: unset;
+
+  &.visible, &.current-fragment {
+      color: $azul;
+      background-color: $blanco;
+      border-radius: 3px;
+      box-shadow: 0px 0px 10px 10px $rosa;
+  }
+}
+
 .fin {
     font-family: "Fleur De Leah";
     color: $gris2;
