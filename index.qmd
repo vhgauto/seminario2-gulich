@@ -14,19 +14,19 @@ author:
         url: https://ig.conae.unc.edu.ar/
     email: victor.gauto@ca.free.utn.edu.ar
     corresponding: true
-  - name: Matías Bonansea, **PhD** [{{< iconify fa6-brands:orcid >}}](https://orcid.org/0000-0003-1953-2595)
+  - name: Matías<br>Bonansea, **PhD** [{{< iconify fa6-brands:orcid >}}](https://orcid.org/0000-0003-1953-2595)
     affiliation:
       - name: <b>ICBIA</b> (UNRC, CONICET)
         url: https://icbia.conicet.gov.ar/
-  - name: Anabella Ferral, **PhD** [{{< iconify fa6-brands:orcid >}}](https://orcid.org/0000-0002-9383-7728)
+  - name: Anabella<br>Ferral, **PhD** [{{< iconify fa6-brands:orcid >}}](https://orcid.org/0000-0002-9383-7728)
     affiliation:
       - name: <b>Instituto Gulich</b> (UNC, CONAE)
         url: https://ig.conae.unc.edu.ar/
-  - name: Osvaldo Cardozo, **PhD** [{{< iconify fa6-brands:orcid >}}](https://orcid.org/0000-0002-0345-4505)
+  - name: Osvaldo<br>Cardozo, **PhD** [{{< iconify fa6-brands:orcid >}}](https://orcid.org/0000-0002-0345-4505)
     affiliation:
       - name: <b>IIDTHH</b> (UNNE, CONICET)
         url: https://iidthh.conicet.gov.ar/
-  - name: Claudia Giardino, **PhD** [{{< iconify fa6-brands:orcid >}}](https://orcid.org/0000-0002-3937-4988)
+  - name: Claudia<br>Giardino, **PhD** [{{< iconify fa6-brands:orcid >}}](https://orcid.org/0000-0002-3937-4988)
     affiliation:
       - name: <b>IREA</b> (CNR)
         url: http://www.irea.cnr.it/
