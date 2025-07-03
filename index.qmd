@@ -726,13 +726,13 @@ format:
 
 # Conclusion {#sec-conclusion}
 
-- A [Project website]{.fragment .hl-blanco} was developed using Quarto Manuscript.<br><br>
+- A [Project website]{.fragment .hl-blanco fragment-index=1} was developed using Quarto Manuscript.<br><br>
 
-- By combining multiple tools, the website content is [updated automatically]{.fragment .hl-blanco} and publish.<br><br>
+- By combining multiple tools, the website content is [updated automatically]{.fragment .hl-blanco fragment-index=2} and publish.<br><br>
 
-- Project members [collaborate]{.fragment .hl-blanco} in the development, in charge of their own sections.<br><br>
+- Project members [collaborate]{.fragment .hl-blanco fragment-index=3} in the development, in charge of their own sections.<br><br>
 
-- We can check the Project progress and be [proud]{.fragment .hl-blanco} of what is done and plan what is left.<br><br>
+- We can check the Project progress and be [proud]{.fragment .hl-proud fragment-index=4} of what is done and [plan]{.fragment .hl-blanco fragment-index=4} what is left.<br><br>
 
 ## Tools learned
 
@@ -742,19 +742,23 @@ The website creation alongside the Project development allowed us to learn a [ne
 
 :::: {.eqi-container}
 
-<lang-rosa>{{< iconify akar-icons:vscode-fill >}}</lang-rosa>
-
 <lang-rosa>{{< iconify iconoir:git-solid >}}</lang-rosa>
 
 <lang-rosa>{{< iconify fe:github >}}</lang-rosa>
 
-<lang-rosa>{{< iconify simple-icons:quarto >}}</lang-rosa>
+<lang-rosa>{{< iconify fa6-brands:r-project >}}</lang-rosa>
 
 <lang-rosa>{{< iconify akar-icons:python-fill >}}</lang-rosa>
+
+<lang-rosa>{{< iconify akar-icons:vscode-fill >}}</lang-rosa>
 
 ::::
 
 :::: {.eqi-container}
+
+![](https://raw.githubusercontent.com/posit-dev/positron/main/positron-product-icons/positron.png){width="100px"}
+
+<lang-rosa>{{< iconify simple-icons:quarto >}}</lang-rosa>
 
 <lang-rosa>{{< iconify akar-icons:sass-fill >}}</lang-rosa>
 
@@ -762,23 +766,19 @@ The website creation alongside the Project development allowed us to learn a [ne
 
 <lang-rosa>{{< iconify material-symbols:markdown >}}</lang-rosa>
 
-<lang-rosa>{{< iconify fa6-brands:r-project >}}</lang-rosa>
-
-![](https://raw.githubusercontent.com/posit-dev/positron/main/positron-product-icons/positron.png){width="100px"}
-
 ::::
 
 :::: {.eqi-container}
 
-<lang-rosa>{{< iconify ant-design:code-filled >}}</lang-rosa>
+<lang-rosa>{{< iconify simple-icons:typst >}}</lang-rosa>
 
-<lang-rosa>{{< iconify dashicons:html >}}</lang-rosa>
+<lang-rosa>{{< iconify ant-design:code-filled >}}</lang-rosa>
 
 <lang-rosa>{{< iconify simple-icons:mermaid >}}</lang-rosa>
 
 <lang-rosa>{{< iconify file-icons:latex >}}</lang-rosa>
 
-<lang-rosa>{{< iconify simple-icons:typst >}}</lang-rosa>
+<lang-rosa>{{< iconify dashicons:html >}}</lang-rosa>
 
 ::::
 
@@ -789,12 +789,10 @@ The website creation alongside the Project development allowed us to learn a [ne
 - [Rewrite functions]{.fragment .hl-blanco} used by `{targets}`.
   + Define arguments clearly.
   + Return descriptive messages during runtime and in case of errors.
-  + Incorporate website rendering.
-- Optimize satellite data download, [avoiding to get the entire product]{.fragment .hl-blanco}.
-  + {{< iconify simple-icons:googleearthengine >}} Google Earth Engine.
-  + {{< iconify fa6-brands:r-project >}}&nbsp;`{rsi}` package.
-- [Organice website visual features]{.fragment .hl-blanco} (colors, fonts, styles, margins) in the `.scss` file.
-- Use the full potential of **Manuscript**, so the [results are created by the notebooks]{.fragment .hl-blanco}.
+  + Incorporate website publishing.
+  + Add ACOLITE processing in the workflow
+- [Organice website styling]{.fragment .hl-blanco} (colors, fonts, styles, arrangements) in the `.scss` file.
+- Add more [conditional text]{.fragment .hl-blanco}, according to the sampling campaigns and results.
 
 # {.unnumbered background-color="#F79CD4"}
 
