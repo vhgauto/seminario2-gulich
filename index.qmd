@@ -502,7 +502,7 @@ Log file (`renv.lock`) that allows environment reproducibility, with package ver
 
 ## {{< iconify akar-icons:python-fill >}} PYTHON
 
-![](https://dataspace.copernicus.eu/themes/custom/copernicus/logo.svg){width="40%" fig-align="center"}
+![](https://dataspace.copernicus.eu/themes/custom/copernicus/logo.svg){width="30%" fig-align="center"}
 
 ::: {.columns}
 
@@ -544,7 +544,7 @@ Common terminal commands:
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
-- Combines [code execution]{.fragment .hl-blanco fragment-index=1}, from programming language scripts, and [narrative text]{.fragment .hl-blanco fragment-index=1}, from `markdown`, to create an output file in multiple formatted options.
+- Combines [code execution]{.fragment .hl-blanco fragment-index=1}, from programming language scripts, and [narrative text]{.fragment .hl-blanco fragment-index=1}, from `markdown`, to create an output file in multiple formatted options (book, website, presentation, dashboard).
 
 - Offers a [publishing platform]{.fragment .hl-blanco fragment-index=2} ([Quarto pub](https://quartopub.com/)) for the output as a website.
 
