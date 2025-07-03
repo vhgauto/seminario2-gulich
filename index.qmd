@@ -283,11 +283,11 @@ https://vhgauto.quarto.pub/gistaq-parana/
 
 :::
 
-![](img/qr_proyecto.svg){fig-align="center" width="300px"}
+![](img/qr_proyecto.svg){fig-align="center" width="100px"}
 
 # Motivation {#sec-motivation}
 
-Research project typical progress.
+Research Project progress.
 
 ```{mermaid mermaid-proyecto-investigación}
 
@@ -300,8 +300,8 @@ Research project typical progress.
 }%%
 
 flowchart LR
-    a1[Thinking] ==> a2[Beginning]
-    a2 ====> |<span class="eos-icons--rotating-gear"></span>| a3[Main goal]
+    a1[Project<br>formulation] ==> a2[Start]
+    a2 ====> |<span class="eos-icons--rotating-gear"></span>| a3[Main goal<br>is achieved]
 
     a3 ==> a4([Paper])
     a3 ==> a5([Conference])
@@ -325,7 +325,7 @@ classDef default stroke:#FFC0CB,color:#FFFFFF,fill:#224289;
 ::: {.column}
 
 :::: {.callout appearance="minimal"}
-While doing the Project, we lost vision on all the data collected and the knowledge acquired
+While doing the Project, we lost vision on all the data collected and the knowledge acquired. Near the end we recognize this.
 ::::
 
 :::
@@ -333,7 +333,7 @@ While doing the Project, we lost vision on all the data collected and the knowle
 
 ::::
 
-## The solution should be a...
+## An alternative should be a...
 
 - [Dynamic document]{.fragment .hl-blanco} to pour all the work, as is being made.
 
