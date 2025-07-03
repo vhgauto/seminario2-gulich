@@ -262,17 +262,18 @@ h1.title {
     font-size: 3em;
 }
 
-.reveal .quarto-title-block .quarto-title-authors .quarto-title-author {
-    text-align: left;
+.quarto-title-author-name {
+    font-size: .6em;
+    padding-bottom: 10px;
 }
 
-.quarto-title-author-name {
-    font-size: 1.5rem;
+.reveal .quarto-title-block .quarto-title-authors .quarto-title-author a {
+    font-size: .7em;
     padding-bottom: 10px;
 }
 
 .quarto-title-affiliation {
-    font-size: 1rem;
+    font-size: .5em;
 }
 
 .quarto-title-author-email {
@@ -311,15 +312,15 @@ caa {
 }
 
 .reveal .quarto-title-block .quarto-title-authors .quarto-title-author {
-    padding: 1em 1em 1em 1em;
-    // background-color: $celeste;
+    padding: 2em .5em .5em .5em;
+    text-align: left;
 }
 
 .subtitle {
     color: $blanco;
     margin-top: -5px;
-    margin-bottom: 0px;
-    font-size: 1.5em;
+    margin-bottom: 0em;
+    font-size: 1.2em;
 }
 
 #title-slide .subtitle, div.reveal div.slides section.quarto-title-block .subtitle {
