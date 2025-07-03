@@ -265,7 +265,7 @@ Maps, tables and figures are updated automatically upon new measurements
 
 :::::
 
-![](https://api.iconify.design/akar-icons/sass-fill.svg?color=%23ffffff){.absolute bottom=20 right=20 width="200" height="200"}
+![](https://api.iconify.design/akar-icons/sass-fill.svg?color=%23ffffff){.absolute bottom=20 right=20 width="100px" height="100px"}
 
 ## {.unnumbered}
 
@@ -325,11 +325,12 @@ classDef default stroke:#FFC0CB,color:#FFFFFF,fill:#224289;
 ::: {.column}
 
 :::: {.callout appearance="minimal"}
-While doing the Project, we lost vision on all the data collected and the knowledge acquired. Near the end we recognize this.
+Usually, while doing the Project, we don't recognize all the data as is being collected. The knowledge acquired is dispersed in multiple files.
+
+When the Project is near the end we recognize this situation.
 ::::
 
 :::
-
 
 ::::
 
@@ -351,9 +352,9 @@ While doing the Project, we lost vision on all the data collected and the knowle
 
 - All project members can work [seamlessly]{.fragment .hl-blanco} without sync conflicts.
 
-- Consultation reference resource and to admire all the [effort]{.fragment .hl-blanco} done so far.
-
 - [Inspiration material]{.fragment .hl-blanco} for future papers and congress presentations.
+
+- <span style="font-size: 1.1em">To admire all the [effort]{.fragment .hl-blanco} done at any time, in one place.</span>
 
 # Tools {#sec-tools}
 
@@ -361,7 +362,7 @@ While doing the Project, we lost vision on all the data collected and the knowle
 
 - <rosa>{{< iconify fe:git >}} Git</rosa> & <rosa>{{< iconify mdi:github >}} GitHub</rosa>: version control management and project members collaboration.
 
-- <rosa>{{< iconify simple-icons:quarto >}} Quarto</rosa>: to gather all the content in a website and to publish.
+- <rosa>{{< iconify simple-icons:quarto >}} Quarto</rosa>: to gather all the content in a single file, render a website and to publish.
   + **Manuscript** allows website creation with emphasis in reproducibility and targeted to scientific and academic documents.
 
 ## {{< iconify fa6-brands:r-project >}} R
@@ -405,9 +406,9 @@ File monitoring and code re-execution upon change detection.
 
 ::: {.column width="80%"}
 
-`{renv}` for environment management, listing packages and dependencies.
+`{renv}` for reproducible environment management, listing packages and dependencies.
 
-Log file (`renv.lock`) that allows environment reproducibility, with package version and location repository. Only for `R` packages.
+Log file (`renv.lock`) that allows environment reproducibility, with package version and location repository. <u>Only for `R` packages</u>.
 
 :::
 
@@ -443,7 +444,7 @@ Log file (`renv.lock`) that allows environment reproducibility, with package ver
 
 ::: {.column width="80%"}
 
-`{terra}` for geographic data processing and reading/writing of vector/raster .
+`{terra}` for geographic data processing and reading/writing of vector/raster files.
 
 :::
 
@@ -477,7 +478,7 @@ Log file (`renv.lock`) that allows environment reproducibility, with package ver
 
 ::: {.column width="80%"}
 
-`{ggiraph}` for interactive plots (`.html`), with more data on hover.
+`{ggiraph}` for interactive plots (`.html`), showing more data on hover.
 
 :::
 
@@ -501,7 +502,7 @@ Log file (`renv.lock`) that allows environment reproducibility, with package ver
 
 ## {{< iconify akar-icons:python-fill >}} PYTHON
 
-![](https://dataspace.copernicus.eu/themes/custom/copernicus/logo.svg){width="50%" fig-align="center"}
+![](https://dataspace.copernicus.eu/themes/custom/copernicus/logo.svg){width="40%" fig-align="center"}
 
 ::: {.columns}
 
@@ -515,7 +516,7 @@ Log file (`renv.lock`) that allows environment reproducibility, with package ver
   + Credentials
 
 - Atmospheric correction
-  + [ACOLITE](https://github.com/acolite/acolite)
+  + [ACOLITE](https://github.com/acolite/acolite), atmospheric correction algorithms for aquatic applications
 
 :::
 
@@ -529,9 +530,11 @@ Log file (`renv.lock`) that allows environment reproducibility, with package ver
 
 ## {{< iconify fe:git >}} GIT
 
-Version control management and simultaneous collaboration between project members.
+Version control management and simultaneous collaboration between Project members.
 
 <rosa style='font-size:4rem'>{{< iconify mdi:github >}}</rosa> GitHub for cloud storage service, sharing and project repository.
+
+Common terminal commands:
 
 <rosa style='font-size:4rem'>{{< iconify hugeicons:git-branch >}}</rosa> `branch` per member, so each one works in a specific section without interfering with the remaining repository.
 
@@ -541,7 +544,7 @@ Version control management and simultaneous collaboration between project member
 
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
-- Combines code execution from [programming language]{.fragment .hl-blanco fragment-index=1} and [narrative text]{.fragment .hl-blanco fragment-index=1} to create a output file in multiple formatted options.
+- Combines [code execution]{.fragment .hl-blanco fragment-index=1}, from programming language scripts, and [narrative text]{.fragment .hl-blanco fragment-index=1}, from `markdown`, to create an output file in multiple formatted options.
 
 - Offers a [publishing platform]{.fragment .hl-blanco fragment-index=2} ([Quarto pub](https://quartopub.com/)) for the output as a website.
 
@@ -619,29 +622,29 @@ flowchart LR
 ::::: {.columns}
 
 :::: {.column width="30%"}
-Files and directory tree.
+Files and directory tree in Project repository.
 ::::
 
 :::: {.column width="70%"}
 ::: {style="font-family: 'JetBrains Mono'; font-size: .7em; margin-left: 150px;"}
 **quarto_manuscript**<br>
-├── {{< iconify flat-color-icons:folder >}} bibliography/<br>
+├── {{< iconify flat-color-icons:folder >}} **bibliography/**<br>
 │   ├── ieee.csl<br>
 │   └── {{< iconify file-icons:bibtex >}} reference.bib<br>
-├── {{< iconify flat-color-icons:folder >}} data/<br>
+├── {{< iconify flat-color-icons:folder >}} **data/**<br>
 │   ├── <span class="material-symbols--csv"></span> laboratory.csv<br>
 │   └── <span class="material-symbols--csv"></span> reflectance.csv<br>
-├── {{< iconify flat-color-icons:folder >}} plots/<br>
+├── {{< iconify flat-color-icons:folder >}} **plots/**<br>
 │   ├── <span class="material-symbols--file-png"></span> boxplot.png<br>
 │   └── <span class="material-symbols--file-png"></span> time_series.png<br>
-├── {{< iconify flat-color-icons:folder >}} notebooks/<br>
+├── {{< iconify flat-color-icons:folder >}} **notebooks/**<br>
 │   ├── <span class="simple-icons--quarto2"></span> plots.qmd<br>
 │   └── <span class="simple-icons--quarto2"></span> data_reading.qmd<br>
-├── {{< iconify flat-color-icons:folder >}} raster/<br>
-├── {{< iconify flat-color-icons:folder >}} scripts/<br>
+├── {{< iconify flat-color-icons:folder >}} **raster/**<br>
+├── {{< iconify flat-color-icons:folder >}} **scripts/**<br>
 │   ├── <span class="fa6-brands--r-project2"></span> functions.R<br>
 │   └── <span class="fa6-brands--r-project2"></span> support.R<br>
-├── {{< iconify flat-color-icons:folder >}} vectors/<br>
+├── {{< iconify flat-color-icons:folder >}} **vectors/**<br>
 ├── <span class="fluent--document-yml-16-filled"></span> [_publish.yml]{.fragment .hl-blanco fragment-index=1}<br>
 ├── <span class="fluent--document-yml-16-filled"></span> [_quarto.yml]{.fragment .hl-blanco fragment-index=1}<br>
 ├── <span class="fa6-brands--r-project2"></span> _targets.R<br>
@@ -654,36 +657,6 @@ Files and directory tree.
 ## {{< iconify simple-icons:quarto >}} QUARTO
 
 :::: {.columns}
-
-::: {.column width="45%"}
-```{r, label="quarto-yml", filename="_quarto.yml"}
-#| eval: false
-#| echo: true
-project:
-  type: manuscript
-
-manuscript:
-  article: manuscrito.qmd
-  notebooks:
-    - notebooks/data_reading.qmd
-
-format:
-  html:
-    lang: es
-    include-in-header:
-      - extras/favicon.html
-    theme:
-      - extras/my_style.scss
-    toc: true
-    code-link: true
-    code-copy: true
-    tbl-cap-location: margin
-    fig-cap-location: bottom
-    bibliography: bibliography/reference.bib
-    csl: bibliography/ieee.csl
-    html-math-method: katex
-```
-:::
 
 ::: {.column width="55%"}
 
@@ -719,17 +692,47 @@ ggplot(data, aes(x, y)) +
 ```
 :::
 
+::: {.column width="45%"}
+```{r, label="quarto-yml", filename="_quarto.yml"}
+#| eval: false
+#| echo: true
+project:
+  type: manuscript
+
+manuscript:
+  article: manuscrito.qmd
+  notebooks:
+    - notebooks/data_reading.qmd
+
+format:
+  html:
+    lang: es
+    include-in-header:
+      - extras/favicon.html
+    theme:
+      - extras/my_style.scss
+    toc: true
+    code-link: true
+    code-copy: true
+    tbl-cap-location: margin
+    fig-cap-location: bottom
+    bibliography: bibliography/reference.bib
+    csl: bibliography/ieee.csl
+    html-math-method: katex
+```
+:::
+
 ::::
 
 # Conclusion {#sec-conclusion}
 
-- A Project website was developed using Quarto Manuscript.<br><br>
+- A [Project website]{.fragment .hl-blanco} was developed using Quarto Manuscript.<br><br>
 
-- By combining multiple tools, the website content is updated automatically and publish.<br><br>
+- By combining multiple tools, the website content is [updated automatically]{.fragment .hl-blanco} and publish.<br><br>
 
-- Project members participate in the development, in charge of their own sections.<br><br>
+- Project members [collaborate]{.fragment .hl-blanco} in the development, in charge of their own sections.<br><br>
 
-- We can check the Project progress and be proud of what is done and plan what is left.<br><br>
+- We can check the Project progress and be [proud]{.fragment .hl-blanco} of what is done and plan what is left.<br><br>
 
 ## Tools learned
 
