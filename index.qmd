@@ -4,7 +4,7 @@ subtitle: <u>Case of study</u>
 title-slide-attributes:
   data-background-color: "#224289"
 author:
-  - name: <vhg>**MS** Víctor Gauto</vhg>
+  - name: <vhg>Víctor Gauto, **MS**</vhg>
     affiliation:
       - name: <rosa><b>GISTAQ</b> (UTN-FRRe)</rosa>
         url: https://www.instagram.com/gistaq.utn/
@@ -14,19 +14,19 @@ author:
         url: https://ig.conae.unc.edu.ar/
     email: victor.gauto@ca.free.utn.edu.ar
     corresponding: true
-  - name: "**Dr.** Matías Bonansea"
+  - name: Matías Bonansea, **PhD**
     affiliation:
       - name: <b>ICBIA</b> (UNRC, CONICET)
         url: https://icbia.conicet.gov.ar/
-  - name: "**Dr.** Anabella Ferral"
+  - name: Anabella Ferral, **PhD**
     affiliation:
       - name: <b>Instituto Gulich</b> (UNC, CONAE)
         url: https://ig.conae.unc.edu.ar/
-  - name: "**Dr.** Osvaldo Cardozo"
+  - name: Osvaldo Cardozo, **PhD**
     affiliation:
       - name: <b>IIDTHH</b> (UNNE, CONICET)
         url: https://iidthh.conicet.gov.ar/
-  - name: "**Dr.** Claudia Giardino"
+  - name: Claudia Giardino, **PhD**
     affiliation:
       - name: <b>IREA</b> (CNR)
         url: http://www.irea.cnr.it/
