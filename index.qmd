@@ -325,9 +325,9 @@ classDef default stroke:#FFC0CB,color:#FFFFFF,fill:#224289;
 ::: {.column}
 
 :::: {.callout appearance="minimal"}
-Usually, while doing the Project, we don't recognize all the data as is being collected. The knowledge acquired is dispersed in multiple files.
+While doing the Project, we don't recognize all the data as is being collected. The knowledge acquired is dispersed in multiple files.
 
-When the Project is near the end we recognize this situation.
+Usually, when the Project is near the end we recognize this situation.
 ::::
 
 :::
@@ -348,7 +348,7 @@ When the Project is near the end we recognize this situation.
 
 - [Automatically updated]{.fragment .hl-blanco} with new data, affecting plots, maps and tables.
 
-- [Reproducible]{.fragment .hl-blanco}, with the entire script codes available.
+- [Reproducible]{.fragment .hl-blanco}, with all script codes available.
 
 - All project members can work [seamlessly]{.fragment .hl-blanco} without sync conflicts.
 
@@ -358,11 +358,11 @@ When the Project is near the end we recognize this situation.
 
 # Tools {#sec-tools}
 
-- <rosa>{{< iconify fa6-brands:r-project >}} R</rosa> & <rosa>{{< iconify akar-icons:python-fill >}} Python</rosa>: reading and data collection; processing and results storage; plots, tables and maps generation.
+- <rosa>{{< iconify fa6-brands:r-project >}} R</rosa> & <rosa>{{< iconify akar-icons:python-fill >}} Python</rosa>: reading and data acquisition; processing and results storage; plots, tables and maps generation.
 
 - <rosa>{{< iconify fe:git >}} Git</rosa> & <rosa>{{< iconify mdi:github >}} GitHub</rosa>: version control management and project members collaboration.
 
-- <rosa>{{< iconify simple-icons:quarto >}} Quarto</rosa>: to gather all the content in a single file, render a website and to publish.
+- <rosa>{{< iconify simple-icons:quarto >}} Quarto</rosa>: to gather all the content in a single project, render as a website and publish.
   + **Manuscript** allows website creation with emphasis in reproducibility and targeted to scientific and academic documents.
 
 ## {{< iconify fa6-brands:r-project >}} R
@@ -506,7 +506,7 @@ Log file (`renv.lock`) that allows environment reproducibility, with package ver
 
 ::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="70%"}
 
 - Product download
   + Collection
@@ -516,13 +516,13 @@ Log file (`renv.lock`) that allows environment reproducibility, with package ver
   + Credentials
 
 - Atmospheric correction
-  + [ACOLITE](https://github.com/acolite/acolite), atmospheric correction algorithms for aquatic applications
+  + [ACOLITE](https://github.com/acolite/acolite), atmospheric correction for aquatic applications from the command line
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="30%"}
 
-![](https://www.esa.int/var/esa/storage/images/applications/observing_the_earth/copernicus/sentinel-2/19729272-16-eng-GB/Sentinel-2_pillars.png){width="40%" fig-align="center"}
+![](https://www.esa.int/var/esa/storage/images/applications/observing_the_earth/copernicus/sentinel-2/19729272-16-eng-GB/Sentinel-2_pillars.png){width="80%" fig-align="center"}
 
 :::
 
@@ -786,13 +786,14 @@ The website creation alongside the Project development allowed us to learn a [ne
 
 # Future improvements {#sec-future}
 
-- [Rewrite functions]{.fragment .hl-blanco} used by `{targets}`.
-  + Define arguments clearly.
-  + Return descriptive messages during runtime and in case of errors.
-  + Incorporate website publishing.
+- [Add and rewrite functions]{.fragment .hl-blanco} used by `{targets}`
+  + Define arguments clearly
+  + Return descriptive messages during runtime and in case of errors
   + Add ACOLITE processing in the workflow
-- [Organice website styling]{.fragment .hl-blanco} (colors, fonts, styles, arrangements) in the `.scss` file.
-- Add more [conditional text]{.fragment .hl-blanco}, according to the sampling campaigns and results.
+  + Incorporate website publishing
+  + Automatic update of `README` file in repository
+- [Organice website styling]{.fragment .hl-blanco} (colors, fonts, styles, arrangements) in the `.scss` file
+- Add more [conditional text]{.fragment .hl-blanco}, according to the sampling campaigns and results
 
 # {.unnumbered background-color="#F79CD4"}
 
@@ -919,7 +920,7 @@ The website creation alongside the Project development allowed us to learn a [ne
 
 [{{< iconify bytesize:book >}} Quarto: The Definitive Guide](https://quarto-tdg.org/)
 
-[{{< iconify mdi:github >}} Website repository](https://github.com/vhgauto/gistaq_parana)
+[{{< iconify mdi:github >}} Proyecto Paraná 2023 - Repository](https://github.com/vhgauto/gistaq_parana)
 
 [{{< iconify mdi:github >}} Quarto Extensions](https://github.com/quarto-ext)
 
