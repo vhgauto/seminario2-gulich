@@ -38,7 +38,6 @@ format:
     highlight-style: kate
     width: 1200
     incremental: false
-    # logo: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png
     logo: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/G-CLARO-C.png
     footer: |
       <b class="fondo-azul"><blanco>MS Víctor Gauto <rosa>{{< iconify svg-spinners:bouncing-ball >}}</rosa> Improve research projects with  <rosa>Quarto</rosa>
@@ -62,7 +61,7 @@ format:
       - extras/mi_estilo.scss
     pointer:
      pointerSize: 15
-     color: "#F6B40E"
+     color: "#E81F76"
      alwaysVisible: false
      key: "q"
 execute:
