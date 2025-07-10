@@ -881,28 +881,9 @@ The website creation alongside the Project development allowed us to learn a [ne
 
 # Resources {#sec-resources .smaller}
 
-::::: {.columns}
+::: {.columns}
 
-:::: {.column width="50%"}
-
-::: {.fondo}
-
-<center>
-[{{< iconify icon-park-outline:slide >}} &nbsp; **This presentation code is available here** &nbsp; {{< iconify mdi:github >}}](https://github.com/vhgauto/seminario2-gulich)
-</center>
-
-:::
-
-::::
-
-:::: {.column width="50%"}
-::::
-
-:::::
-
-[{{< iconify mdi:youtube >}} Reproducible Manuscripts with Quarto - posit::conf(2023)](https://youtu.be/BoiW9UWDLY0?si=H9EnYi-xunEG5wYo)
-
-[{{< iconify mdi:youtube >}} Quarto for Academics | Mine Çetinkaya-Rundel](https://www.youtube.com/watch?v=EbAAmrB0luA)
+:::: {.column}
 
 [{{< iconify humbleicons:link >}} Quarto | Get started](https://quarto.org/docs/get-started/)
 
@@ -925,6 +906,61 @@ The website creation alongside the Project development allowed us to learn a [ne
 [{{< iconify mdi:github >}} Quarto Extensions](https://github.com/quarto-ext)
 
 [{{< iconify mdi:github >}} Official repository for Citation Style Language (CSL) citation styles](https://github.com/citation-style-language/styles)
+
+::::
+
+:::: {.column}
+
+[{{< iconify mdi:youtube >}} Reproducible Manuscripts with Quarto - posit::conf(2023)](https://youtu.be/BoiW9UWDLY0?si=H9EnYi-xunEG5wYo)
+
+[{{< iconify mdi:youtube >}} Quarto for Academics | Mine Çetinkaya-Rundel](https://www.youtube.com/watch?v=EbAAmrB0luA)
+
+Quarto examples:
+
+[{{< iconify ri:article-fill >}} A Quarto Page Layout Example](https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html)
+
+[{{< iconify majesticons:presentation >}} an educator’s perspective of the tidyverse](https://mine-cetinkaya-rundel.github.io/tidyperspective/talks/dagstat-2022.html)
+
+[{{< iconify majesticons:presentation >}} Streamlining with R](https://meghan.rbind.io/slides/neair/neair.html)
+  
+
+[{{< iconify ic:round-dashboard >}} Customer Churn](https://jjallaire.github.io/customer-churn-dashboard/)
+
+[{{< iconify ic:round-dashboard >}} Diamonds Explorer](https://jjallaire.shinyapps.io/diamonds/)
+
+[{{< iconify mdi:web >}} Practical Deep Learning](https://course.fast.ai/)
+
+[{{< iconify mdi:web >}} Data Science in a Box](https://datasciencebox.org/)
+  
+[{{< iconify mingcute:external-link-fill >}} Even more examples](https://quarto.org/docs/gallery/)
+
+::::
+
+:::
+
+<br>
+
+::::: {.columns}
+
+:::: {.column width="20%"}
+::::
+
+:::: {.column width="60%"}
+
+::: {.fondo}
+
+<center>
+[{{< iconify icon-park-outline:slide >}} &nbsp; **This presentation code is available here** &nbsp; {{< iconify mdi:github >}}](https://github.com/vhgauto/seminario2-gulich)
+</center>
+
+:::
+
+::::
+
+:::: {.column width="20%"}
+::::
+
+:::::
 
 # {data-hide-slide-number="true" .unnumbered .unlisted background-color="#333333" footer='false' .hide-logo .center background-iframe="stars/index.html" transition="fade" transition-speed="slow"}
 
