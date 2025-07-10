@@ -938,26 +938,24 @@ Quarto examples:
 
 :::
 
-<br>
-
 ::::: {.columns}
 
-:::: {.column width="20%"}
+:::: {.column width="25%"}
 ::::
 
-:::: {.column width="60%"}
+:::: {.column width="50%"}
 
 ::: {.fondo}
 
 <center>
-[{{< iconify icon-park-outline:slide >}} &nbsp; **This presentation code is available here** &nbsp; {{< iconify mdi:github >}}](https://github.com/vhgauto/seminario2-gulich)
+[{{< iconify icon-park-outline:slide >}} &nbsp; **Presentation made with Quarto** <br> **Code available** &nbsp; {{< iconify mdi:github >}}](https://github.com/vhgauto/seminario2-gulich)
 </center>
 
 :::
 
 ::::
 
-:::: {.column width="20%"}
+:::: {.column width="25%"}
 ::::
 
 :::::
