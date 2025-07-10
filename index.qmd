@@ -38,7 +38,8 @@ format:
     highlight-style: kate
     width: 1200
     incremental: false
-    logo: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png
+    # logo: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/cropped-cromas-68-1.png
+    logo: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/G-CLARO-C.png
     footer: |
       <b class="fondo-azul"><blanco>MS Víctor Gauto <rosa>{{< iconify svg-spinners:bouncing-ball >}}</rosa> Improve research projects with  <rosa>Quarto</rosa>
     slide-number: true
@@ -852,23 +853,23 @@ The website creation alongside the Project development allowed us to learn a [ne
 
 ![](img/Gistaq_sinfondo.png){height="85px"}
 
-![](img/logo_utn6.png){height="85px"}
+![](img/logo_ig3.png){height="85px"}
 
-![](img/logo_ig2.png){height="85px"}
+![](img/iidthh.png){height="85px"}
 
-![](https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png){height="85px"}
+![](img/Conicet_Logo_con_letras.png){height="85px"}
 
 :::
 
 ::: {.eqi-container}
 
-![](img/CONAE.png){height="85px"}
+![](img/logo_utn6.png){height="85px"}
 
 ![](https://difusion.pci.unc.edu.ar/unc/files/identidad_visual/UNC_03_NEGRO.svg){height="85px"}
 
-![](img/iidthh.png){height="85px"}
-
 ![](img/06%20UNNE%20Justificado%20Color.png){height="85px"}
+
+![](img/CONAE.png){height="85px"}
 
 :::
 
