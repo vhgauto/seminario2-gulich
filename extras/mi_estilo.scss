@@ -23,13 +23,13 @@ $presentation-font-size-root: 30px;
 
 // COLORES ---------------------------------------------------------------------
 
-$azul: #224289;
+$azul: #1A428A;
 $blanco: #FFFFFF;
-$celeste: lighten($azul, 60);
+$celeste: #6AAAE4;
 $gris: #c0c0c0 ;
 $gris2: #4D4D4D;
 $rosa: #F79CD4;
-$negro: #000000;
+$negro: #131E29;
 $rosa-claro: lighthen($rosa, 60);
 $code-bg: #E5E5E5;
 $code-color: $negro;
@@ -161,7 +161,7 @@ azul {
     background-color: $azul;
     padding: 5px;
     border-radius: 10px;
-    box-shadow: 2px 2px $celeste;
+    box-shadow: 2px 2px $blanco;
 }
 
 lang-rosa {
@@ -216,10 +216,6 @@ barra {
 
 li::marker {
     color: $rosa;
-}
-
-.code-with-filename .code-with-filename-file strong {
-    color: $azul;
 }
 
 :root {
@@ -325,6 +321,7 @@ div.reveal.has-logo div.slide-number {
 
 .quarto-dark .code-with-filename .code-with-filename-file {
     background-color: $celeste;
+    color: $blanco;
 }
 
 // MERMAID DEFAULT -------------------------------------------------------------
