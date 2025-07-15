@@ -38,15 +38,15 @@ format:
     highlight-style: kate
     width: 1200
     incremental: false
+    transition: none
     logo: https://ig.conae.unc.edu.ar/wp-content/uploads/sites/68/2022/04/G-CLARO-C.png
     footer: |
-      <b class="fondo-azul"><blanco>MS Víctor Gauto <rosa>{{< iconify svg-spinners:bouncing-ball >}}</rosa> Improve research projects with  <rosa>Quarto</rosa>
+      <b class="fondo-azul"><blanco>Víctor Gauto <rosa>{{< iconify svg-spinners:bouncing-ball >}}</rosa> Improve research projects with  <rosa>Quarto</rosa>
     slide-number: true
     progress: true
     hash-type: title
     date: today
     center-title-slide: false
-    transition: none
     navigation-mode: linear
     link-external-icon: false
     link-external-newwindow: true
