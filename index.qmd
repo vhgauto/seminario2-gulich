@@ -795,6 +795,87 @@ The website creation alongside the Project development allowed us to learn a [ne
 - [Organice website styling]{.fragment .hl-blanco} (colors, fonts, styles, arrangements) in the `.scss` file
 - Add more [conditional text]{.fragment .hl-blanco}, according to the sampling campaigns and results
 
+# Resources {#sec-resources .smaller}
+
+::: {.columns}
+
+:::: {.column}
+
+[{{< iconify humbleicons:link >}} Quarto | Get started](https://quarto.org/docs/get-started/)
+
+[{{< iconify humbleicons:link >}} Quarto Manuscripts](https://quarto.org/docs/manuscripts/)
+
+[{{< iconify humbleicons:link >}} Quarto Pub - Publishing service for Quarto documents](https://quarto.org/docs/publishing/quarto-pub.html)
+
+[{{< iconify humbleicons:link >}} The {targets} R package user manual](https://books.ropensci.org/targets/)
+
+[{{< iconify humbleicons:link >}} Introduction to renv](https://rstudio.github.io/renv/articles/renv.html)
+
+[{{< iconify bytesize:book >}} R for Data Science (2e)](https://r4ds.hadley.nz/)
+
+[{{< iconify bytesize:book >}} ggiraph-book](https://www.ardata.fr/ggiraph-book/)
+
+[{{< iconify bytesize:book >}} Quarto: The Definitive Guide](https://quarto-tdg.org/)
+
+[{{< iconify mdi:github >}} Proyecto Paraná 2023 - Repository](https://github.com/vhgauto/gistaq_parana)
+
+[{{< iconify mdi:github >}} Quarto Extensions](https://github.com/quarto-ext)
+
+[{{< iconify mdi:github >}} Official repository for Citation Style Language (CSL) citation styles](https://github.com/citation-style-language/styles)
+
+::::
+
+:::: {.column}
+
+[{{< iconify mdi:youtube >}} Reproducible Manuscripts with Quarto - posit::conf(2023)](https://youtu.be/BoiW9UWDLY0?si=H9EnYi-xunEG5wYo)
+
+[{{< iconify mdi:youtube >}} Quarto for Academics | Mine Çetinkaya-Rundel](https://www.youtube.com/watch?v=EbAAmrB0luA)
+
+Quarto examples:
+
+[{{< iconify ri:article-fill >}} A Quarto Page Layout Example](https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html)
+
+[{{< iconify majesticons:presentation >}} an educator’s perspective of the tidyverse](https://mine-cetinkaya-rundel.github.io/tidyperspective/talks/dagstat-2022.html)
+
+[{{< iconify majesticons:presentation >}} Streamlining with R](https://meghan.rbind.io/slides/neair/neair.html)
+  
+
+[{{< iconify ic:round-dashboard >}} Customer Churn](https://jjallaire.github.io/customer-churn-dashboard/)
+
+[{{< iconify ic:round-dashboard >}} Diamonds Explorer](https://jjallaire.shinyapps.io/diamonds/)
+
+[{{< iconify mdi:web >}} Practical Deep Learning](https://course.fast.ai/)
+
+[{{< iconify mdi:web >}} Data Science in a Box](https://datasciencebox.org/)
+  
+[{{< iconify mingcute:external-link-fill >}} Even more examples](https://quarto.org/docs/gallery/)
+
+::::
+
+:::
+
+::::: {.columns}
+
+:::: {.column width="25%"}
+::::
+
+:::: {.column width="50%"}
+
+::: {.fondo}
+
+<center>
+[{{< iconify icon-park-outline:slide >}} &nbsp; **Presentation made with Quarto** <br> **Code available** &nbsp; {{< iconify mdi:github >}}](https://github.com/vhgauto/seminario2-gulich)
+</center>
+
+:::
+
+::::
+
+:::: {.column width="25%"}
+::::
+
+:::::
+
 # {.unnumbered background-color="#F79CD4"}
 
 ::: {.r-fit-text}
@@ -875,87 +956,6 @@ The website creation alongside the Project development allowed us to learn a [ne
 ::::
 
 :::: {.column width="5%"}
-::::
-
-:::::
-
-# Resources {#sec-resources .smaller}
-
-::: {.columns}
-
-:::: {.column}
-
-[{{< iconify humbleicons:link >}} Quarto | Get started](https://quarto.org/docs/get-started/)
-
-[{{< iconify humbleicons:link >}} Quarto Manuscripts](https://quarto.org/docs/manuscripts/)
-
-[{{< iconify humbleicons:link >}} Quarto Pub - Publishing service for Quarto documents](https://quarto.org/docs/publishing/quarto-pub.html)
-
-[{{< iconify humbleicons:link >}} The {targets} R package user manual](https://books.ropensci.org/targets/)
-
-[{{< iconify humbleicons:link >}} Introduction to renv](https://rstudio.github.io/renv/articles/renv.html)
-
-[{{< iconify bytesize:book >}} R for Data Science (2e)](https://r4ds.hadley.nz/)
-
-[{{< iconify bytesize:book >}} ggiraph-book](https://www.ardata.fr/ggiraph-book/)
-
-[{{< iconify bytesize:book >}} Quarto: The Definitive Guide](https://quarto-tdg.org/)
-
-[{{< iconify mdi:github >}} Proyecto Paraná 2023 - Repository](https://github.com/vhgauto/gistaq_parana)
-
-[{{< iconify mdi:github >}} Quarto Extensions](https://github.com/quarto-ext)
-
-[{{< iconify mdi:github >}} Official repository for Citation Style Language (CSL) citation styles](https://github.com/citation-style-language/styles)
-
-::::
-
-:::: {.column}
-
-[{{< iconify mdi:youtube >}} Reproducible Manuscripts with Quarto - posit::conf(2023)](https://youtu.be/BoiW9UWDLY0?si=H9EnYi-xunEG5wYo)
-
-[{{< iconify mdi:youtube >}} Quarto for Academics | Mine Çetinkaya-Rundel](https://www.youtube.com/watch?v=EbAAmrB0luA)
-
-Quarto examples:
-
-[{{< iconify ri:article-fill >}} A Quarto Page Layout Example](https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html)
-
-[{{< iconify majesticons:presentation >}} an educator’s perspective of the tidyverse](https://mine-cetinkaya-rundel.github.io/tidyperspective/talks/dagstat-2022.html)
-
-[{{< iconify majesticons:presentation >}} Streamlining with R](https://meghan.rbind.io/slides/neair/neair.html)
-  
-
-[{{< iconify ic:round-dashboard >}} Customer Churn](https://jjallaire.github.io/customer-churn-dashboard/)
-
-[{{< iconify ic:round-dashboard >}} Diamonds Explorer](https://jjallaire.shinyapps.io/diamonds/)
-
-[{{< iconify mdi:web >}} Practical Deep Learning](https://course.fast.ai/)
-
-[{{< iconify mdi:web >}} Data Science in a Box](https://datasciencebox.org/)
-  
-[{{< iconify mingcute:external-link-fill >}} Even more examples](https://quarto.org/docs/gallery/)
-
-::::
-
-:::
-
-::::: {.columns}
-
-:::: {.column width="25%"}
-::::
-
-:::: {.column width="50%"}
-
-::: {.fondo}
-
-<center>
-[{{< iconify icon-park-outline:slide >}} &nbsp; **Presentation made with Quarto** <br> **Code available** &nbsp; {{< iconify mdi:github >}}](https://github.com/vhgauto/seminario2-gulich)
-</center>
-
-:::
-
-::::
-
-:::: {.column width="25%"}
 ::::
 
 :::::
