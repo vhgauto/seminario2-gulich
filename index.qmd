@@ -45,7 +45,7 @@ format:
     slide-number: true
     progress: true
     hash-type: title
-    date: today
+    date: 2025-07-16
     center-title-slide: false
     navigation-mode: linear
     link-external-icon: false
