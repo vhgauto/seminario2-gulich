@@ -700,7 +700,7 @@ project:
   type: manuscript
 
 manuscript:
-  article: manuscrito.qmd
+  article: manuscript.qmd
   notebooks:
     - notebooks/data_reading.qmd
 
